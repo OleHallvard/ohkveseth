@@ -36,7 +36,7 @@
 
 <style>
 ::-moz-selection {
-    /* Code for Firefox bla bla */
+    /* Code for Firefox bla bla tredje commit*/
     color: #eee;
     background: #1b14ac;
 }

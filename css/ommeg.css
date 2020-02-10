@@ -1,0 +1,2202 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.tekstblokk{
+z-index: 100;
+width:60%;
+left:17.5%;
+position: relative;
+top:90px;
+padding-bottom: 50px;
+}
+
+
+
+.blastrek{
+z-index: 120;
+position: relative;
+width: 54%;
+border-bottom: 2px solid #1b14ac;
+margin-top: 35px;
+margin-bottom: 45px;
+height: 10px;
+
+-webkit-animation-name: strekani; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+animation-name: strekani;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes strekani {
+    from {width: 10%;}
+    to {width:54%;}
+
+}
+
+
+
+
+
+
+p{
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 16.5px;
+    font-weight: 300;
+    line-height: 1.45em;
+    word-spacing: 0.07em;
+    letter-spacing: 0.0em;
+    text-align: left;
+    padding: 0px; padding-bottom: 0px; padding-left: 0px; padding-top: 0px;
+    max-width: 520px;
+}
+
+
+h1{
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 1.0em;
+    letter-spacing: -0.05em;
+    text-align:left;
+    padding: 0px; padding-bottom:0px; padding-left: 0px; padding-top: 3px;
+    max-width: 400px;
+    margin-left: -5px;
+    margin-bottom: -5px;
+}
+
+
+
+h2{
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 0.92em;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 0px; padding-bottom: 22px; padding-left: 0px; padding-top: 3px;
+    max-width: 560px;
+}
+
+.pln{
+color:#1b14ac;
+font-weight: 400;
+}
+
+h3{
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 39px;
+}
+
+
+h4{
+    color: #b4b4b4;
+    font-family:'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 40px;
+    background-color:#000;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 2px;
+    margin-left: 20px;
+
+   
+
+}
+
+
+h5{
+    z-index: 500;
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 0.0em;
+    text-align: left;
+    vertical-align: center;
+  vertical-align: middle;
+ line-height: 55px;
+    background-color:#1b14ac;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 5px;
+    margin-right: 20px;
+}
+
+
+h6{
+    z-index: 500;
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    line-height: 0px;
+}
+
+
+.heading{
+display: inline-flex; 
+position: relative;
+width:100%
+height:100%;
+}
+
+.headingtekst{
+position: relative;
+left: 16px;
+top:20px;
+}
+
+
+.tospalter{
+position: relative;
+width:542px;
+height:100%;
+}
+
+
+.venstre{
+display: inline-block;
+position: relative;
+width: 52%;
+height: 100%;
+left: 0px;
+top:0px;
+}
+
+
+.hoyre{
+float: right;
+display: inline-block;
+position: relative;
+width: 48%;
+height: 100%;
+left: -30px;
+top:0px;
+}
+
+
+
+.kursiv{
+    z-index: 500;
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    line-height: 0px;
+    font-style: oblique;
+}
+
+
+
+
+
+
+.Iam {
+  font: 20px/50px Open Sans, sans-serif;
+  font-weight: 600!important;
+  color: #999;
+   padding: 0px; padding-bottom: 39px; padding-left: 0px; padding-top: 13px;
+   margin-top:-4px;
+}
+.Iam p {
+  height: 40px;
+  float: left;
+
+}
+.Iam b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+  top: 0px;
+}
+
+.Iam .innerIam {
+  display: inline-block;
+  font-weight: 600;
+  color: #eee;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+
+/*animation*/
+-webkit-animation:move 6s;
+   -moz-animation:move 6s;
+    -ms-animation:move 6s;
+     -o-animation:move 6s;
+        animation:move 6s;
+/*animation-iteration-count*/
+-webkit-animation-iteration-count:1;
+   -moz-animation-iteration-count:1;
+    -ms-animation-iteration-count:1;
+     -o-animation-iteration-count:1;
+        animation-iteration-count:1;
+/*animation-delay*/
+-webkit-animation-delay:2s;
+   -moz-animation-delay:2s;
+    -ms-animation-delay:2s;
+     -o-animation-delay:2s;
+        animation-delay:2s;
+}
+@keyframes move{
+0%  { top: 0px; }
+20% { top: -50px; }
+40% { top: -100px; }
+
+}
+
+@-webkit-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+
+}
+@-moz-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+
+}
+@-o-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+ 
+}
+@keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+
+}
+
+
+
+
+.bakgrunnsfoto{
+display: block;
+z-index: 0;
+width: 100%;
+height: 100vh;
+position: fixed;
+top:0px;
+background-image:url("../img/Main/ohkveseth_front_.jpg");
+background-size: cover;
+background-position: 30% 50%;
+opacity: 0.0;
+
+ -webkit-animation: fadeInFromNone 1.2s ease-out;
+    -moz-animation: fadeInFromNone 1.2s ease-out;
+    -o-animation: fadeInFromNone 1.2s ease-out;
+    animation: fadeInFromNone 1.2s ease-out;
+
+
+  animation-delay:0.5s;
+-webkit-animation-fill-mode: forwards;
+
+}
+
+@-webkit-keyframes  {
+    from {left: -45%;}
+    to {left:100%;}
+  }
+
+
+
+}
+
+@-webkit-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+.knapp{
+position: relative;
+border-radius: 0px;
+border: 2px solid #1b14ac; 
+width: 170px;
+height: 40px;
+ text-align: center;
+
+
+}
+
+
+.knapp:hover{
+position: relative;
+border-radius: 0px;
+background: #1b14ac; 
+width: 170px;
+height: 40px;
+text-align: center;
+transition: all 0.3s ease;
+cursor:pointer;
+}
+
+
+.velkommen{
+height:100%;
+width:100%;
+}
+
+
+
+
+
+
+.bakgrunnsfarge{
+position: absolute;
+height:100vh;
+width: 100%;
+opacity: 1.0;
+background:#080808;
+color:#fff;
+}
+
+
+
+
+video { 
+    position: absolute;
+    top: 57%;
+    left: 40%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+
+
+
+
+
+
+.ikoner{
+position: fixed;
+z-index: 100;
+width:100%;
+bottom: 77px;
+position: absolute;
+transform:translate(0%, -50%);
+-webkit-transform:translate(0%, -51%);
+border: 0px solid #BADA55;
+}
+
+
+.fbcircle {
+right: 40px;
+position: fixed;
+border-radius: 0%;
+border: 2px solid #1b14ac; 
+width: 38px;
+height: 38px;
+cursor:pointer;
+}
+
+.fbcircle:hover {
+right: 40px;
+position: fixed;
+border-radius: 0%;
+background: #1b14ac; 
+width: 38px;
+height: 38px;
+transition: all 0.3s ease;
+}
+
+
+.fbcircle2 {
+left: 0px;
+position: relative;
+border-radius: 0%;
+border: 2px solid #1b14ac; 
+width: 38px;
+height: 38px;
+margin-bottom: 23px;
+}
+
+
+
+
+
+.licircle {
+right: 93px;
+position: absolute;
+border-radius: 0%;
+border: 2px solid #1b14ac; 
+width: 38px;
+height: 38px;
+cursor:pointer;
+}
+
+
+
+
+.licircle:hover {
+right: 93px;
+position: absolute;
+border-radius: 0%;
+background: #1b14ac;
+width: 38px;
+height: 38px;
+transition: all 0.3s ease;
+}
+
+
+
+.tiltoppenikon {
+position: absolute;
+left: 0;
+right: 0;
+margin: auto;
+
+border-radius: 0%;
+border: 2px solid #1b14ac; 
+width: 38px;
+height: 38px;
+cursor:pointer;
+}
+
+
+.tiltoppenikon:hover {
+position: absolute;
+left: 0;
+right: 0;
+margin: auto;
+
+border-radius: 0%;
+border: 2px solid #1b14ac;
+background: #1b14ac; 
+width: 38px;
+height: 38px;
+cursor:pointer;
+}
+
+
+
+
+
+
+.scrolltekst{
+position: relative;
+left: 0px;
+top:-28px;
+color: #f7f7f7;
+font-family:'Open Sans', sans-serif;
+font-size: 13.5px;
+font-weight: 300;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
+/*animation*/
+-webkit-animation:bevegelse 1.8s forwards;
+   -moz-animation:bevegelse 1.8s forwards;
+    -ms-animation:bevegelse 1.8s forwards;
+     -o-animation:bevegelse 1.8s forwards;
+        animation:bevegelse 1.8s forwards;
+/*animation-iteration-count*/
+-webkit-animation-iteration-count:1;
+   -moz-animation-iteration-count:1;
+    -ms-animation-iteration-count:1;
+     -o-animation-iteration-count:1;
+        animation-iteration-count:1;
+/*animation-delay*/
+-webkit-animation-delay:2s;
+   -moz-animation-delay:2s;
+    -ms-animation-delay:2s;
+     -o-animation-delay:2s;
+        animation-delay:2s;
+}
+
+@keyframes bevegelse{
+0%  { top: -28px; opacity: 1.0 }
+100% { top: -23px; opacity: 0.0}
+}
+}
+
+
+
+.tiltoppenikon:hover {
+position: absolute;
+left: 0;
+right: 0;
+margin: auto;
+border-radius: 0%;
+background: #1b14ac;
+width: 38px;
+height: 38px;
+transition: all 0.3s ease;
+cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.prosjektwrapper {
+z-index: 1000;
+position: relative;
+bottom:0vh;
+width:100vw%;
+height:100%;
+
+}
+
+
+.prosjekt1{
+float: left;
+position: relative;
+margin-right: 0.0%; margin-bottom: 0px; margin-left: 0px; margin-top: 0.0%;
+width: 50%;
+height: 50vh;
+cursor:pointer;
+
+}
+
+.prosjekt2{
+float: right;
+position: relative;
+margin-right: 0.0%; margin-bottom: 0px; margin-left: 0px; margin-top: 0.0%;
+width: 50%;
+height: 50vh;
+cursor:pointer;
+
+}
+
+
+.tekstwrapper{
+z-index: 1000;
+position: absolute;
+border: 0px solid #BADA55;
+bottom: 22px;
+left: 22px;
+transition: all 200ms ease-in; 
+}
+
+
+.prosjekt1:hover .tekstwrapper{
+z-index: 1000;
+position: absolute;
+border: 0px solid #BADA55;
+bottom: 27px;
+left: 25px;
+transition: all 0.25s ease;
+}
+
+.prosjekt2:hover .tekstwrapper{
+z-index: 1000;
+position: absolute;
+border: 0px solid #BADA55;
+bottom: 27px;
+left: 25px;
+transition: all 0.25s ease;
+}
+
+
+
+.strek{
+z-index: 400;
+position: relative;
+width: 60%;
+height:2px; background: #1b14ac;
+bottom:-15px;
+margin-left: auto;
+margin-right: auto;
+transition: all 200ms ease-in;
+}
+
+
+
+
+
+.sortoverlay{
+position: absolute;
+z-index: 399;
+width: 100%;
+height: 100%;
+opacity: 0.3;
+background:#181717;
+}
+
+
+
+
+.prosjekt1:hover .strek{
+width: 50%;
+height:2px; background: #eee;
+transition: all 0.25s ease;
+}
+
+.prosjekt1:hover .sortoverlay{
+background:#1b14ac;
+opacity: 0.5;
+transition: all 0.25s ease;
+}
+
+
+
+
+
+
+.prosjekt2:hover .strek{
+width: 50%;
+height:2px; background: #eee;
+transition: all 0.25s ease;
+}
+
+.prosjekt2:hover .sortoverlay{
+background:#1b14ac;
+transition: all 0.25s ease;
+opacity: 0.5;
+}
+
+
+
+
+
+
+.prosjekt1:hover .prosjekt1foto{
+background-position: 55% 61%; 
+transition: all 0.25s ease;
+}
+
+.prosjekt1:hover .prosjekt3foto{
+background-position: 55% 61%; 
+transition: all 0.25s ease;
+}
+
+
+.prosjekt1:hover .prosjekt5foto{
+background-position: 55% 61%; 
+transition: all 0.25s ease;
+}
+
+
+.prosjekt1:hover .prosjekt7foto{
+background-position: 55% 61%; 
+transition: all 0.25s ease;
+}
+
+
+.prosjekt1:hover .prosjekt9foto{
+background-position: 55% 61%; 
+transition: all 0.25s ease;
+}
+
+
+
+.prosjekt2:hover .prosjekt2foto{
+background-position: 55% 61%; 
+transition: all 0.25s ease;
+}
+
+.prosjekt2:hover .prosjekt4foto{
+background-position: 55% 61%; 
+transition: all 0.25s ease;
+}
+
+.prosjekt2:hover .prosjekt6foto{
+background-position: 55% 61%; 
+transition: all 0.25s ease;
+}
+
+.prosjekt2:hover .prosjekt8foto{
+background-position: 55% 61%; 
+transition: all 0.25s ease;
+}
+
+
+.prosjekt2:hover .prosjekt10foto{
+background-position: 55% 61%; 
+transition: all 0.25s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.scroll-downs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: -15;
+  left: 0;
+  margin: auto;
+  
+  width :13px;
+  height: 27px;
+}
+.mousey {
+  width: 3px;
+  padding: 2px 9px;
+  height: 30px;
+  border: 2px solid #1b14ac;
+  border-radius: 25px;
+  opacity: 0.75;
+}
+.scroller {
+position: relative;
+top: 4px;
+left: 1px;
+width: 2px;
+height: 5px;
+border-radius: 5%;
+background-color: #eee;
+animation-name: scroll;
+animation-duration: 2.2s;
+animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+
+
+
+
+
+
+.tiltoppen{
+position: fixed;
+top:1px;
+}
+
+a {
+ color: inherit;
+  text-decoration: none; /* no underline */
+   cursor:pointer;
+}
+
+.bunnen{
+float: left;
+position:relative;
+width: 100%;
+height: 100px;
+}
+
+
+.bunntekst{
+position: absolute;
+text-align: left;
+left:38px;
+top:10px;
+}
+
+
+
+
+img.facebook {
+position: relative;
+top:12px;
+left:11px;
+width: 15px;
+}
+
+img.medalje {
+position: relative;
+top:8.5px;
+left:11.5px;
+width: 15px;
+}
+
+img.programvare {
+position: relative;
+top:9px;
+left:10px;
+width: 20px;
+}
+
+img.kamera {
+position: relative;
+top:9px;
+left:8px;
+width: 22px;
+}
+
+img.papirfly {
+position: relative;
+top:10px;
+left:9px;
+width: 20px;
+}
+
+
+img.linkdin {
+position: relative;
+top:10px;
+left:13px;
+width: 12px;
+}
+
+img.pil {
+position: relative;
+top:10px;
+left:11px;
+width: 16px;
+}
+
+img.stol {
+position: relative;
+top:8.5px;
+left:11px;
+width: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+background-color: #080808;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 599px) {
+
+
+.ikoner{
+display: none;
+}
+
+
+.tekstblokk{
+z-index: 100;
+width:94%;
+left:6%;
+position: relative;
+top:90px;
+padding-bottom: 50px;
+}
+
+
+p{
+font-size: 17px;
+font-weight: 300;
+line-height: 1.45em;
+word-spacing: 0.07em;
+letter-spacing: 0.0em;
+max-width: 90%;
+padding: 0px; padding-bottom: 30px; padding-left: 0px; padding-top: 15px;
+
+}
+
+
+.bakgrunnsfoto{
+filter: blur(4px);
+background-position: 40% 50%;
+background-image:url("../img/Main/ohkveseth_front_mobil.jpg");
+
+}
+
+.scrolltekst{
+  display: none;
+
+}
+
+
+h1{
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.0em;
+    letter-spacing: -0.04em;
+    text-align:left;
+    padding: 0px; padding-bottom: -19px; padding-left: 0px; padding-top: 3px;
+    max-width: 320px;
+    margin-left: -3px;
+}
+
+
+
+h2{
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 0.92em;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 0px; padding-bottom: 14px; padding-left: 0px; padding-top: 3px;
+    max-width: 560px;
+}
+
+
+h3{
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 16.5px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 42px;
+}
+
+
+
+
+.Iam {
+  font: 20px/50px Open Sans, sans-serif;
+  font-weight: 600!important;
+  color: #999;
+   padding: 0px; padding-bottom: 39px; padding-left: 0px; padding-top: 0px;
+   margin-top:-13px;
+}
+
+.fbcircle2 {
+    left: 0px;
+    position: relative;
+    border-radius: 0%;
+    border: 2px solid #1b14ac;
+    width: 38px;
+    height: 38px;
+    margin-bottom: 6px;
+}
+
+
+
+
+
+.ikoner{
+position: fixed;
+bottom: 77px;
+width:100%;
+transform:translate(0%, -50%);
+-webkit-transform:translate(0%, -51%);
+border: 0px solid #BADA55;
+}
+
+
+.venstre{
+display: inline-block;
+position: relative;
+width: 100%;
+height: 100%;
+left: 0px;
+top:0px;
+}
+
+
+.hoyre{
+float: right;
+display: inline-block;
+position: relative;
+width: 100%;
+height: 100%;
+left: 0px;
+top:0px;
+}
+
+.hoyre2{
+display: block;
+position: relative;
+left: 0px;
+top:0px;
+}
+
+
+.heading{
+display: inline-flex; 
+position: relative;
+width:100%
+height:100%;
+}
+
+.tospalter{
+position: relative;
+width:100%;
+height:100%;
+}
+
+
+.fbcircle {
+right: 18px;
+position: absolute;
+border-radius: 0%;
+border: 2px solid #1b14ac; 
+width: 48px;
+height: 48px;
+cursor:pointer;
+}
+
+.fbcircle:hover {
+right: 18px;
+position: absolute;
+border-radius: 0%;
+background: #1b14ac; 
+width: 48px;
+height: 48px;
+transition: all 0.3s ease;
+}
+
+
+.licircle {
+right: 87px;
+position: absolute;
+border-radius: 0%;
+border: 2px solid #1b14ac; 
+width: 48px;
+height: 48px;
+cursor:pointer;
+}
+
+.licircle:hover {
+right: 87px;
+position: absolute;
+border-radius: 0%;
+background: #1b14ac; 
+width: 48px;
+height: 48px;
+transition: all 0.3s ease;
+}
+
+
+img.facebook {
+position: relative;
+top:16px;
+left:17px;
+width: 15px;
+}
+
+
+
+img.linkdin {
+position: relative;
+top:16px;
+left:18px;
+width: 12px;
+}
+
+img.pil {
+position: relative;
+top:18px;
+left:18px;
+width: 16px;
+}
+
+
+.scroll-downs {
+  display: none
+}
+
+
+
+
+.Iam {
+  font: 18px/50px Open Sans, sans-serif;
+  font-weight: 200;
+  color: #999;
+   padding: 0px; padding-bottom: 35px; padding-left: 0px; padding-top: 14px;
+}
+
+.Iam p {
+  height: 40px;
+  float: left;
+}
+
+.Iam b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+  top: 0px;
+}
+
+
+
+
+
+
+.knapp{
+position: relative;
+border-radius: 0px;
+border: 2px solid #1b14ac; 
+width: 195px;
+height: 44px;
+ text-align: center;
+}
+
+
+
+
+
+h4{
+    color: #b4b4b4;
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 32px;
+    background-color:#000;
+    
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 2px;
+    margin-left: 15px;
+
+   
+
+}
+
+
+h5{
+    z-index: 500;
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 27.5px;
+    font-weight: 600;
+    letter-spacing: 0.0em;
+    text-align: left;
+    vertical-align: center;
+  vertical-align: middle;
+ line-height: 32px;
+    background-color:#1b14ac;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 5px;
+    margin-right: 25px;
+}
+
+
+/*selve x'en for ut av menyen*/
+.overlay label{
+top:20px;
+left: 14px;
+position: absolute;
+border-radius: 0%;
+background-color: #181717; 
+width: 52px;
+height: 52px;
+    z-index: 100;
+  cursor:pointer;
+}
+
+#xen img{
+position: absolute;
+width: 20px;
+top:16px;
+left: 17px;
+image-rendering: auto;
+}
+
+
+.prosjekt1{
+position: relative;
+margin-right: 0.0%; margin-bottom: 0px; margin-left: 0px; margin-top: 0.0%;
+width: 100%;
+height: 50vh;
+cursor:pointer;
+
+}
+
+.prosjekt2{
+position: relative;
+margin-right: 0.0%; margin-bottom: 0px; margin-left: 0px; margin-top: 0.0%;
+width: 100%;
+height: 50vh;
+cursor:pointer;
+
+}
+
+
+.bunntekst{
+display: none;
+}
+
+
+.tekstwrapper{
+z-index: 1000;
+position: absolute;
+border: 0px solid #BADA55;
+bottom: 20px;
+left: 20px;
+transition: all 200ms ease-in; 
+}
+
+
+
+
+.tiltoppenikon{
+position: absolute;
+right: 190px;
+width: 52px;
+height: 52px;
+}
+
+.tiltoppenikon:hover {
+position: absolute;
+right: 190px;
+background: #1b14ac;
+width: 52px;
+height: 52px;
+}
+
+
+.blastrek{
+z-index: 120;
+position: relative;
+width: 84%;
+border-bottom: 2px solid #1b14ac;
+margin-top: 2px;
+margin-bottom: 37px;
+height: 10px;
+display: inline-block;
+
+-webkit-animation-name: strekani; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+animation-name: strekani;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes strekani {
+    from {width: 90%;}
+    to {width:80%;}
+
+}
+
+.blastrek2{
+z-index: 120;
+position: relative;
+width: 84%;
+border-bottom: 20px solid #1b14ac;
+margin-top: 2px;
+margin-bottom: px;
+height: 10px;
+display: inline-block;
+
+-webkit-animation-name: strekani; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+animation-name: strekani;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes strekani {
+    from {width: 90%;}
+    to {width:80%;}
+
+}
+}
+
+
+
+
+
+
+
+@media (min-width: 600px) {
+
+
+
+
+
+.tekstwrapper{
+z-index: 1000;
+position: absolute;
+border: 0px solid #BADA55;
+bottom: 25px;
+left: 25px;
+transition: all 200ms ease-in; 
+}
+
+
+.scroll-downs {
+
+  padding-right:11px;   
+}
+
+.scrolltekst{
+  display: block;
+
+}
+
+
+.ikoner{
+width:100%;
+bottom: 77px;
+position: fixed;
+transform:translate(0%, -50%);
+-webkit-transform:translate(0%, -51%);
+border: 0px solid #BADA55;
+}
+
+
+
+
+
+h4{
+    color: #b4b4b4;
+    font-family:'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 36px;
+    background-color:#000;
+    
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 2px;
+    margin-left: 15px;
+
+   
+
+}
+
+
+h5{
+    z-index: 500;
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.0em;
+    text-align: left;
+    vertical-align: center;
+  vertical-align: middle;
+ line-height: 36px;
+    background-color:#1b14ac;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 5px;
+    margin-right: 25px;
+}
+
+
+
+.blastrek{
+z-index: 120;
+position: relative;
+width: 80%;
+border-bottom: 2px solid #1b14ac;
+margin-top: 28px;
+margin-bottom: 38px;
+height: 10px;
+
+-webkit-animation-name: strekani; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+animation-name: strekani;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes strekani {
+    from {width: 10%;}
+    to {width:80%;}
+
+}
+
+
+}
+
+
+@media (min-width: 1300px){
+
+h4{
+    color: #b4b4b4;
+    font-family:'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 40px;
+    background-color:#000;
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 2px;
+    margin-left: 20px;
+
+   
+
+}
+
+
+h5{
+    z-index: 500;
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 0.0em;
+    text-align: left;
+    vertical-align: center;
+  vertical-align: middle;
+ line-height: 55px;
+    background-color:#1b14ac;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 5px;
+    margin-right: 20px;
+}
+
+
+.blastrek{
+z-index: 120;
+position: relative;
+width: 54%;
+border-bottom: 2px solid #1b14ac;
+margin-top: 32px;
+margin-bottom: 42px;
+height: 10px;
+
+-webkit-animation-name: strekani; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+animation-name: strekani;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes strekani {
+    from {width: 10%;}
+    to {width:54%;}
+
+}
+}
+
+
+
+
+
+
+
+@media (min-width: 1800px) {
+
+
+
+p{
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 18.5px;
+    font-weight: 300;
+    line-height: 1.45em;
+    word-spacing: 0.07em;
+    letter-spacing: 0.0em;
+    text-align: left;
+    padding: 0px; padding-bottom: 41px; padding-left: 0px; padding-top: 17px;
+    max-width: 620px;
+}
+
+
+h1{
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1.0em;
+    letter-spacing: -0.05em;
+    text-align:left;
+    padding: 0px; padding-bottom: 0px; padding-left: 0px; padding-top: 3px;
+    max-width: 560px;
+    margin-left: -5px;
+}
+
+
+
+h2{
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 0.92em;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 0px; padding-bottom: 22px; padding-left: 0px; padding-top: 3px;
+    max-width: 560px;
+}
+
+.pln{
+color:#1b14ac;
+font-weight: 400;
+}
+
+h3{
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 44px;
+}
+
+
+h4{
+    color: #b4b4b4;
+    font-family:'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 0.02em;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 35px;
+    -webkit-perspective: 0px !important;
+  -webkit-backface-visibility: visible !important;
+}
+
+
+h5{
+    z-index: 500;
+    color: #f7f7f7;
+    font-family:'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 0.0em;
+    line-height: 48px;
+    text-align: center;
+}
+
+
+
+.scroll-downs {
+
+  padding-right:15px;   
+}
+
+
+
+
+
+
+.tekstblokk{
+z-index: 100;
+width:60%;
+left:21%;
+position: absolute;
+top:90px;
+
+border: 0px solid #BADA55;
+
+-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+animation-name: example;
+animation-duration: 1.5s;
+
+padding-bottom: 50px;
+}
+
+
+
+.blastrek{
+z-index: 120;
+position: relative;
+width: 47%;
+border-bottom: 2px solid #1b14ac;
+margin-top: 0px;
+margin-bottom: 45px;
+height: 10px;
+
+-webkit-animation-name: strekani; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
+animation-name: strekani;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes strekani {
+    from {width: 10%;}
+    to {width:47%;}
+
+}
+
+
+
+.knapp{
+position: relative;
+border-radius: 0px;
+border: 2px solid #1b14ac; 
+width: 200px;
+height: 45px;
+ text-align: center;
+}
+
+
+.knapp:hover{
+position: relative;
+border-radius: 0px;
+background: #1b14ac; 
+width: 200px;
+height: 45px;
+text-align: center;
+transition: all 0.3s ease;
+cursor:pointer;
+}
+
+
+.velkommen{
+height:100vh;
+width:100%;
+}
+
+.bakgrunnsfarge{
+position: absolute;
+height:100vh;
+width: 100%;
+opacity: 1.0;
+background:#080808;
+color:#fff;
+}
+
+
+
+
+video { 
+    position: absolute;
+    top: 57%;
+    left: 40%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+
+
+
+.ikoner{
+z-index: 100;
+width:100%;
+bottom: 77px;
+position: fixed;
+transform:translate(0%, -50%);
+-webkit-transform:translate(0%, -51%);
+border: 0px solid #BADA55;
+}
+
+.fbcircle {
+right: 40px;
+position: absolute;
+border-radius: 0%;
+border: 2px solid #1b14ac; 
+width: 50px;
+height: 50px;
+cursor:pointer;
+}
+
+.fbcircle:hover {
+right: 40px;
+position: absolute;
+border-radius: 0%;
+background: #1b14ac; 
+width: 50px;
+height: 50px;
+transition: all 0.3s ease;
+}
+
+
+
+
+.licircle {
+right: 110px;
+position: absolute;
+border-radius: 0%;
+border: 2px solid #1b14ac; 
+width: 50px;
+height: 50px;
+cursor:pointer;
+}
+
+
+
+
+.licircle:hover {
+right: 110px;
+position: absolute;
+border-radius: 0%;
+background: #1b14ac;
+width: 50px;
+height: 50px;
+transition: all 0.3s ease;
+}
+
+
+
+.tiltoppenikon {
+position: absolute;
+left: 0;
+right: 0;
+margin: auto;
+
+border-radius: 0%;
+border: 2px solid #1b14ac; 
+width: 50px;
+height: 50px;
+cursor:pointer;
+}
+
+
+
+
+.tiltoppenikon:hover {
+position: absolute;
+left: 0;
+right: 0;
+margin: auto;
+border-radius: 0%;
+background: #1b14ac;
+width: 50px;
+height: 50px;
+transition: all 0.3s ease;
+cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+.prosjektwrapper {
+z-index: 1000;
+position: relative;
+bottom:0vh;
+width:100vw;
+height:100%;
+
+}
+
+
+.prosjekt1{
+float: left;
+position: relative;
+margin-right: 0.0%; margin-bottom: 0px; margin-left: 0px; margin-top: 0.0%;
+width: 33.3333%;
+height: 50vh;
+cursor:pointer;
+
+}	
+
+.prosjekt2{
+float: right;
+position: relative;
+margin-right: 0.0%; margin-bottom: 0px; margin-left: 0px; margin-top: 0.0%;
+width: 33.3333%;
+height: 50vh;
+cursor:pointer;
+
+}
+
+
+.tekstwrapper{
+width: 80%;
+z-index: 1000;
+position: absolute;
+border: 0px solid #BADA55;
+}
+
+
+
+
+
+.strek{
+z-index: 400;
+position: relative;
+width: 40%;
+height:2px; background: #1b14ac;
+bottom:-15px;
+margin-left: auto;
+margin-right: auto;
+transition: all 200ms ease-in;
+}
+
+
+
+
+
+.sortoverlay{
+position: absolute;
+z-index: 399;
+width: 100%;
+height: 100%;
+opacity: 0.5;
+background:#181717;
+}
+
+
+
+
+
+
+
+
+.tiltoppen{
+position: fixed;
+top:1px;
+}
+
+a {
+ color: inherit;
+  text-decoration: none; /* no underline */
+   cursor:pointer;
+}
+
+.bunnen{
+float: left;
+position:relative;
+width: 100%;
+height: 100px;
+}
+
+
+.bunntekst{
+position: absolute;
+text-align: left;
+left:38px;
+top:25px;
+}
+
+
+
+
+img.facebook {
+position: relative;
+top:17px;
+left:17px;
+width: 15px;
+}
+
+
+
+img.linkdin {
+position: relative;
+top:16px;
+left:18px;
+width: 12px;
+}
+
+img.pil {
+position: relative;
+top:16px;
+left:17px;
+width: 16px;
+}
+
+
+
+
+.venstre{
+display: inline-block;
+position: relative;
+width: 200px;
+height: 100%;
+left: 0px;
+top:0px;
+}
+
+
+.hoyre{
+float: right;
+display: inline-block;
+position: relative;
+width: 48%;
+height: 100%;
+left: -30px;
+top:0px;
+}
+
+.Iam {
+  color: #999;
+   padding: 0px; padding-bottom: 65px; padding-left: 0px; padding-top: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar-button{ 
+    display: block; 
+    height: 413px; 
+    border-radius: 0px; background-color: #AAA; } 
+
+::-webkit-scrollbar-button:hover{ background-color: #AAA; } 
+
+::-webkit-scrollbar-thumb{ background-color: 1b14ac; border-radius: 1px; } 
+
+::-webkit-scrollbar-thumb:hover{ } 
+
+::-webkit-scrollbar-track{ background-color: #efefef; } 
+
+::-webkit-scrollbar-track:hover{ background-color: #CCC; } 
+
+::-webkit-scrollbar{ width: 2px; }
+
+
+
+<style type="text/css">
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #17189f;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #565656;
+  border: 0px none #ffffff;
+  border-radius: 150px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+</style>
+
+
+
+
+
+
+
+
+

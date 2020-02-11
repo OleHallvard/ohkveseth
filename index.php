@@ -57,12 +57,6 @@
 
     <div class="tiltoppen"><a id="top"></a></div>
 
-
-
-
-
-
-
     <div class="velkommen">
 
         <!--<div class="fargeeffekt"></div>-->
@@ -207,10 +201,10 @@
 
 
 
+    <div class="tilprosjekter"><a id="tilprosjekterdelen"></a></div>
+
 
     <div class="prosjektwrapper">
-
-        <div class="tilprosjekter"><a id="tilprosjekterdelen"></a></div>
 
 
 
@@ -626,7 +620,7 @@
 
 
 
-
+    </div>
 
 
 

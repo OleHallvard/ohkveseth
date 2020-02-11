@@ -14,6 +14,14 @@
   border: 0px solid #bada55;
 }
 
+.tekstwrapper {
+  z-index: 1000;
+  position: absolute;
+  bottom: 40px;
+  left: 35px;
+  transition: all 200ms ease-in;
+}
+
 #safari {
   display: none;
 }
@@ -71,6 +79,20 @@ h1 span {
   background-color: #1b14ac;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+h6.project-heading {
+  color: #000;
+  text-align: center;
+  margin-top: 28px;
+  margin-bottom: 12px;
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+  h6.project-heading {
+    font-size: 36px;
+  }
 }
 
 @keyframes example {
@@ -821,7 +843,7 @@ a.btn2:hover .row3 {
 .prosjekt2 {
   position: relative;
   cursor: pointer;
-  overflow: hidden;
+  overflow: visible;
   padding: 20px;
 }
 
@@ -844,7 +866,7 @@ a.btn2:hover .row3 {
   transition: all 0.25s ease;
 }
 
-#thumb {
+.thumb {
   object-fit: cover;
   width: 100%;
   height: 450px;
@@ -852,6 +874,11 @@ a.btn2:hover .row3 {
   transition: all 200ms ease-in;
   -moz-transition: 1s opacity;
   -moz-transition: all 200ms ease-in;
+}
+.thumb:nth-child(odd) {
+  width: 200%;
+}
+.thumb:hover {
 }
 
 .scroll-downs {
@@ -1038,7 +1065,6 @@ z-index: -1000000000;
     line-height: 1.1em;
     letter-spacing: -0.02em;
     text-align: left;
-    max-width: 560px;
     margin-left: 0px;
   }
 
@@ -1157,7 +1183,6 @@ z-index: -1000000000;
     line-height: 1.1em;
     letter-spacing: -0.02em;
     text-align: left;
-    max-width: 560px;
     margin-left: 0px;
   }
 
@@ -1424,7 +1449,6 @@ z-index: -1000000000;
     line-height: 1.1em;
     letter-spacing: -0.02em;
     text-align: left;
-    max-width: 560px;
     margin-left: 0px;
   }
 
@@ -1544,8 +1568,6 @@ z-index: -1000000000;
     font-weight: 300;
     line-height: 1.1em;
     letter-spacing: -0.02em;
-    text-align: left;
-    max-width: 560px;
     margin-left: 0px;
   }
 

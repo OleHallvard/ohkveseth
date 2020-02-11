@@ -72,7 +72,7 @@
             <h1><span>Ole<br></span></h1>
             <h1><span>Hallvard<br></span></h1>
             <h1><span>Kveseth</span></h1>
-            <h6><span>Art Director</span></h6>
+            <h6><span>Designer</span></h6>
 
 
             <!-- <h2>Kreatør &nbsp<span class="pln"> I </span> &nbsp Art Director</h2> --> ​
@@ -202,7 +202,7 @@
 
 
     <div class="tilprosjekter"><a id="tilprosjekterdelen"></a></div>
-
+    <h6 class="project-heading">Arbeider</h6>
 
     <div class="prosjektwrapper">
 
@@ -225,7 +225,7 @@
                 </div>
 
                 <div class="sortoverlay"></div>
-                <img id="thumb" src="../img/imdi/imdi_toppbilde.jpg" alt="IMDi film">
+                <img class="thumb" src="../img/imdi/imdi_toppbilde.jpg" alt="IMDi film">
 
         </a>
     </div>
@@ -247,7 +247,7 @@
             </div>
 
             <div class="sortoverlay"></div>
-            <img id="thumb" src="../img/Snla/snla_thumb_love.png" alt="113 appen">
+            <img class="thumb" src="../img/Snla/snla_thumb_love.png" alt="113 appen">
 
     </a>
     </div>
@@ -269,7 +269,7 @@
             </div>
 
             <div class="sortoverlay"></div>
-            <img id="thumb" src="../img/Flytoget/flytoget.jpg" alt="Flytogetbilde">
+            <img class="thumb" src="../img/Flytoget/flytoget.jpg" alt="Flytogetbilde">
 
     </a>
     </div>
@@ -291,7 +291,7 @@
 
             </div>
             <div class="sortoverlay"></div>
-            <img id="thumb" src="../img/Norwegian/Norwegian.jpg" alt="Norwegianbilde">
+            <img class="thumb" src="../img/Norwegian/Norwegian.jpg" alt="Norwegianbilde">
     </a>
     </div>
 
@@ -316,7 +316,7 @@
             </div>
 
             <div class="sortoverlay"></div>
-            <img id="thumb" src="../img/Statensvegvesen/Fast&safe2.jpg" alt="Bilde fra Fast & Safe">
+            <img class="thumb" src="../img/Statensvegvesen/Fast&safe2.jpg" alt="Bilde fra Fast & Safe">
 
     </a>
     </div>
@@ -344,7 +344,7 @@
 
             </div>
             <div class="sortoverlay"></div>
-            <img id="thumb" src="../img/Smartidrettsmat/TineSI_Mockup_Film_Planlegger_thumb.jpg"
+            <img class="thumb" src="../img/Smartidrettsmat/TineSI_Mockup_Film_Planlegger_thumb.jpg"
                 alt="Bilde fra Smart Idrettsmat">
     </a>
     </div>
@@ -372,7 +372,7 @@
 
             </div>
             <div class="sortoverlay"></div>
-            <img id="thumb" src="../img/Bouvetgrandprix/bgp.jpg" alt="Bilde fra Bouvet Grand Prix">
+            <img class="thumb" src="../img/Bouvetgrandprix/bgp.jpg" alt="Bilde fra Bouvet Grand Prix">
 
     </a>
     </div>
@@ -397,7 +397,7 @@
 
             </div>
             <div class="sortoverlay"></div>
-            <img id="thumb" src="../img/Ruter/Ruter2.jpg" alt="Bilde fra Ruter">
+            <img class="thumb" src="../img/Ruter/Ruter2.jpg" alt="Bilde fra Ruter">
 
     </a>
     </div>
@@ -421,7 +421,7 @@
 
             </div>
             <div class="sortoverlay"></div>
-            <img id="thumb" src="../img/BlockWatne/flyttutavbyen.jpg" alt="Block Watne flytt ut av byen">
+            <img class="thumb" src="../img/BlockWatne/flyttutavbyen.jpg" alt="Block Watne flytt ut av byen">
 
     </a>
     </div>
@@ -447,7 +447,7 @@
 
             </div>
             <div class="sortoverlay"></div>
-            <img id="thumb" src="../img/Millum/Millum_forsidebilde_medium.jpg"" alt=" Bilde fra Millum">
+            <img class="thumb" src="../img/Millum/Millum_forsidebilde_medium.jpg"" alt=" Bilde fra Millum">
 
     </a>
     </div>
@@ -472,7 +472,7 @@
             </div>
 
             <div class="sortoverlay"></div>
-            <img id="thumb" src="../img/Sparebank1/Sparebank1.jpg"" alt=" Bilde fra Sparebank 1">
+            <img class="thumb" src="../img/Sparebank1/Sparebank1.jpg"" alt=" Bilde fra Sparebank 1">
     </a>
     </div>
 
@@ -494,7 +494,7 @@
 
             </div>
             <div class="sortoverlay"></div>
-            <img id="thumb" src="../img/Obos/Obos-thumb.png" alt="Bilde fra OBOS">
+            <img class="thumb" src="../img/Obos/Obos-thumb.png" alt="Bilde fra OBOS">
     </a>
     </div>
 
@@ -521,7 +521,7 @@
 
             </div>
             <div class="sortoverlay"></div>
-            <img id="thumb" src="../img/Nordea/Nordea_forsidebilde.jpg" alt="Bilde fra Nordea">
+            <img class="thumb" src="../img/Nordea/Nordea_forsidebilde.jpg" alt="Bilde fra Nordea">
     </a>
     </div>
 
@@ -544,7 +544,7 @@
 
             </div>
             <div class="sortoverlay"></div>
-            <img id="thumb" src="../img/Bouvetfilmen/bouvetfilmen-thumb.jpg" alt="Bilde fra Colosseum kino">
+            <img class="thumb" src="../img/Bouvetfilmen/bouvetfilmen-thumb.jpg" alt="Bilde fra Colosseum kino">
     </a>
     </div>
 
@@ -565,7 +565,7 @@
 
             </div>
             <div class="sortoverlay"></div>
-            <img id="thumb" src="../img/Kreftforeningen/Kreftforeningen.jpg" alt="Bilde fra Kreftforeningen">
+            <img class="thumb" src="../img/Kreftforeningen/Kreftforeningen.jpg" alt="Bilde fra Kreftforeningen">
     </a>
     </div>
 
@@ -589,7 +589,7 @@
 
             </div>
             <div class="sortoverlay"></div>
-            <img id="thumb" src="../img/Studentarbeider/Ikea_stolleken_forsidebilde_small.jpg"
+            <img class="thumb" src="../img/Studentarbeider/Ikea_stolleken_forsidebilde_small.jpg"
                 alt="Bilde fra Studentarbeider">
     </a>
     </div>
@@ -612,7 +612,7 @@
 
             </div>
             <div class="sortoverlay"></div>
-            <img id="thumb" src="../img/Photoshoping/Nike_Halloween_newedition_retusj_8.jpg"
+            <img class="thumb" src="../img/Photoshoping/Nike_Halloween_newedition_retusj_8.jpg"
                 alt="Bilde fra Photoshopping">
 
     </a>

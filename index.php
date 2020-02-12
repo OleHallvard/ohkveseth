@@ -63,8 +63,6 @@
 
 
 
-
-
         <div class="tekstblokk">
 
 
@@ -207,36 +205,24 @@
     <div class="prosjektwrapper">
 
 
-
-
-
-
-
-        <a href="/prosjekter/imdi">
-            <div class="prosjekt2">
-
-                <div class="tekstwrapper">
-
-                    <h4>IMDI</h4>
-
-                    <h5>Motivasjonsfilm</h5>
-
-
-                </div>
-
-                <div class="sortoverlay"></div>
-                <img class="thumb" src="../img/imdi/imdi_toppbilde.jpg" alt="IMDi film">
-
+        <a href="/prosjekter/imdi" class="prosjekt2">
+            <div class="hoverblue"></div>
+            <div class="tekstwrapper">
+                <h4>IMDI</h4>
+                <h5>Motivasjonsfilm</h5>
+            </div>
+            <div class="sortoverlay"></div>
+            <img class="thumb" src="../img/imdi/imdi_toppbilde.jpg" alt="IMDi film">
         </a>
-    </div>
 
 
 
 
 
-    <a href="/prosjekter/113appen">
-        <div class="prosjekt2">
 
+
+        <a href="/prosjekter/113appen" class="prosjekt2">
+            <div class="hoverblue"></div>
             <div class="tekstwrapper">
 
                 <h4>SNLA</h4>
@@ -249,16 +235,15 @@
             <div class="sortoverlay"></div>
             <img class="thumb" src="../img/Snla/snla_thumb_love.png" alt="113 appen">
 
-    </a>
-    </div>
+        </a>
 
 
 
 
 
-    <a href="/prosjekter/Flytoget2">
-        <div class="prosjekt2">
 
+        <a href="/prosjekter/Flytoget2" class="prosjekt2">
+            <div class="hoverblue"></div>
             <div class="tekstwrapper">
 
                 <h4>Flytoget</h4>
@@ -271,8 +256,7 @@
             <div class="sortoverlay"></div>
             <img class="thumb" src="../img/Flytoget/flytoget.jpg" alt="Flytogetbilde">
 
-    </a>
-    </div>
+        </a>
 
 
 
@@ -280,9 +264,10 @@
 
 
 
-    <a href="/prosjekter/Norwegian">
-        <div class="prosjekt2">
 
+
+        <a href="/prosjekter/Norwegian" class="prosjekt2">
+            <div class="hoverblue"></div>
             <div class="tekstwrapper">
 
                 <h4>Norwegian</h4>
@@ -292,8 +277,7 @@
             </div>
             <div class="sortoverlay"></div>
             <img class="thumb" src="../img/Norwegian/Norwegian.jpg" alt="Norwegianbilde">
-    </a>
-    </div>
+        </a>
 
 
 
@@ -304,9 +288,10 @@
 
 
 
-    <a href="/prosjekter/Statensvegvesen">
-        <div class="prosjekt2">
 
+
+        <a href="/prosjekter/Statensvegvesen" class="prosjekt2">
+            <div class="hoverblue"></div>
             <div class="tekstwrapper">
 
                 <h4>Statens Vegvesen</h4>
@@ -318,8 +303,7 @@
             <div class="sortoverlay"></div>
             <img class="thumb" src="../img/Statensvegvesen/Fast&safe2.jpg" alt="Bilde fra Fast & Safe">
 
-    </a>
-    </div>
+        </a>
 
 
 
@@ -331,9 +315,10 @@
 
 
 
-    <a href="/prosjekter/Smartidrettsmat">
-        <div class="prosjekt2">
 
+
+        <a href="/prosjekter/Smartidrettsmat" class="prosjekt2">
+            <div class="hoverblue"></div>
             <div class="tekstwrapper">
 
 
@@ -346,8 +331,7 @@
             <div class="sortoverlay"></div>
             <img class="thumb" src="../img/Smartidrettsmat/TineSI_Mockup_Film_Planlegger_thumb.jpg"
                 alt="Bilde fra Smart Idrettsmat">
-    </a>
-    </div>
+        </a>
 
 
 
@@ -359,9 +343,10 @@
 
 
 
-    <a href="/prosjekter/Bouvetgrandprix.php">
-        <div class="prosjekt2">
 
+
+        <a href="/prosjekter/Bouvetgrandprix.php" class="prosjekt2">
+            <div class="hoverblue"></div>
             <div class="tekstwrapper">
 
 
@@ -373,9 +358,7 @@
             </div>
             <div class="sortoverlay"></div>
             <img class="thumb" src="../img/Bouvetgrandprix/bgp.jpg" alt="Bilde fra Bouvet Grand Prix">
-
-    </a>
-    </div>
+        </a>
 
 
 
@@ -385,9 +368,10 @@
 
 
 
-    <a href="/prosjekter/Ruter">
-        <div class="prosjekt2">
 
+
+        <a href="/prosjekter/Ruter" class="prosjekt2">
+            <div class="hoverblue"></div>
             <div class="tekstwrapper">
 
                 <h4>Ruter</h4>
@@ -399,8 +383,7 @@
             <div class="sortoverlay"></div>
             <img class="thumb" src="../img/Ruter/Ruter2.jpg" alt="Bilde fra Ruter">
 
-    </a>
-    </div>
+        </a>
 
 
 
@@ -410,9 +393,10 @@
 
 
 
-    <a href="/prosjekter/Flyttutavbyen">
-        <div class="prosjekt2">
 
+
+        <a href="/prosjekter/Flyttutavbyen" class="prosjekt2">
+            <div class="hoverblue"></div>
             <div class="tekstwrapper">
 
                 <h4>Block Watne</h4>
@@ -423,8 +407,7 @@
             <div class="sortoverlay"></div>
             <img class="thumb" src="../img/BlockWatne/flyttutavbyen.jpg" alt="Block Watne flytt ut av byen">
 
-    </a>
-    </div>
+        </a>
 
 
 
@@ -434,9 +417,10 @@
 
 
 
-    <a href="/prosjekter/Millum">
-        <div class="prosjekt2">
 
+
+        <a href="/prosjekter/Millum" class="prosjekt2">
+            <div class="hoverblue"></div>
             <div class="tekstwrapper">
 
 
@@ -449,8 +433,7 @@
             <div class="sortoverlay"></div>
             <img class="thumb" src="../img/Millum/Millum_forsidebilde_medium.jpg"" alt=" Bilde fra Millum">
 
-    </a>
-    </div>
+        </a>
 
 
 
@@ -460,9 +443,10 @@
 
 
 
-    <a href="/prosjekter/Sparebank1">
-        <div class="prosjekt2">
 
+
+        <a href="/prosjekter/Sparebank1" class="prosjekt2">
+            <div class="hoverblue"></div>
             <div class="tekstwrapper">
 
                 <h4>Sparebank1</h4>
@@ -473,8 +457,7 @@
 
             <div class="sortoverlay"></div>
             <img class="thumb" src="../img/Sparebank1/Sparebank1.jpg"" alt=" Bilde fra Sparebank 1">
-    </a>
-    </div>
+        </a>
 
 
 
@@ -483,9 +466,10 @@
 
 
 
-    <a href="/prosjekter/obos">
-        <div class="prosjekt2">
 
+
+        <a href="/prosjekter/obos" class="prosjekt2">
+            <div class="hoverblue"></div>
             <div class="tekstwrapper">
 
                 <h4>OBOS</h4>
@@ -495,8 +479,7 @@
             </div>
             <div class="sortoverlay"></div>
             <img class="thumb" src="../img/Obos/Obos-thumb.png" alt="Bilde fra OBOS">
-    </a>
-    </div>
+        </a>
 
 
 
@@ -504,15 +487,8 @@
 
 
 
-
-
-
-
-
-
-    <a href="/prosjekter/Nordea">
-        <div class="prosjekt2">
-
+        <a href="/prosjekter/Nordea" class="prosjekt2">
+            <div class="hoverblue"></div>
             <div class="tekstwrapper">
 
                 <h4>Nordea</h4>
@@ -522,8 +498,7 @@
             </div>
             <div class="sortoverlay"></div>
             <img class="thumb" src="../img/Nordea/Nordea_forsidebilde.jpg" alt="Bilde fra Nordea">
-    </a>
-    </div>
+        </a>
 
 
 
@@ -533,9 +508,10 @@
 
 
 
-    <a href="/prosjekter/Bouvetfilmen.php">
-        <div class="prosjekt2">
 
+
+        <a href="/prosjekter/Bouvetfilmen.php" class="prosjekt2">
+            <div class="hoverblue"></div>
             <div class="tekstwrapper">
 
                 <h4>Bouvet</h4>
@@ -545,8 +521,7 @@
             </div>
             <div class="sortoverlay"></div>
             <img class="thumb" src="../img/Bouvetfilmen/bouvetfilmen-thumb.jpg" alt="Bilde fra Colosseum kino">
-    </a>
-    </div>
+        </a>
 
 
 
@@ -554,9 +529,10 @@
 
 
 
-    <a href="/prosjekter/Kreftforeningen">
-        <div class="prosjekt2">
 
+
+        <a href="/prosjekter/Kreftforeningen" class="prosjekt2">
+            <div class="hoverblue"></div>
             <div class="tekstwrapper">
 
                 <h4>Kreftforeningen</h4>
@@ -566,8 +542,7 @@
             </div>
             <div class="sortoverlay"></div>
             <img class="thumb" src="../img/Kreftforeningen/Kreftforeningen.jpg" alt="Bilde fra Kreftforeningen">
-    </a>
-    </div>
+        </a>
 
 
 
@@ -578,9 +553,10 @@
 
 
 
-    <a href="/prosjekter/Studentarbeider">
-        <div class="prosjekt2">
 
+
+        <a href="/prosjekter/Studentarbeider" class="prosjekt2">
+            <div class="hoverblue"></div>
             <div class="tekstwrapper">
 
                 <h4>Studentarbeider</h4>
@@ -591,8 +567,7 @@
             <div class="sortoverlay"></div>
             <img class="thumb" src="../img/Studentarbeider/Ikea_stolleken_forsidebilde_small.jpg"
                 alt="Bilde fra Studentarbeider">
-    </a>
-    </div>
+        </a>
 
 
 
@@ -601,9 +576,10 @@
 
 
 
-    <a href="/prosjekter/Photoshoping">
-        <div class="prosjekt2">
 
+
+        <a href="/prosjekter/Photoshoping" class="prosjekt2">
+            <div class="hoverblue"></div>
             <div class="tekstwrapper">
 
                 <h4>Photoshoping</h4>
@@ -615,8 +591,8 @@
             <img class="thumb" src="../img/Photoshoping/Nike_Halloween_newedition_retusj_8.jpg"
                 alt="Bilde fra Photoshopping">
 
-    </a>
-    </div>
+        </a>
+
 
 
 

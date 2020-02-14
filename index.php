@@ -149,7 +149,7 @@
 
     <div class="prosjektwrapper">
 
-        <a href="/prosjekter/Smartidrettsmat" class="prosjekt2">
+        <a href="/prosjekter/tine" class="prosjekt2">
             <div class="hoverblue"></div>
             <div class="tekstwrapper">
 

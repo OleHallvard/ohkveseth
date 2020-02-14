@@ -3274,9 +3274,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/prosjekter/smartidrettsmat.php",
-		"oF": 0
+		"oF": 1
 		},
 	"/prosjekter/Sparebank1.php": {
 		"cB": 0,
@@ -3300,6 +3300,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/prosjekter/Studentarbeider.php",
+		"oF": 0
+		},
+	"/prosjekter/tine.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/prosjekter/tine.php",
 		"oF": 0
 		},
 	"/README.md": {

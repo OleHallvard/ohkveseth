@@ -7,8 +7,8 @@
   display: none;
 }
 
-@media only screen and (min-width: 600px) {
-  #lottie {
+@media only screen and (max-width: 600px) {
+  #lottie-mobil-animasjon {
     background-color: #fff;
     width: 100%;
     height: 100%;
@@ -19,8 +19,40 @@
     opacity: 1;
   }
 }
+
 @media only screen and (max-width: 600px) {
-  #lottie-mobil-animasjon {
+  #lottie-tablet-animasjon {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    text-align: center;
+    opacity: 1;
+  }
+}
+/*
+@media (min-width: 601px) and (max-width: 850px) {
+  #lottie-tablet-animasjon {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    text-align: center;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 851px) and (max-width: 4000px) {
+  #lottie-tablet-animasjon {
+    display: block;
+  }
+}
+*/
+@media only screen and (min-width: 851px) {
+  #lottie {
     background-color: #fff;
     width: 100%;
     height: 100%;
@@ -106,7 +138,7 @@ h1 {
   -webkit-font-smoothing: antialiased;
   font-size: 73px;
   font-weight: 700;
-  line-height: 1.1em;
+  line-height: 1.09em;
   letter-spacing: -0.05em;
   text-align: left;
   padding: 0px;
@@ -125,8 +157,8 @@ h1 {
 
 h1 span {
   background-color: #1b14ac;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 29px;
+  padding-left: 15px;
 }
 
 h6.project-heading {
@@ -847,7 +879,7 @@ a.btn2:hover .row3 {
   position: relative;
   left: 0px;
   top: -28px;
-  color: #f7f7f7;
+  color: #000;
   font-family: "Open Sans", sans-serif;
   font-size: 13.5px;
   font-weight: 300;
@@ -899,6 +931,7 @@ a.btn2:hover .row3 {
 @media only screen and (min-width: 600px) {
   .prosjektwrapper {
     padding: 20px;
+    display: -ms-grid;
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 20px;
@@ -909,6 +942,7 @@ a.btn2:hover .row3 {
 @media only screen and (min-width: 1800px) {
   .prosjektwrapper {
     padding: 30px;
+    display: -ms-grid;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 30px;
@@ -1004,7 +1038,7 @@ a.btn2:hover .row3 {
   width: 2px;
   height: 5px;
   border-radius: 5%;
-  background-color: #eee;
+  background-color: #1b14ac;
   animation-name: scroll;
   animation-duration: 2.2s;
   animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
@@ -1121,7 +1155,7 @@ z-index: -1000000000;
     font-family: "Open Sans", sans-serif;
     font-size: 40px;
     font-weight: 700;
-    line-height: 1.4em;
+    line-height: 1.13em;
     letter-spacing: -0.04em;
     text-align: left;
     padding: 0px;
@@ -1134,8 +1168,8 @@ z-index: -1000000000;
 
   h1 span {
     background-color: #1b14ac;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 13px;
+    padding-left: 9px;
   }
 
   h3 {
@@ -1307,16 +1341,6 @@ z-index: -1000000000;
     border: 0px solid #bada55;
 
     display: block;
-
-    opacity: 0;
-
-    -webkit-animation: fadeInFromNone 1.2s ease-out;
-    -moz-animation: fadeInFromNone 1.2s ease-out;
-    -o-animation: fadeInFromNone 1.2s ease-out;
-    animation: fadeInFromNone 1.2s ease-out;
-
-    animation-delay: 0.5s;
-    -webkit-animation-fill-mode: forwards;
   }
 
   .ikoner {
@@ -1363,26 +1387,6 @@ z-index: -1000000000;
   }
 
   @media (max-width: 1024px) {
-    .bakgrunnsfoto {
-      display: block;
-      z-index: 0;
-      width: 100%;
-      height: 100vh;
-      position: relative;
-      background-image: url("../img/Main/ohkveseth_front_medium.jpg");
-      background-size: cover;
-      background-position: 40% 50%;
-      opacity: 0;
-
-      -webkit-animation: fadeInFromNone 1.2s ease-out;
-      -moz-animation: fadeInFromNone 1.2s ease-out;
-      -o-animation: fadeInFromNone 1.2s ease-out;
-      animation: fadeInFromNone 1.2s ease-out;
-
-      animation-delay: 0.5s;
-      -webkit-animation-fill-mode: forwards;
-    }
-
     .fullscreen-bg__video {
       display: none;
     }
@@ -1562,7 +1566,7 @@ z-index: -1000000000;
       -webkit-font-smoothing: antialiased;
       -webkit-font-smoothing: antialiased;
       font-weight: 700;
-      line-height: 1.1em;
+      line-height: 1.09em;
       letter-spacing: -0.05em;
       text-align: left;
       max-width: 560px;
@@ -1571,7 +1575,7 @@ z-index: -1000000000;
 
     h1 span {
       background-color: #1b14ac;
-      padding-right: 20px;
+      padding-right: 29px;
       padding-left: 20px;
     }
 

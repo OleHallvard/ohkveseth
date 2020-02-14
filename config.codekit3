@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "31934",
 "files": {
+	"/css/deltstyle-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/deltstyle-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/deltstyle.css": {
 		"aP": 1,
 		"bl": 0,
@@ -420,6 +430,50 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/img/Fjordland/Fjordland-mockups-front.png": {
+		"ft": 32768,
+		"iS": 256983,
+		"oA": 0,
+		"oAP": "/img/Fjordland/Fjordland-mockups-front.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Fjordland/Fjordland-mockups-mobil.jpg": {
+		"ft": 16384,
+		"iS": 118915,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Fjordland/Fjordland-mockups-mobil.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/Fjordland/Fjordland-mockups-thumb.jpg": {
+		"ft": 16384,
+		"iS": 30961,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Fjordland/Fjordland-mockups-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/Fjordland/fjordland-screen.png": {
+		"ft": 32768,
+		"iS": 170643,
+		"oA": 0,
+		"oAP": "/img/Fjordland/fjordland-screen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/Flytoget/FLYT0056_230x297_Amagasinet_nettside.jpg": {
@@ -1463,6 +1517,72 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/Obos/Obos-mockup-mobil.jpg": {
+		"ft": 16384,
+		"iS": 107719,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Obos/Obos-mockup-mobil.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/Obos/Obos-mockup-thumb.jpg": {
+		"ft": 16384,
+		"iS": 23517,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Obos/Obos-mockup-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/Obos/Obos-mockup.png": {
+		"ft": 32768,
+		"iS": 171124,
+		"oA": 0,
+		"oAP": "/img/Obos/Obos-mockup.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Obos/obos-s-1.png": {
+		"ft": 32768,
+		"iS": 236800,
+		"oA": 0,
+		"oAP": "/img/Obos/obos-s-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Obos/obos-s-2.png": {
+		"ft": 32768,
+		"iS": 69651,
+		"oA": 0,
+		"oAP": "/img/Obos/obos-s-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Obos/obos-s-3.png": {
+		"ft": 32768,
+		"iS": 47988,
+		"oA": 0,
+		"oAP": "/img/Obos/obos-s-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/Obos/Obos-thumb.jpg": {
 		"ft": 16384,
 		"iS": 2015357,
@@ -1983,6 +2103,61 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/img/Smartidrettsmat/Smartplanlegger-mockups-v2-2.png": {
+		"ft": 32768,
+		"iS": 166636,
+		"oA": 0,
+		"oAP": "/img/Smartidrettsmat/Smartplanlegger-mockups-v2-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Smartidrettsmat/Smartplanlegger-mockups-v2.png": {
+		"ft": 32768,
+		"iS": 183716,
+		"oA": 0,
+		"oAP": "/img/Smartidrettsmat/Smartplanlegger-mockups-v2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Smartidrettsmat/Smartplanlegger-mockups.png": {
+		"ft": 32768,
+		"iS": 221889,
+		"oA": 0,
+		"oAP": "/img/Smartidrettsmat/Smartplanlegger-mockups.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Smartidrettsmat/Smartplanlegger-mockups2-mobil.jpg": {
+		"ft": 16384,
+		"iS": 186923,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Smartidrettsmat/Smartplanlegger-mockups2-mobil.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/Smartidrettsmat/Smartplanlegger-mockups2.png": {
+		"ft": 32768,
+		"iS": 242554,
+		"oA": 0,
+		"oAP": "/img/Smartidrettsmat/Smartplanlegger-mockups2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/Smartidrettsmat/Tine_SI_Bilde1_L.jpg": {
@@ -2997,6 +3172,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/prosjekter/Bouvetgrandprix.php",
+		"oF": 0
+		},
+	"/prosjekter/fjordland.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/prosjekter/fjordland.php",
 		"oF": 0
 		},
 	"/prosjekter/Flytoget2.php": {

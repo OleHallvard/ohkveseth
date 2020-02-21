@@ -16,7 +16,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 0%;
   grid-template-columns: repeat(2, auto);
-  background: rgb(231, 231, 231);
+  background: rgb(240, 240, 240);
 }
 
 .row-wrapper {
@@ -157,6 +157,7 @@
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
+    font-weight: bold;
   }
 
   @media (min-width: 1200px) {
@@ -284,8 +285,7 @@ h1 {
 
 h1 span {
   background-color: #1b14ac;
-  padding-right: 29px;
-  padding-left: 15px;
+  padding-left: 8px;
 }
 
 h6.project-heading {
@@ -1295,8 +1295,8 @@ z-index: -1000000000;
 
   h1 span {
     background-color: #1b14ac;
-    padding-right: 13px;
-    padding-left: 9px;
+    padding-left: 8px;
+    line-height: 52px;
   }
 
   h3 {
@@ -1701,8 +1701,7 @@ z-index: -1000000000;
 
     h1 span {
       background-color: #1b14ac;
-      padding-right: 29px;
-      padding-left: 20px;
+      padding-left: 8px;
     }
 
     h2 {

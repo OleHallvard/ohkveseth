@@ -7,72 +7,199 @@
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
-  #lottie-mobil-animasjon {
-    background-color: #fff;
-    width: 100%;
-    height: 100%;
-    display: block;
-    overflow: hidden;
-    transform: translate3d(0, 0, 0);
-    text-align: center;
-    opacity: 1;
+.bg-grid-container {
+  width: calc(100% - 20px);
+  height: calc(100% - 42px);
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0%;
+  grid-template-columns: repeat(2, auto);
+  background: rgb(231, 231, 231);
+}
+
+.row-wrapper {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 0px;
+  font-size: calc(17px + 6 * ((100vw - 320px) / 680));
+}
+@media (min-width: 768px) {
+  .row-wrapper {
+    font-size: 21px;
   }
+}
+
+@media (min-width: 1600px) {
+  .row-wrapper {
+    font-size: 26px;
+  }
+}
+
+.row-plus {
+  color: #1b14ac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  transition: all 0.2s ease;
 }
 
 @media only screen and (max-width: 600px) {
-  #lottie-tablet-animasjon {
-    width: 100%;
-    height: 100%;
-    display: block;
-    overflow: hidden;
-    transform: translate3d(0, 0, 0);
-    text-align: center;
-    opacity: 1;
+  .row-plus:nth-child(odd) {
+    animation-name: rotateplus;
+    animation-duration: 3s;
+    animation-timing-function: ease ease;
+    animation-iteration-count: infinite;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+
+  @keyframes rotateplus {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+    }
+    30% {
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+    }
+
+    70% {
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+    }
+    100% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+    }
+  }
+
+  .row-plus:nth-child(even) {
+    animation-name: rotateplus;
+    animation-duration: 3s;
+    animation-delay: 1.5s;
+    animation-timing-function: ease ease;
+    animation-iteration-count: infinite;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+
+  @keyframes rotateplus {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+    }
+    30% {
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+    }
+
+    70% {
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+    }
+    100% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+    }
   }
 }
 
-@media (min-width: 601px) and (max-width: 850px) {
-  #lottie-tablet-animasjon {
-    background-color: #fff;
-    width: 100%;
-    height: 100%;
-    display: block;
-    overflow: hidden;
-    transform: translate3d(0, 0, 0);
-    text-align: center;
-    opacity: 1;
+.r1,
+.r2 {
+  display: grid;
+}
+
+.r3,
+.r4,
+.r5,
+.r6,
+.r7,
+.r8 {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .bg-grid-container {
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    grid-gap: 0%;
+    grid-template-columns: repeat(4, auto);
+    padding: 20px;
+  }
+
+  .r1,
+  .r2,
+  .r3,
+  .r4 {
+    display: grid;
+  }
+
+  .row-plus:hover {
+    transition: all 0.2s ease;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  @media (min-width: 1200px) {
+    .bg-grid-container {
+      grid-gap: 0%;
+      grid-template-columns: repeat(6, auto);
+    }
+
+    .r1,
+    .r2,
+    .r3,
+    .r4,
+    .r5,
+    .r6 {
+      display: grid;
+    }
   }
 }
 
-@media (min-width: 851px) and (max-width: 4000px) {
-  #lottie-tablet-animasjon {
-    display: none;
+@media (min-width: 1400px) {
+  .bg-grid-container {
+    grid-gap: 0%;
+    grid-template-columns: repeat(7, auto);
+  }
+
+  .r7 {
+    display: grid;
   }
 }
 
-@media only screen and (min-width: 851px) {
-  #lottie {
-    background-color: #fff;
-    width: 100%;
-    height: 100%;
-    display: block;
-    overflow: hidden;
-    transform: translate3d(0, 0, 0);
-    text-align: center;
-    opacity: 1;
+@media (min-width: 1800px) {
+  .bg-grid-container {
+    grid-gap: 0%;
+    grid-template-columns: repeat(8, auto);
   }
-}
 
-@media only screen and (min-width: 600px) {
-  #lottie-mobil-animasjon {
-    display: none;
+  .r8 {
+    display: grid;
   }
 }
 
 .tekstblokk {
   z-index: 100;
-  width: 60%;
   left: 13%;
   overflow: hidden;
   position: absolute;
@@ -798,7 +925,8 @@ a.btn {
   overflow: hidden;
   text-align: center;
   -webkit-transform: translateZ(0px);
-  margin-top: 6px;
+  margin-top: 14px;
+  margin-top: 20px;
 }
 
 a.btn span {
@@ -1109,7 +1237,6 @@ z-index: -1000000000;
   }
 
   .tekstblokk {
-    width: 91%;
     left: 9%;
     position: absolute;
     top: 50%;
@@ -1334,13 +1461,11 @@ z-index: -1000000000;
   .tekstblokk {
     z-index: 100;
     overflow: hidden;
-    width: 60%;
     left: 13%;
     position: absolute;
     top: 47%;
     -webkit-transform: translate(0%, -51%);
     border: 0px solid #bada55;
-
     display: block;
   }
 
@@ -1401,6 +1526,7 @@ z-index: -1000000000;
       overflow: hidden;
       text-align: center;
       -webkit-transform: translateZ(0px);
+      margin-top: 20px;
     }
 
     a.btn span {
@@ -1492,7 +1618,6 @@ z-index: -1000000000;
 
     .tekstblokk {
       z-index: 100;
-      width: 60%;
       left: 12.5%;
       overflow: hidden;
       position: absolute;
@@ -1667,6 +1792,9 @@ z-index: -1000000000;
       padding: 7px 105px;
     }
 
+    a.btn {
+      margin-top: 30px;
+    }
     .scroll-downs {
       padding-right: 15px;
     }
@@ -1677,7 +1805,6 @@ z-index: -1000000000;
 
     .tekstblokk {
       z-index: 100;
-      width: 60%;
       left: 12%;
       overflow: hidden;
       position: absolute;

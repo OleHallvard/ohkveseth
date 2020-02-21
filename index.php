@@ -107,39 +107,176 @@
                     </span>
                 </a>
 
-
         </div>
 
-        <div id="lottie"></div>
-        <div id="lottie-mobil-animasjon"></div>
-        <div id="lottie-tablet-animasjon"></div>
 
-    </div>
+        <div class="bg-grid-container">
 
-
-
-    <div class="ikoner">
-
-
-        <a href="https://www.facebook.com/ole.kveseth" target="_blank" div class="fbcircle">
-            <img class="facebook" src="img/Main/Facebook.svg" /></a>
-
-
-        <a href="https://www.linkedin.com/in/ole-hallvard-kveseth-97706744/" target="_blank" div class="licircle">
-            <img class="linkdin" src="img/Main/linkedin-icon.png" /></a>
-
-
-
-        <div class="scroll-downs">
-            <div class="mousey">
-                <div class="scroller"></div>
+            <div class="row-wrapper r1">
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
             </div>
+
+            <div class="row-wrapper r2">
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+            </div>
+
+            <div class="row-wrapper r3">
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+            </div>
+
+            <div class="row-wrapper r4">
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+            </div>
+
+            <div class="row-wrapper r5">
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+            </div>
+
+            <div class="row-wrapper r6">
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+            </div>
+
+            <div class="row-wrapper r7">
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+            </div>
+
+            <div class="row-wrapper r8">
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+                <div class="row-plus">+</div>
+            </div>
+
+
+
+
         </div>
 
-        <div class="scrolltekst">Scroll</div>
 
 
-    </div>
+        <div class="ikoner">
+
+
+            <a href="https://www.facebook.com/ole.kveseth" target="_blank" div class="fbcircle">
+                <img class="facebook" src="img/Main/Facebook.svg" /></a>
+
+
+            <a href="https://www.linkedin.com/in/ole-hallvard-kveseth-97706744/" target="_blank" div class="licircle">
+                <img class="linkdin" src="img/Main/linkedin-icon.png" /></a>
+
+
+
+            <div class="scroll-downs">
+                <div class="mousey">
+                    <div class="scroller"></div>
+                </div>
+            </div>
+
+            <div class="scrolltekst">Scroll</div>
+
+
+        </div>
 
 
     </div>

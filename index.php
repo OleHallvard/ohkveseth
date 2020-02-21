@@ -67,8 +67,10 @@
 
 
 
-            <h1><span>&nbsp;Ole&nbsp;&nbsp;<br>
-                    &nbsp;&nbsp;Hallvard&nbsp;&nbsp;<br>&nbsp; Kveseth&nbsp;</span></h1>
+            <h1><span>&nbsp;Ole&nbsp;&nbsp;<br></h1>
+            <h1><span>&nbsp;Hallvard&nbsp;&nbsp;<br></h1>
+            <h1><span>&nbsp;Kveseth&nbsp;&nbsp;<br></h1>
+
             <h6><span>Designer</span></h6>
 
 

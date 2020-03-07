@@ -16,7 +16,18 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 0%;
   grid-template-columns: repeat(2, auto);
-  background: rgb(231, 231, 231);
+  background: rgb(240, 240, 240);
+}
+
+.button-wrapper {
+  position: relative;
+  margin-top: 39px;
+}
+
+@media (min-width: 600px) {
+  .button-wrapper {
+    margin-top: 20px;
+  }
 }
 
 .row-wrapper {
@@ -157,6 +168,7 @@
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
+    font-weight: bold;
   }
 
   @media (min-width: 1200px) {
@@ -284,8 +296,7 @@ h1 {
 
 h1 span {
   background-color: #1b14ac;
-  padding-right: 29px;
-  padding-left: 15px;
+  padding-left: 8px;
 }
 
 h6.project-heading {
@@ -825,16 +836,12 @@ background-image:url("../img/Main/ohkveseth_front_medium.jpg");
 background-size: cover;
 background-position: 30% 50%;
 opacity: 0.0;
-
  -webkit-animation: fadeInFromNone 1.2s ease-out;
     -moz-animation: fadeInFromNone 1.2s ease-out;
     -o-animation: fadeInFromNone 1.2s ease-out;
     animation: fadeInFromNone 1.2s ease-out;
-
-
   animation-delay:0.5s;
 -webkit-animation-fill-mode: forwards;
-
 }
 */
 
@@ -1216,15 +1223,6 @@ body {
 background-color: #080808;
 z-index: -1000000000;
 }
-
-
-
-
-
-
-
-
-
 /*Mobil*/
 
 @media only screen and (max-width: 599px) {
@@ -1295,8 +1293,8 @@ z-index: -1000000000;
 
   h1 span {
     background-color: #1b14ac;
-    padding-right: 13px;
-    padding-left: 9px;
+    padding-left: 8px;
+    line-height: 52px;
   }
 
   h3 {
@@ -1701,8 +1699,7 @@ z-index: -1000000000;
 
     h1 span {
       background-color: #1b14ac;
-      padding-right: 29px;
-      padding-left: 20px;
+      padding-left: 8px;
     }
 
     h2 {

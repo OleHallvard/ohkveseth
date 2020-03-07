@@ -67,45 +67,32 @@
 
 
 
-            <h1><span>&nbsp;Ole&nbsp;&nbsp;<br>
-                    &nbsp;&nbsp;Hallvard&nbsp;&nbsp;<br>&nbsp; Kveseth&nbsp;</span></h1>
+            <h1><span>&nbsp;Ole&nbsp;&nbsp;<br></h1>
+            <h1><span>&nbsp;Hallvard&nbsp;&nbsp;<br></h1>
+            <h1><span>&nbsp;Kveseth&nbsp;&nbsp;<br></h1>
+
             <h6><span>Designer</span></h6>
 
-
-
-
-            <p class="desktoptekst"><span>
-
-                    <!--Jeg liker å finne på ideer. Ideer som kommuniserer noe til noen – og som fører til en handling. Deretter produsere ideene gjennom design, film, animasjon, foto og kode. -->
-
-                </span></p>
-
-            <p class="mobiltekst"><span>
-
-                    <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	-->
-                </span></p>
-
-
-
-
-            <a class="btn2" a href="#tilprosjekterdelen" onclick="smoothScroll('tilprosjekterdelen')">
-                <span class="row1">
-                    <h2>Mine arbeider</h2>
-                </span>
-                <span class="row3">
-                    <h2>Se</h2>
-                </span>
-
-
-
-                <a class="btn" href="ommeg">
+            <div class="button-wrapper">
+                <a class="btn2" a href="#tilprosjekterdelen" onclick="smoothScroll('tilprosjekterdelen')">
                     <span class="row1">
-                        <h2>Om meg</h2>
+                        <h2>Mine arbeider</h2>
                     </span>
-                    <span class="row2">
-                        <h2>Les</h2>
+                    <span class="row3">
+                        <h2>Se</h2>
                     </span>
-                </a>
+
+
+
+                    <a class="btn" href="ommeg">
+                        <span class="row1">
+                            <h2>Om meg</h2>
+                        </span>
+                        <span class="row2">
+                            <h2>Les</h2>
+                        </span>
+                    </a>
+            </div>
 
         </div>
 

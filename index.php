@@ -572,7 +572,8 @@
 
             <div class="tiltoppenikon" a href="#top" onclick="smoothScroll('top')">
                 <img class="pil" src="img/Main/piloppover.svg" />
-                </a></div>
+                </a>
+            </div>
 
         </div>
 

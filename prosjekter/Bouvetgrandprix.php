@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <title>OH I Bouvet Grand Prix</title>
     <link rel="stylesheet" href="/css/deltstyle.css">
-    <link rel="stylesheet" href="/css/deltstyle_prosjekt.css">
+    <link rel="stylesheet" href="/css/prosjekter.css">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,300i,400,500,600,700" rel="stylesheet">
 
@@ -143,7 +143,8 @@
 
 
         <p><br><b>Andre bidragsytere:</b><br><b>Tech lead/utvikler</b>: Kristian Wille
-            <br><b>Utvikler:</b> Zulfeekar "Zulu" Cheriyampurath</p>
+            <br><b>Utvikler:</b> Zulfeekar "Zulu" Cheriyampurath
+        </p>
 
 
 

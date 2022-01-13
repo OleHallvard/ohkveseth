@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <title>OH I Obos</title>
     <link rel="stylesheet" href="/css/deltstyle.css">
-    <link rel="stylesheet" href="/css/deltstyle_prosjekt.css">
+    <link rel="stylesheet" href="/css/prosjekter.css">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,300i,400,500,600,700" rel="stylesheet">
     <script src="js/smoothScroll.js"></script>
@@ -155,7 +155,8 @@
 
 
 
-            <p><br><b><br>Andre bidragsytere:</b><br>Ole-Henrik Larssen<p>
+            <p><br><b><br>Andre bidragsytere:</b><br>Ole-Henrik Larssen
+            <p>
 
 
 
@@ -163,7 +164,7 @@
 
 
 
-                    <!-- Om man har stående bilde bruke denne koden under 
+                <!-- Om man har stående bilde bruke denne koden under 
 	<img class="prosjektbilde" src="img/FLYT0056_230x297_Amagasinet_nettside.jpg"/>
 	-->
 
@@ -174,7 +175,7 @@
 
 
 
-                    <!--
+                <!--
 	<div class="tobilderwrapper">
 		<img class="prosjektbilde_kvadrat" src="img/BW_firkant.jpg"/>
 		<img class="prosjektbilde_kvadrat" src="img/BW_firkant.jpg"/>

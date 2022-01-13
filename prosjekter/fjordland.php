@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <title>OH I Fjordland</title>
     <link rel="stylesheet" href="/css/deltstyle.css">
-    <link rel="stylesheet" href="/css/deltstyle_prosjekt.css">
+    <link rel="stylesheet" href="/css/prosjekter.css">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,300i,400,500,600,700" rel="stylesheet">
     <script src="js/smoothScroll.js"></script>

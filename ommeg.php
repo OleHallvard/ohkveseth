@@ -7,6 +7,7 @@
     <title>Ole Hallvard</title>
     <link rel="stylesheet" href="/css/ommeg.css">
     <link rel="stylesheet" href="/css/deltstyle.css">
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,300i,400,600,700" rel="stylesheet">
     <script src="js/smoothScroll.js"></script>
     <meta name="viewport" content="width=device-width">
@@ -140,112 +141,112 @@
             Bronse, diplom x 2 – Gullkalven<br />
 
 
-            <div class="blastrek"></div>
+        <div class="blastrek"></div>
 
 
-            <div class="tospalter">
+        <div class="tospalter">
 
-                <div class="venstre">
-                    <div class="heading">
-
-                        <div class="fbcircle2"><img class="programvare" src="/img/Main/programvare.svg" /></div>
-
-                        <div class="headingtekst">
-                            <h6>Programvare</h6>
-                        </div>
-
-                    </div>
-                    <p class="venstre">
-
-                        Figma<br />
-                        Adobe XD<br />
-                        Sketch<br />
-                        InVision<br />
-                        Zeplin<br />
-                        VS Code<br />
-                        Adobe Photoshop<br />
-                        InDesign<br />
-                        Illustrator<br />
-                        After Effects<br />
-                    </p>
-
-                </div>
-
-
-                <div class="hoyre">
-                    <div class="heading">
-
-                        <div class="fbcircle2"><img class="kamera" src="/img/Main/camera.svg" /></div>
-
-                        <div class="headingtekst">
-                            <h6>Utstyr</h6>
-                        </div>
-
-                    </div>
-
-                    <p class="hoyre2">
-                        Apple MacBook Pro<br />
-                        Canon 5D Mrk<br />
-                        Elinchrome lys<br />
-                        Wacom Intuos Medium<br />
-                        iPad
-                    </p>
-
-                </div>
-
-            </div>
-
-
-
-
-            <div class="blastrek"></div>
-
-
-
-            <div class="heading">
-
-                <div class="fbcircle2"><img class="stol" src="/img/Main/stol.svg" /></div>
-
-                <div class="headingtekst">
-                    <h6>Arbeidserfaring</h6>
-                </div>
-
-
-
-            </div>
-
-            <p class="desktoptekst">
-                Bouvet<br />
-                McCann<br />
-                Kitchen<br />
-                Try (praksis)<br />
-                <br />
-
-
-
-
-
-                <div class="blastrek"></div>
-
-
-
+            <div class="venstre">
                 <div class="heading">
 
-                    <div class="fbcircle2"><img class="papirfly" src="/img/Main/papirfly.svg" /></div>
+                    <div class="fbcircle2"><img class="programvare" src="/img/Main/programvare.svg" /></div>
 
                     <div class="headingtekst">
-                        <h6>Kontaktinfo</h6>
+                        <h6>Programvare</h6>
                     </div>
 
+                </div>
+                <p class="venstre">
 
+                    Figma<br />
+                    Adobe XD<br />
+                    Sketch<br />
+                    InVision<br />
+                    Zeplin<br />
+                    VS Code<br />
+                    Adobe Photoshop<br />
+                    InDesign<br />
+                    Illustrator<br />
+                    After Effects<br />
+                </p>
+
+            </div>
+
+
+            <div class="hoyre">
+                <div class="heading">
+
+                    <div class="fbcircle2"><img class="kamera" src="/img/Main/camera.svg" /></div>
+
+                    <div class="headingtekst">
+                        <h6>Utstyr</h6>
+                    </div>
 
                 </div>
 
-
-                <p class="desktoptekst">
-                    olehallvard@gmail.com<br />
-                    ole.kveseth@bouvet.no<br />
+                <p class="hoyre2">
+                    Apple MacBook Pro<br />
+                    Canon 5D Mrk<br />
+                    Elinchrome lys<br />
+                    Wacom Intuos Medium<br />
+                    iPad
                 </p>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="blastrek"></div>
+
+
+
+        <div class="heading">
+
+            <div class="fbcircle2"><img class="stol" src="/img/Main/stol.svg" /></div>
+
+            <div class="headingtekst">
+                <h6>Arbeidserfaring</h6>
+            </div>
+
+
+
+        </div>
+
+        <p class="desktoptekst">
+            Bouvet<br />
+            McCann<br />
+            Kitchen<br />
+            Try (praksis)<br />
+            <br />
+
+
+
+
+
+        <div class="blastrek"></div>
+
+
+
+        <div class="heading">
+
+            <div class="fbcircle2"><img class="papirfly" src="/img/Main/papirfly.svg" /></div>
+
+            <div class="headingtekst">
+                <h6>Kontaktinfo</h6>
+            </div>
+
+
+
+        </div>
+
+
+        <p class="desktoptekst">
+            olehallvard@gmail.com<br />
+            ole.kveseth@bouvet.no<br />
+        </p>
 
 
 

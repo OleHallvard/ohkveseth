@@ -40,13 +40,13 @@
     <div class="velkommen">
 
 
-        <img class="forsidebilde-mobil" src="../img/Main/statnett-designsystem-herobilde-2.png"
+        <img class="forsidebilde-mobil" src="../img/statnett/Powergrid-thumb-5.jpg"
             alt="Bilde av emblem for Statnetts designsystem">
 
-        <img class="forsidebilde-desktop-m" src="../img/Main/statnett-designsystem-herobilde-2.png"
+        <img class="forsidebilde-desktop-m" src="../img/statnett/Powergrid-thumb-5.jpg"
             alt="Bilde av emblem for Statnetts designsystem">
 
-        <img class="forsidebilde-desktop-l" src="../img/Main/statnett-designsystem-herobilde-2.png"
+        <img class="forsidebilde-desktop-l" src="../img/statnett/Powergrid-thumb-5.jpg"
             alt="Bilde av emblem for Statnetts designsystem">
 
 
@@ -107,10 +107,21 @@
                 </div>
             </div>
 
+            <p class="center-text"><br><br>Demo av designsystemet i Figma.
+            </p>
+
+            <div class="video-wrapper">
+                <div class="video-container-breddeformat">
+                    <!-- Breddeformat -->
+                    <iframe src="https://player.vimeo.com/video/671851808" width="1280" height="720" frameborder="0"
+                        webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
+
 
         </div>
 
-        <p>Filmen over er versjon 1.0</p>
+        <!--<p>Filmen over er versjon 1.0</p>-->
 
     </div>
 

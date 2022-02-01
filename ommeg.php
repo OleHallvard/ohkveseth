@@ -84,20 +84,29 @@
 
             <b>Profil</b><br /><br />
 
-            Ole Hallvard er mildt sagt meget opptatt av digitale løsninger uavhengig om det er en nettside, app eller
-            installasjon. Han er opptatt av hvordan løsningen faktisk fungerer for brukeren (UX), og hvordan løsningen
-            ser ut visuelt (UI/Grafisk).<br><br>
+            Ole Hallvard er UI/UX-designer med teft for gode og delikate brukeropplevelser. Han er opptatt av å ta vare
+            på både hjertet og hjernen til brukerne. Hjernen som i å løse reelle brukerbehov som gir verdi både for
+            brukeren og kunden. Og hjerte som at løsningen skal fremstå "delightful" for brukeren, og gjøre opplevelsen
+            ekstra god og tiltalende.<br><br>
 
-            Ole Hallvard trives godt i en rolle med kombinasjon av UX design og grafisk design. Han ser det som svært
-            viktig at løsningene han lager har tydelige mål, bruker innsikt smart, og har en dæsj kreativitet. Han har
-            opparbeidet en solid kompetanse innen design og utvikling av brukervennlige og universelt utformede
-            tjenester og har god kjennskap til etablerte prinsipper og konvensjoner for god brukeropplevelse.<br><br>
+            Ole Hallvard ser det som svært viktig at løsningene han lager har tydelige mål, og bruker reell innsikt som
+            springbrett til å skape en god og verdifull brukeropplevelse. Løsningene hans gjenspeiler fokus på
+            brukervennlighet, bruk av etablerte prinsipper og konvensjoner, universell utforming, responsivt design,
+            tett kontakt med brukerne, helhetlig og effektiv design (designsystem), og de ekstra visuelle finessene som
+            gjør at løsningen står ut.<br><br>
 
-            Han er svært opptatt av de håndverksmessige detaljene, og har en sjelden dybde innen designfag. Han kjenner
-            til de aller fleste hurtigtastene i programmer som Figma, Sketch, Adobe Photoshop og Illustrator, etc. I
-            tillegg kan han lage animasjoner, både som hele animasjonsfilmer og små mikroanimasjoner. For å sørge for at
-            den siste finishen sitter som den skal har han også grunnleggende kunnskap innenfor front end-utvikling,
-            slik at han aktivt kan bidra i den delen av utviklingsprosessen som omhandler design.
+            Han er svært opptatt av de håndverksmessige finessene, og har en sjelden dybde innen designfag. Med erfaring
+            fra reklamebyrå har han i tillegg en stor kreativ verktøykasse, og har dermed gode kunnskaper om å lage
+            animasjoner, bildebehandling, enkle illustrasjoner og kreativt design.<br><br>
+
+            Ole Hallvard higer hele tiden etter å bli en enda bedre designer, og for å oppnå dette er han også opptatt
+            av den tekniske front-end utviklingen. Både samarbeide tett med utviklere, men også lære seg mer innen dette
+            fagfeltet selv. Ole Hallvard bidrar der han kan med egen kode helt ut i produksjon, for at designet skal
+            skinne litt ekstra.<br><br>
+
+            Ole Hallvard er en hyggelig, engasjert og god lagspiller som trives i tverrfaglige team. Han jobber gjerne
+            etter prinsipper for smidig utviklingsmetodikk i henhold til Lean-prinsipper om bygg-mål-lær, og
+            scrum-metodikk.
 
 
 

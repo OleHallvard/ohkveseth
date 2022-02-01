@@ -21,8 +21,9 @@
 
     <meta charset="UTF-8">
     <title>Ole Hallvard</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style-min.css">
     <link rel="stylesheet" href="/css/deltstyle.css">
+
 
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,300i,400,600,700" rel="stylesheet">
@@ -65,13 +66,15 @@
 
         <div class="tekstblokk">
 
+            <div class="name">
+                <h1>
+                    <span>&nbsp;Ole&nbsp;&nbsp;<br>
+                </h1>
+                <h1><span>&nbsp;Hallvard&nbsp;&nbsp;<br></h1>
+                <h1><span>&nbsp;Kveseth&nbsp;&nbsp;<br></h1>
+            </div>
 
-
-            <h1><span>&nbsp;Ole&nbsp;&nbsp;<br></h1>
-            <h1><span>&nbsp;Hallvard&nbsp;&nbsp;<br></h1>
-            <h1><span>&nbsp;Kveseth&nbsp;&nbsp;<br></h1>
-
-            <h6><span>Designer</span></h6>
+            <h6 class="title">T-Shaped Designer focusing on UX/UI</h6>
 
             <div class="button-wrapper">
                 <a class="btn2" a href="#tilprosjekterdelen" onclick="smoothScroll('tilprosjekterdelen')">
@@ -81,8 +84,6 @@
                     <span class="row3">
                         <h2>Se</h2>
                     </span>
-
-
 
                     <a class="btn" href="ommeg">
                         <span class="row1">

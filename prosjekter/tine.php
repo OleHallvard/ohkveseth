@@ -46,13 +46,11 @@
 
 
 
-        <img class="forsidebilde-mobil" src="../img/Smartidrettsmat/Smartplanlegger-mockups2-mobil.jpg"
-            alt="Smart Planlegger">
+        <img class="forsidebilde-mobil" src="../img/Tine/Smartplanlegger-mockups2-mobil.jpg" alt="Smart Planlegger">
 
-        <img class="forsidebilde-desktop-m" src="../img/Smartidrettsmat/Smartplanlegger-mockups2.png"
-            alt="Smart Planlegger">
+        <img class="forsidebilde-desktop-m" src="../img/Tine/Smartplanlegger-mockups2.png" alt="Smart Planlegger">
 
-        <img class="forsidebilde-desktop-l" src="../img/Smartidrettsmat/Smartplanlegger-mockups2.png" alt="
+        <img class="forsidebilde-desktop-l" src="../img/Tine/Smartplanlegger-mockups2.png" alt="
             Smart Planlegger">
 
 
@@ -119,9 +117,9 @@
         </div>
 
 
-        <img class="prosjektbilde2" src="/img/Smartidrettsmat/Smartplanlegger-mockups.png" />
+        <img class="prosjektbilde2" src="/img/Tine/Smartplanlegger-mockups.png" />
 
-        <img class="prosjektbilde2" src="/img/Smartidrettsmat/Smartplanlegger-mockups-v2.png" />
+        <img class="prosjektbilde2" src="/img/Tine/Smartplanlegger-mockups-v2.png" />
 
         <img class="prosjektbilde2" src="/img/Smartplanlegger-mockups-v2-2.png" />
 
@@ -164,19 +162,19 @@
 
 
 
-        <img class="prosjektbilde2" src="/img/Smartidrettsmat/bilde1.jpg" />
+        <img class="prosjektbilde2" src="/img/Tine/bilde1.jpg" />
 
-        <img class="prosjektbilde2" src="/img/Smartidrettsmat/bilde2.jpg" />
+        <img class="prosjektbilde2" src="/img/Tine/bilde2.jpg" />
 
-        <img class="prosjektbilde2" src="/img/Smartidrettsmat/bilde3.jpg" />
+        <img class="prosjektbilde2" src="/img/Tine/bilde3.jpg" />
 
-        <img class="prosjektbilde2" src="/img/Smartidrettsmat/bilde4.jpg" />
+        <img class="prosjektbilde2" src="/img/Tine/bilde4.jpg" />
 
-        <img class="prosjektbilde2" src="/img/Smartidrettsmat/bilde5.jpg" />
+        <img class="prosjektbilde2" src="/img/Tine/bilde5.jpg" />
 
-        <img class="prosjektbilde2" src="/img/Smartidrettsmat/Tine_SI_Bilde2_M.jpg" />
+        <img class="prosjektbilde2" src="/img/Tine/Tine_SI_Bilde2_M.jpg" />
 
-        <img class="prosjektbilde2" src="/img/Smartidrettsmat/Tine_SI_Bilde1_M.jpg" />
+        <img class="prosjektbilde2" src="/img/Tine/Tine_SI_Bilde1_M.jpg" />
 
 
 

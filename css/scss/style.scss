@@ -358,12 +358,12 @@ h6.project-heading {
   text-align: center;
   margin-top: 28px;
   margin-bottom: 12px;
-  font-size: 26px;
+  font-size: 22px;
 }
 
 @media only screen and (min-width: 600px) {
   h6.project-heading {
-    font-size: 32px;
+    font-size: 26px;
   }
 }
 
@@ -1035,7 +1035,6 @@ a.btn2:hover .row3 {
 
 .prosjektwrapper {
   overflow: hidden;
-
   padding: 20px;
   display: -ms-grid;
   display: grid;

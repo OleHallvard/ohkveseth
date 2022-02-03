@@ -108,14 +108,14 @@ let projects = {
     Kreftforeningen: {
         name: "Kreftforeningen",
         url: "kreftforeningen",
-        frontpage: true,
+        frontpage: false,
         shorttitle: "Stjerner gir håp",
         thumbimg: "Kreftforeningen.jpg",
     },
     Student: {
         name: "Studentarbeider",
         url: "studentarbeider",
-        frontpage: true,
+        frontpage: false,
         shorttitle: "Diverse",
         thumbimg: "Ikea_stolleken_forsidebilde_small.jpg",
     },

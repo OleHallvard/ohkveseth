@@ -261,8 +261,9 @@
         <script>
         for (let project in projects) {
 
-            let projects_html = `
+            if (projects[project].frontpage === true) {
 
+                let projects_html = `
 
         <a href="/prosjekter/${projects[project].url}" class="project">
             <div class="hoverblue"></div>
@@ -277,7 +278,8 @@
         </a>              
 `;
 
-            document.getElementById("ohk-projects").innerHTML += projects_html;
+                document.getElementById("ohk-projects").innerHTML += projects_html;
+            };
         };
         </script>
     </div>

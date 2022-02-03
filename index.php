@@ -19,15 +19,12 @@
     </script>
 
 
-
     <meta charset="UTF-8">
     <title>Ole Hallvard</title>
-    <link rel="stylesheet" href="/css/style-min.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/deltstyle.css">
-
-
-
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,300i,400,600,700" rel="stylesheet">
+
     <script src="js/smoothScroll.js"></script>
     <script src="/prosjekter/projects.js"></script>
     <meta name="viewport" content="width=device-width">
@@ -35,36 +32,15 @@
 
 </head>
 
-
-
-<style>
-::-moz-selection {
-    /* Code for Firefox bla bla tredje commit*/
-    color: #eee;
-    background: #1b14ac;
-}
-
-::selection {
-    color: #eee;
-    background: #1b14ac;
-}
-</style>
-
-
 <body>
 
 
     <?php include("includes/meny.php"); ?>
 
 
-
     <div class="tiltoppen"><a id="top"></a></div>
 
     <div class="velkommen">
-
-        <!--<div class="fargeeffekt"></div>-->
-
-
 
         <div class="tekstblokk">
 
@@ -288,13 +264,15 @@
             let projects_html = `
 
 
-        <a href="/prosjekter/${projects[project].url}" class="prosjekt2">
+        <a href="/prosjekter/${projects[project].url}" class="project">
             <div class="hoverblue"></div>
+            <div class="project-content">
             <div class="tekstwrapper">
-                <h4>${projects[project].name}</h4>
-                <h5>${projects[project].shorttitle}</h5>
+                <h4 class="project-client">${projects[project].name}</h4>
+                <h5 class="project-title">${projects[project].shorttitle}</h5>
             </div>
-            <div class="sortoverlay"></div>
+            </div>
+          
             <img class="thumb" src="../img/${projects[project].url}/${projects[project].thumbimg}" alt="${projects[project].shorttile}">
         </a>              
 `;

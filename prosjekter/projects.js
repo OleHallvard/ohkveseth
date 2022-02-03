@@ -32,7 +32,7 @@ let projects = {
         name: "OBOS",
         url: "obos",
         frontpage: true,
-        shorttitle: "Forkjøprsrett",
+        shorttitle: "Forkjøpsrett",
         thumbimg: "Obos-mockup-thumb.jpg",
     },
     Fjordland: {

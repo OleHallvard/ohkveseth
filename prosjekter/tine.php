@@ -161,7 +161,6 @@
 
 
 
-
         <img class="prosjektbilde2" src="/img/Tine/bilde1.jpg" />
 
         <img class="prosjektbilde2" src="/img/Tine/bilde2.jpg" />

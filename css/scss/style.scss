@@ -7,6 +7,17 @@
   font-family: "Open Sans", sans-serif;
 }
 
+::-moz-selection {
+  /* Code for Firefox bla bla tredje commit*/
+  color: #eee;
+  background: #1b14ac;
+}
+
+::selection {
+  color: #eee;
+  background: #1b14ac;
+}
+
 #lottie {
   display: none;
 }
@@ -32,6 +43,19 @@ h6.title {
   @media (min-width: $screen-laptop) {
     font-size: 24px;
   }
+}
+
+.project-content {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  width: fit-content;
+  transition: all 0.5s ease;
+}
+
+.project:hover .project-content {
+  padding: 30px;
+  transition: all 0.5s ease;
 }
 
 .bg-grid-container {
@@ -237,6 +261,30 @@ h6.title {
   }
 }
 
+h4.project-client {
+  color: #b4b4b4;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  background-color: #000;
+  display: inline-block;
+  padding: 0px 8px;
+}
+
+h5.project-title {
+  z-index: 500;
+  color: #f7f7f7;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  background-color: $ohk-blue;
+  padding: 5px 10px;
+  width: fit-content;
+
+  @media (min-width: $screen-laptop) {
+    font-size: 34px;
+  }
+}
 .tekstblokk {
   z-index: 100;
   left: 13%;
@@ -250,26 +298,6 @@ h6.title {
 
 #safari {
   display: none;
-}
-
-.tekstwrapper {
-  z-index: 1000;
-  position: absolute;
-  bottom: 35px;
-  transition: all 200ms ease-in;
-  margin-left: 20px;
-}
-
-@media (min-width: 600px) {
-  .tekstwrapper {
-    margin-left: 30px;
-  }
-}
-
-.prosjekt2:hover .tekstwrapper {
-  bottom: 40px;
-  margin-left: 25px;
-  transition: all 0.5s ease;
 }
 
 .bakgrunnsfargen {
@@ -613,67 +641,6 @@ h3 {
   line-height: 20px;
 }
 
-h4 {
-  color: #b4b4b4;
-  font-family: "Open Sans", sans-serif;
-  font-size: 22px;
-  font-weight: 100;
-  letter-spacing: 0.02em;
-  text-align: center;
-  line-height: 40px;
-  background-color: #000;
-  display: inline-block;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 0px;
-  margin-left: 20px;
-}
-
-h5 {
-  z-index: 500;
-  color: #f7f7f7;
-  font-family: "Open Sans", sans-serif;
-  font-size: 38px;
-  font-weight: 600;
-  letter-spacing: 0em;
-  text-align: left;
-  vertical-align: center;
-  vertical-align: middle;
-  line-height: 55px;
-  background-color: #1b14ac;
-  padding-left: 18px;
-  padding-right: 18px;
-  padding-bottom: 5px;
-  margin-right: 20px;
-}
-
-.fargeeffekt {
-  display: block;
-  z-index: 100000000;
-  position: fixed;
-  width: 40%;
-  height: 100vh;
-  background: #1b14ac;
-  left: -45%;
-
-  -webkit-animation-name: fargeeffekten; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 1.5s; /* Safari 4.0 - 8.0 */
-  animation-name: fargeeffekten;
-  animation-duration: 1.5s;
-  -webkit-animation-fill-mode: forwards;
-  -webkit-animation-iteration-count: 1;
-  animation-delay: 0.15s;
-}
-
-@-webkit-keyframes fargeeffekten {
-  from {
-    left: -45%;
-  }
-  to {
-    left: 100%;
-  }
-}
-
 .blastrek {
   z-index: 120;
   position: relative;
@@ -811,7 +778,7 @@ h5 {
   -webkit-transform: translateZ(0px);
 }
 
-.prosjekt2 {
+.project {
   position: relative;
   cursor: pointer;
   overflow: visible;
@@ -819,18 +786,6 @@ h5 {
   padding: 0px;
   bottom: 0;
   transition: all 0.5s ease;
-}
-
-/*
-.prosjekt2:nth-child(even) {
-  top: 60px;
-}
-*/
-
-@media only screen and (max-width: 599px) {
-  .prosjekt2 {
-    padding: 20px;
-  }
 }
 
 .fullscreen-bg {
@@ -1078,18 +1033,17 @@ a.btn2:hover .row3 {
   }
 }
 
-@media only screen and (max-width: 599px) {
-  .prosjektwrapper {
-    z-index: 1000;
-    display: block;
-    width: 100%;
-    height: 100%;
-    float: left;
-    overflow: hidden;
-  }
-}
-@media only screen and (min-width: 600px) {
-  .prosjektwrapper {
+.prosjektwrapper {
+  overflow: hidden;
+
+  padding: 20px;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+
+  @media (min-width: $screen-tablet) {
     padding: 20px;
     display: -ms-grid;
     display: grid;
@@ -1097,10 +1051,8 @@ a.btn2:hover .row3 {
     row-gap: 20px;
     column-gap: 20px;
   }
-}
 
-@media only screen and (min-width: 1800px) {
-  .prosjektwrapper {
+  @media (min-width: $screen-desktop) {
     padding: 30px;
     display: -ms-grid;
     display: grid;
@@ -1151,18 +1103,18 @@ a.btn2:hover .row3 {
   background-color: #1b14ac;
 }
 
-.prosjekt2:hover .hoverblue {
+.project:hover .hoverblue {
   opacity: 0.4;
 }
 
-.prosjekt2:hover .strek {
+.project:hover .strek {
   width: 50%;
   height: 2px;
   background: #eee;
   transition: all 0.25s ease;
 }
 
-.prosjekt2:hover {
+.project:hover {
   -webkit-box-shadow: 0px 10px 34px -3px rgba(0, 0, 0, 0.49);
   -moz-box-shadow: 0px 10px 34px -3px rgba(0, 0, 0, 0.49);
   box-shadow: 0px 10px 34px -3px rgba(0, 0, 0, 0.49);
@@ -1372,40 +1324,6 @@ z-index: -1000000000;
     height: 50px;
     top: 0px;
   }
-
-  h4 {
-    color: #b4b4b4;
-    font-family: "Open Sans", sans-serif;
-    font-size: 18px;
-    font-weight: 100;
-    letter-spacing: 0.02em;
-    text-align: center;
-    line-height: 32px;
-    background-color: #000;
-    display: inline-block;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-bottom: 2px;
-    margin-left: 15px;
-  }
-
-  h5 {
-    z-index: 500;
-    color: #f7f7f7;
-    font-family: "Open Sans", sans-serif;
-    font-size: 27.5px;
-    font-weight: 600;
-    letter-spacing: 0em;
-    text-align: left;
-    vertical-align: center;
-    vertical-align: middle;
-    line-height: 32px;
-    background-color: #1b14ac;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-bottom: 3px;
-    margin-right: 25px;
-  }
 }
 
 /*Medium skjermn*/
@@ -1451,40 +1369,6 @@ z-index: -1000000000;
     transform: translate(0%, -50%);
     -webkit-transform: translate(0%, -51%);
     border: 0px solid #bada55;
-  }
-
-  h4 {
-    color: #b4b4b4;
-    font-family: "Open Sans", sans-serif;
-    font-size: 22px;
-    font-weight: 100;
-    letter-spacing: 0.02em;
-    text-align: center;
-    line-height: 36px;
-    background-color: #000;
-    display: inline-block;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-bottom: 2px;
-    margin-left: 15px;
-  }
-
-  h5 {
-    z-index: 500;
-    color: #f7f7f7;
-    font-family: "Open Sans", sans-serif;
-    font-size: 32px;
-    font-weight: 600;
-    letter-spacing: 0em;
-    text-align: left;
-    vertical-align: center;
-    vertical-align: middle;
-    line-height: 36px;
-    background-color: #1b14ac;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-bottom: 5px;
-    margin-right: 25px;
   }
 
   @media (max-width: 1024px) {
@@ -1575,22 +1459,6 @@ z-index: -1000000000;
       padding-top: 6px;
     }
 
-    h4 {
-      color: #b4b4b4;
-      font-family: "Open Sans", sans-serif;
-      font-size: 22px;
-      font-weight: 100;
-      letter-spacing: 0.02em;
-      text-align: center;
-      line-height: 40px;
-      background-color: #000;
-      display: inline-block;
-      padding-left: 12px;
-      padding-right: 12px;
-      padding-bottom: 2px;
-      margin-left: 20px;
-    }
-
     .tekstblokk {
       z-index: 100;
       left: 12.5%;
@@ -1600,24 +1468,6 @@ z-index: -1000000000;
       transform: translate(0%, -50%);
       -webkit-transform: translate(0%, -51%);
       border: 0px solid #bada55;
-    }
-
-    h5 {
-      z-index: 500;
-      color: #f7f7f7;
-      font-family: "Open Sans", sans-serif;
-      font-size: 38px;
-      font-weight: 600;
-      letter-spacing: 0em;
-      text-align: left;
-      vertical-align: center;
-      vertical-align: middle;
-      line-height: 55px;
-      background-color: #1b14ac;
-      padding-left: 18px;
-      padding-right: 18px;
-      padding-bottom: 5px;
-      margin-right: 20px;
     }
   }
 
@@ -1663,41 +1513,6 @@ z-index: -1000000000;
       font-weight: 200;
       letter-spacing: 0.03em;
       line-height: 20px;
-    }
-
-    h4 {
-      color: #b4b4b4;
-      font-family: "Open Sans", sans-serif;
-      font-size: 25px;
-
-      font-weight: 100;
-      letter-spacing: 0.02em;
-      text-align: center;
-      line-height: 44px;
-      background-color: #000;
-      display: inline-block;
-      padding-left: 14px;
-      padding-right: 14px;
-      padding-bottom: 4px;
-      margin-left: 20px;
-    }
-
-    h5 {
-      z-index: 500;
-      color: #f7f7f7;
-      font-family: "Open Sans", sans-serif;
-      font-size: 47px;
-      font-weight: 600;
-      letter-spacing: 0em;
-      text-align: left;
-      vertical-align: center;
-      vertical-align: middle;
-      line-height: 70px;
-      background-color: #1b14ac;
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-bottom: 5px;
-      margin-right: 20px;
     }
 
     a.btn2 .row3 {
@@ -1781,14 +1596,11 @@ z-index: -1000000000;
 
     .tekstwrapper {
       z-index: 1000;
-      position: absolute;
       border: 0px solid #bada55;
-      bottom: 25px;
-      margin-left: 20px;
       transition: all 200ms ease-in;
     }
 
-    .prosjekt2:hover .tekstwrapper {
+    .project:hover .tekstwrapper {
       z-index: 1000;
       position: absolute;
       border: 0px solid #bada55;

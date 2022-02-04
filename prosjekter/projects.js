@@ -4,7 +4,7 @@ let projects = {
         name: "Tine",
         url: "tine",
         frontpage: true,
-        shorttitle: "Konseptfilm",
+        shorttitle: "Konseptfilm & Web",
         thumbimg: "Smartplanlegger-mockups2.png",
     },
     Imdi: {

@@ -35,13 +35,9 @@ h6.title {
 .project-content {
   position: absolute;
   bottom: 0;
-  padding: 20px;
+  padding: 120px;
   width: fit-content;
-  transition: all 0.5s ease; }
-
-.project:hover .project-content {
-  padding: 30px;
-  transition: all 0.5s ease; }
+  transition: all 3.5s ease; }
 
 .bg-grid-container {
   width: calc(100% - 20px);

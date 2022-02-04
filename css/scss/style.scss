@@ -44,6 +44,7 @@ $project-color: #2b2e35;
     margin: auto;
     border-radius: 16px;
     filter: drop-shadow(28px 28px 0px rgba(0, 0, 0, 0.1));
+    border: 1px solid rgba(0, 0, 0, 0.05);
 
     .project-screen-content {
       display: inline-flex;

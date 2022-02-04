@@ -28,7 +28,8 @@
     background: rgba(0, 0, 0, 0.1);
     margin: auto;
     border-radius: 16px;
-    filter: drop-shadow(28px 28px 0px rgba(0, 0, 0, 0.1)); }
+    filter: drop-shadow(28px 28px 0px rgba(0, 0, 0, 0.1));
+    border: 1px solid rgba(0, 0, 0, 0.05); }
     .project-container .project-screen .project-screen-content {
       display: inline-flex;
       width: 92%;

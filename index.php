@@ -47,9 +47,9 @@
 
             let projects_html = `
 
-            <a href="/prosjekter/${projects[project].url}" class="project">
+            <a href="/prosjekter/${projects[project].url}" class="project" style="background: ${projects[project].color};">
                 
-            <div class="project-screen">
+            <div class="project-screen" style="background: style="background: ${projects[project].color};">
                 <div class="project-screen-content">
                     <div class="gloss"></div>
                    <img class="thumb" src="../img/${projects[project].url}/${projects[project].thumbimg}" alt="${projects[project].shorttile}"/>
@@ -58,7 +58,7 @@
             
             <div class="project-content">
                 <div class="project-padding">
-                <div class="projects-facts">
+                <div class="projects-facts" style="color: ${projects[project].textcolor};">
                     <h4 class="project-client">${projects[project].name}</h4>
                     <h5 class="project-title">${projects[project].shorttitle}</h5>
                 </div>

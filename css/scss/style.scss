@@ -12,8 +12,8 @@ $project-color: #2b2e35;
 .project-container {
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 10px;
-  column-gap: 10px;
+  //row-gap: 10px;
+  //column-gap: 10px;
 
   @media (min-width: $screen-tablet) {
     grid-template-columns: 1fr 1fr;
@@ -24,7 +24,7 @@ $project-color: #2b2e35;
   }
 
   .project {
-    background: $project-color;
+    //background: $project-color;
     display: block;
     position: relative;
     height: 60vh;
@@ -34,19 +34,21 @@ $project-color: #2b2e35;
     display: flex;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 44%;
     transform: translate(-50%, -50%);
     width: 38%;
     min-width: 174px;
     height: 65%;
-    background: darken($project-color, 9%);
+    //background: darken($project-color, 9%);
+    background: rgba(0, 0, 0, 0.1);
     margin: auto;
     border-radius: 16px;
+    filter: drop-shadow(28px 28px 0px rgba(0, 0, 0, 0.1));
 
     .project-screen-content {
       display: inline-flex;
-      width: 90%;
-      height: 93%;
+      width: 92%;
+      height: 95%;
       position: absolute;
       left: 50%;
       top: 50%;
@@ -88,17 +90,16 @@ $project-color: #2b2e35;
     .projects-facts {
       flex: 1;
       width: fit-content;
-      color: white;
 
       .project-client {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 600;
         margin-bottom: $space-xxxs;
       }
 
       .project-title {
         font-size: 12px;
-        font-weight: 400;
+        font-weight: 300;
         max-width: 70%;
       }
     }
@@ -106,9 +107,10 @@ $project-color: #2b2e35;
     .project-tags {
       align-self: flex-end;
       .tag {
-        color: #bcc2ce;
+        color: white;
         font-weight: 500;
-        background: darken($project-color, 9%);
+        //background: darken($project-color, 9%);
+        background: rgba(0, 0, 0, 0.15);
         padding: 6px 12px;
         border-radius: 30px;
         font-size: 10px;

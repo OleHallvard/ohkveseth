@@ -28,11 +28,10 @@
     width: 38%;
     min-width: 174px;
     height: 65%;
-    background: #1c1f28;
+    background: #16181c;
     margin: auto;
     border-radius: 16px; }
     .project-container .project-screen .project-screen-content {
-      background: yellow;
       display: inline-flex;
       width: 90%;
       height: 93%;
@@ -40,9 +39,21 @@
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
-      border-radius: 10px; }
-    .project-container .project-screen .thumb {
-      padding: 20px; }
+      border-radius: 10px;
+      overflow: hidden; }
+      .project-container .project-screen .project-screen-content .gloss {
+        width: 77%;
+        height: 120%;
+        transform: rotate(-25deg);
+        background: white;
+        position: absolute;
+        right: -49px;
+        top: -60px;
+        opacity: 0.12; }
+      .project-container .project-screen .project-screen-content .thumb {
+        object-fit: cover;
+        width: 100%;
+        height: 100%; }
   .project-container .project-content {
     position: absolute;
     width: 100%;
@@ -68,7 +79,8 @@
       align-self: flex-end; }
       .project-container .project-content .project-tags .tag {
         color: #bcc2ce;
-        background: #1c1f28;
-        padding: 4px 12px;
+        font-weight: 500;
+        background: #16181c;
+        padding: 6px 12px;
         border-radius: 30px;
         font-size: 10px; }

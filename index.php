@@ -51,7 +51,8 @@
                 
             <div class="project-screen">
                 <div class="project-screen-content">
-                    <!--<img class="thumb" src="../img/${projects[project].url}/${projects[project].thumbimg}" alt="${projects[project].shorttile}"/>-->
+                    <div class="gloss"></div>
+                   <img class="thumb" src="../img/${projects[project].url}/${projects[project].thumbimg}" alt="${projects[project].shorttile}"/>
                 </div>
             </div>
             

@@ -4,14 +4,14 @@ let projects = {
         name: "Tine",
         url: "tine",
         frontpage: true,
-        shorttitle: "Konseptfilm & Web",
+        shorttitle: "Lorem ipsum dette er en veldig kort tekst som er et avsnitt ca.",
         thumbimg: "Smartplanlegger-mockups2.png",
     },
     Imdi: {
         name: "Imdi",
         url: "imdi",
         frontpage: true,
-        shorttitle: "Lanseringsfilm",
+        shorttitle: "Lorem ipsum dette er en veldig kort tekst som er et avsnitt ca.",
         thumbimg: "imdi_toppbilde.jpg",
     },
     Nordea: {

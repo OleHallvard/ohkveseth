@@ -10,28 +10,84 @@
 $project-color: #2b2e35;
 
 .hero-opener {
-  padding: 2vw;
+  padding: calc(20px + 3vw) calc(20px + 3vw);
   line-height: 1.1;
   font-size: 9vw;
   font-weight: 200;
-  background: linear-gradient(
-    165deg,
-    rgba(0, 0, 255, 0.829),
-    rgb(224, 26, 158)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
+  .gradient {
+    background: linear-gradient(
+      165deg,
+      rgba(0, 0, 255, 0.829),
+      rgb(224, 26, 158)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   .name {
-    //color: $project-color;
     white-space: nowrap;
   }
   .about {
+    margin-bottom: calc(10px + 1vw);
   }
+
+  .about-more-button {
+    display: block;
+    font-size: calc(14px + 2vw);
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(
+      165deg,
+      rgba(0, 0, 255, 0.829),
+      rgb(224, 26, 158)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.collapsible {
+  cursor: pointer;
+  width: 100%;
+}
+
+.active,
+.collapsible:hover {
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  max-width: 90vw;
+
+  @media (min-width: $screen-laptop) {
+    max-width: 60vw;
+  }
+
+  .about-text {
+    margin-top: calc(10px + 1vw);
+    margin-bottom: 1vw;
+    font-weight: 300;
+    font-size: calc(14px + 1.52vw);
+    line-height: 135%;
+    background: linear-gradient(
+      165deg,
+      rgba(0, 0, 255, 0.829),
+      rgb(224, 26, 158)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+button {
+  all: unset;
 }
 
 .project-container {
   display: grid;
-  padding: 40px;
+  padding: 0px calc(20px + 3vw);
   grid-template-columns: 1fr;
   //row-gap: 10px;
   grid-gap: 20px;

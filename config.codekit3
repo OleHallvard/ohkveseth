@@ -1263,6 +1263,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/main\/olehallvard-profilbilde.jpeg" : {
+      "ft" : 16384,
+      "iS" : 17198,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/main\/olehallvard-profilbilde.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/Main\/papirfly.svg" : {
       "ft" : 2097152,
       "miP" : 0,

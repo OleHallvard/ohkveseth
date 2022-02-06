@@ -37,9 +37,73 @@
 <body>
 
     <div class="hero-opener">
-        <div class="name"><b>Ole Hallvard Kveseth</b></div>
-        <div class="about">T-shaped <b>designer</b> focusing on <b>UX/UI</b></div>
+        <div class="gradient">
+            <div class="name"><b>Ole Hallvard Kveseth</b></div>
+            <div class="about">T-formet <b>designer</b> med fokus på <b>UX/UI</b></div>
+        </div>
+        <button id="myDIV" class="about-more-button">+ Les mer</button>
+
+        <div class="content">
+
+            <img src="/img/main/olehallvard-profilbilde.jpeg" alt="profilbilde" class="profil-picture" />
+            <p class="about-text">Ole Hallvard er UI/UX-designer med teft for gode og delikate brukeropplevelser. Han er
+                opptatt av å ta
+                vare på både hjertet og hjernen til brukerne. Hjernen som i å løse reelle brukerbehov som gir verdi både
+                for brukeren og kunden. Og hjerte som at løsningen skal fremstå "delightful" for brukeren, og gjøre
+                opplevelsen ekstra god og tiltalende.</p>
+
+            <p class="about-text">Ole Hallvard ser det som svært viktig at løsningene han lager har tydelige mål, og
+                bruker reell innsikt
+                som springbrett til å skape en god og verdifull brukeropplevelse. Løsningene hans gjenspeiler fokus på
+                brukervennlighet, bruk av etablerte prinsipper og konvensjoner, universell utforming, responsivt design,
+                tett kontakt med brukerne, helhetlig og effektiv design (designsystem), og de ekstra visuelle finessene
+                som gjør at løsningen står ut.</p>
+
+            <p class="about-text">Han er svært opptatt av de håndverksmessige finessene, og har en sjelden dybde innen
+                designfag. Med
+                erfaring fra reklamebyrå har han i tillegg en stor kreativ verktøykasse, og har dermed gode kunnskaper
+                om å lage animasjoner, bildebehandling, enkle illustrasjoner og kreativt design.</p>
+
+            <p class="about-text">Ole Hallvard higer hele tiden etter å bli en enda bedre designer, og for å oppnå dette
+                er han også
+                opptatt av den tekniske front-end utviklingen. Både samarbeide tett med utviklere, men også lære seg mer
+                innen dette fagfeltet selv. Ole Hallvard bidrar der han kan med egen kode helt ut i produksjon, for at
+                designet skal skinne litt ekstra.</p>
+
+            <p class="about-text">Ole Hallvard er en hyggelig, engasjert og god lagspiller som trives i tverrfaglige
+                team. Han jobber
+                gjerne etter prinsipper for smidig utviklingsmetodikk i henhold til Lean-prinsipper om bygg-mål-lær, og
+                scrum-metodikk.</p>
+        </div>
     </div>
+
+    <script>
+    var coll = document.getElementsByClassName("about-more-button");
+    var i;
+
+
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+
+            var x = document.getElementById("myDIV");
+            if (x.innerHTML === "- Skjul") {
+                x.innerHTML = "+ Ler mer";
+            } else {
+                x.innerHTML = "- Skjul";
+            }
+
+
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    }
+    </script>
 
 
     <div id="ohk-projects" class="project-container"></div>

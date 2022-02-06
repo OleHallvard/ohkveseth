@@ -4,19 +4,54 @@
   font-family: "Inter", sans-serif; }
 
 .hero-opener {
-  padding: 2vw;
+  padding: calc(20px + 3vw) calc(20px + 3vw);
   line-height: 1.1;
   font-size: 9vw;
-  font-weight: 200;
-  background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  font-weight: 200; }
+  .hero-opener .gradient {
+    background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
   .hero-opener .name {
     white-space: nowrap; }
+  .hero-opener .about {
+    margin-bottom: calc(10px + 1vw); }
+  .hero-opener .about-more-button {
+    display: block;
+    font-size: calc(14px + 2vw);
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
+.collapsible {
+  cursor: pointer;
+  width: 100%; }
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  max-width: 90vw; }
+  @media (min-width: 1000px) {
+    .content {
+      max-width: 60vw; } }
+  .content .about-text {
+    margin-top: calc(10px + 1vw);
+    margin-bottom: 1vw;
+    font-weight: 300;
+    font-size: calc(14px + 1.52vw);
+    line-height: 135%;
+    background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
+button {
+  all: unset; }
 
 .project-container {
   display: grid;
-  padding: 40px;
+  padding: 0px calc(20px + 3vw);
   grid-template-columns: 1fr;
   grid-gap: 20px; }
   @media (min-width: 700px) {

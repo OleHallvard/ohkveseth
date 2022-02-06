@@ -36,10 +36,13 @@
 
 <body>
 
+    <div class="hero-opener">
+        <div class="name"><b>Ole Hallvard Kveseth</b></div>
+        <div class="about">T-shaped <b>designer</b> focusing on <b>UX/UI</b></div>
+    </div>
 
 
     <div id="ohk-projects" class="project-container"></div>
-
     <script>
     for (let project in projects) {
 

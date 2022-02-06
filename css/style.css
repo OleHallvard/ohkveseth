@@ -3,9 +3,22 @@
   padding: 0;
   font-family: "Inter", sans-serif; }
 
+.hero-opener {
+  padding: 2vw;
+  line-height: 1.1;
+  font-size: 9vw;
+  font-weight: 200;
+  background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+  .hero-opener .name {
+    white-space: nowrap; }
+
 .project-container {
   display: grid;
-  grid-template-columns: 1fr; }
+  padding: 40px;
+  grid-template-columns: 1fr;
+  grid-gap: 20px; }
   @media (min-width: 700px) {
     .project-container {
       grid-template-columns: 1fr 1fr; } }

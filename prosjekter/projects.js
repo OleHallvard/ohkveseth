@@ -35,7 +35,7 @@ let projects = {
         url: "bouvetgrandprix",
         frontpage: true,
         shorttitle: "Bouvet Grand Prix",
-        thumbimg: "bgp.jpg",
+        thumbimg: "bouvet-grandprix-mobil.png",
         color: "#2B2E35",
         textcolor: textlight,
     },

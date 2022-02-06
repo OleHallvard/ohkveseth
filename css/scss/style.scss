@@ -9,10 +9,32 @@
 
 $project-color: #2b2e35;
 
+.hero-opener {
+  padding: 2vw;
+  line-height: 1.1;
+  font-size: 9vw;
+  font-weight: 200;
+  background: linear-gradient(
+    165deg,
+    rgba(0, 0, 255, 0.829),
+    rgb(224, 26, 158)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  .name {
+    //color: $project-color;
+    white-space: nowrap;
+  }
+  .about {
+  }
+}
+
 .project-container {
   display: grid;
+  padding: 40px;
   grid-template-columns: 1fr;
   //row-gap: 10px;
+  grid-gap: 20px;
   //column-gap: 10px;
 
   @media (min-width: $screen-tablet) {

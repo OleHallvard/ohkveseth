@@ -87,6 +87,18 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/css\/scss\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/scss\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/scss\/style.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -581,6 +593,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/bouvetgrandprix\/bouvet-grandprix-mobil.png" : {
+      "ft" : 32768,
+      "iS" : 459927,
+      "oA" : 0,
+      "oAP" : "\/img\/bouvetgrandprix\/bouvet-grandprix-mobil.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

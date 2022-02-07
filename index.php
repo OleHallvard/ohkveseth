@@ -46,7 +46,9 @@
         <div class="content">
 
             <img src="/img/main/olehallvard-profilbilde.jpeg" alt="profilbilde" class="profil-picture" />
-            <p class="about-text">Ole Hallvard er UI/UX-designer med teft for gode og delikate brukeropplevelser. Han er
+            <p class="about-text">Ole Hallvard (f. 1988) er UI/UX-designer med teft for gode og delikate
+                brukeropplevelser.
+                Han er
                 opptatt av å ta
                 vare på både hjertet og hjernen til brukerne. Hjernen som i å løse reelle brukerbehov som gir verdi både
                 for brukeren og kunden. Og hjerte som at løsningen skal fremstå "delightful" for brukeren, og gjøre
@@ -70,11 +72,54 @@
                 innen dette fagfeltet selv. Ole Hallvard bidrar der han kan med egen kode helt ut i produksjon, for at
                 designet skal skinne litt ekstra.</p>
 
-            <p class="about-text">Ole Hallvard er en hyggelig, engasjert og god lagspiller som trives i tverrfaglige
-                team. Han jobber
-                gjerne etter prinsipper for smidig utviklingsmetodikk i henhold til Lean-prinsipper om bygg-mål-lær, og
+            <p class="about-text">Ole Hallvard trives i tverrfaglige
+                team, og jobber gjerne
+                etter prinsipper for smidig utviklingsmetodikk i henhold til Lean-prinsipper om bygg-mål-lær, og
                 scrum-metodikk.</p>
+
+
+            <div class="divider-line"></div>
+            <div class="title-medium">Kontakt</div>
+            <p class="about-text">olehallvard@gmail.com</p>
+
+            <div class="divider-line"></div>
+
+            <div class="title-medium">Utmerkelser</div>
+            <p class="about-text">
+                Sølv – Max Marketing Mix 2018,
+                Gull + bronse – Gullblyanten 2015,
+                Gull – Gulltaggen 2015,
+                Gull – Max Marketing Mix 2015,
+                Gull + Bronse– Retailprisen 2015,
+                Bronse – Eurobest 2015,
+                Diplom – Gullsnitt 2014,
+                2 x Bronse – London International Awards 2014,
+                Sølv – Cristal Awards 2014,
+                Diplom – Gullblyanten 2013<br>
+
+
+            <div class="title-medium">Student</div>
+            <p class="about-text">
+                Gull - Max Marketing Mix 2012,
+                Gullblyanten – Diplom 2012,
+                Best YET Norge 2012 – Bronse,
+                Gull - Max Marketing Mix 2011,
+                Finalist – New York Festivals,
+                Bronse, diplom x 2 – Gullkalven</p>
+
+            <div class="divider-line"></div>
+
+
+            <div class="title-medium">Arbeidserfaring</div>
+            <p class="about-text">
+                Bouvet,
+                McCann,
+                Kitchen,
+                Try (praksis).
         </div>
+    </div>
+    </div>
+    </div>
     </div>
 
     <script>

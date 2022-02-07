@@ -29,6 +29,25 @@
   cursor: pointer;
   width: 100%; }
 
+.divider-line {
+  height: 2px;
+  width: 100%;
+  position: relative;
+  margin: 80px 0;
+  background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e); }
+
+.active,
+.collapsible:hover {
+  background: red; }
+
+.title-medium {
+  font-weight: 600;
+  margin-top: 120px;
+  font-size: calc(14px + 1.52vw);
+  background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
 .content {
   max-height: 0;
   overflow: hidden;
@@ -36,6 +55,9 @@
   @media (min-width: 1000px) {
     .content {
       max-width: 60vw; } }
+  .content img.profil-picture {
+    margin-top: calc(16px + 1vw);
+    width: 25vw; }
   .content .about-text {
     margin-top: calc(10px + 1vw);
     margin-bottom: 1vw;
@@ -51,7 +73,7 @@ button {
 
 .project-container {
   display: grid;
-  padding: 0px calc(20px + 3vw);
+  padding: 0px calc(20px + 3vw) calc(20px + 3vw) calc(20px + 3vw);
   grid-template-columns: 1fr;
   grid-gap: 20px; }
   @media (min-width: 700px) {
@@ -64,69 +86,74 @@ button {
     display: block;
     position: relative;
     height: 60vh; }
-  .project-container .project-screen {
-    display: flex;
-    position: absolute;
-    left: 50%;
-    top: 44%;
-    transform: translate(-50%, -50%);
-    width: 38%;
-    min-width: 174px;
-    height: 65%;
-    background: rgba(0, 0, 0, 0.1);
-    margin: auto;
-    border-radius: 16px;
-    filter: drop-shadow(28px 28px 0px rgba(0, 0, 0, 0.1));
-    border: 1px solid rgba(0, 0, 0, 0.05); }
-    .project-container .project-screen .project-screen-content {
-      display: inline-flex;
-      width: 92%;
-      height: 95%;
+    .project-container .project .project-screen {
+      display: flex;
       position: absolute;
       left: 50%;
-      top: 50%;
+      top: 44%;
       transform: translate(-50%, -50%);
-      border-radius: 10px;
-      overflow: hidden; }
-      .project-container .project-screen .project-screen-content .gloss {
-        width: 77%;
-        height: 120%;
-        transform: rotate(-25deg);
-        background: white;
+      width: 38%;
+      min-width: 174px;
+      height: 65%;
+      background: rgba(0, 0, 0, 0.1);
+      margin: auto;
+      border-radius: 16px;
+      filter: drop-shadow(28px 28px 0px rgba(0, 0, 0, 0.1));
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      transition: 0.3s; }
+      .project-container .project .project-screen .project-screen-content {
+        display: inline-flex;
+        width: 92%;
+        height: 95%;
         position: absolute;
-        right: -49px;
-        top: -60px;
-        opacity: 0.12; }
-      .project-container .project-screen .project-screen-content .thumb {
-        object-fit: cover;
-        width: 100%;
-        height: 100%; }
-  .project-container .project-content {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    display: flex; }
-    .project-container .project-content .project-padding {
-      padding: 24px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        overflow: hidden; }
+        .project-container .project .project-screen .project-screen-content .gloss {
+          width: 80%;
+          height: 120%;
+          transform: rotate(-25deg);
+          background: white;
+          position: absolute;
+          right: -90px;
+          top: -80px;
+          opacity: 0.12; }
+        .project-container .project .project-screen .project-screen-content .thumb {
+          object-fit: cover;
+          width: 100%;
+          height: 100%; }
+    .project-container .project .project-content {
+      position: absolute;
       width: 100%;
+      bottom: 0;
       display: flex; }
-    .project-container .project-content .projects-facts {
-      flex: 1;
-      width: fit-content; }
-      .project-container .project-content .projects-facts .project-client {
-        font-size: 14px;
-        font-weight: 600;
-        margin-bottom: 2px; }
-      .project-container .project-content .projects-facts .project-title {
-        font-size: 12px;
-        font-weight: 300;
-        max-width: 70%; }
-    .project-container .project-content .project-tags {
-      align-self: flex-end; }
-      .project-container .project-content .project-tags .tag {
-        color: white;
-        font-weight: 500;
-        background: rgba(0, 0, 0, 0.15);
-        padding: 6px 12px;
-        border-radius: 30px;
-        font-size: 10px; }
+      .project-container .project .project-content .project-padding {
+        padding: 24px;
+        width: 100%;
+        display: flex; }
+      .project-container .project .project-content .projects-facts {
+        flex: 1;
+        width: fit-content; }
+        .project-container .project .project-content .projects-facts .project-client {
+          font-size: 14px;
+          font-weight: 600;
+          margin-bottom: 2px; }
+        .project-container .project .project-content .projects-facts .project-title {
+          font-size: 12px;
+          font-weight: 300;
+          max-width: 70%; }
+      .project-container .project .project-content .project-tags {
+        align-self: flex-end; }
+        .project-container .project .project-content .project-tags .tag {
+          color: white;
+          font-weight: 500;
+          background: rgba(0, 0, 0, 0.15);
+          padding: 6px 12px;
+          border-radius: 30px;
+          font-size: 10px; }
+  .project-container .project:hover .project-screen {
+    top: 43%;
+    transition: 0.3s;
+    filter: drop-shadow(38px 32px 0px rgba(0, 0, 0, 0.1)); }

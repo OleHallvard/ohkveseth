@@ -161,9 +161,9 @@
 
             <a href="/prosjekter/${projects[project].url}" class="project" style="background: ${projects[project].color};">
                 
-            <div class="project-screen" style="background: style="background: ${projects[project].color};">
-                <div class="project-screen-content">
-                    <div class="gloss"></div>
+            <div class="project-screen project-screen--${projects[project].aspect}" style="background: style="background: ${projects[project].color};">
+                <div class="project-screen-content project-screen-content--${projects[project].aspect}">
+                    <div class="gloss gloss--${projects[project].aspect}"></div>
                    <img class="thumb" src="../img/${projects[project].url}/${projects[project].thumbimg}" alt="${projects[project].shorttile}"/>
                 </div>
             </div>

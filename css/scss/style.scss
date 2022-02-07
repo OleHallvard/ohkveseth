@@ -34,7 +34,7 @@ $project-color: #2b2e35;
 
   .about-more-button {
     display: block;
-    font-size: calc(14px + 2vw);
+    font-size: calc(14px + 1.8vw);
     font-weight: 500;
     cursor: pointer;
     background: linear-gradient(
@@ -143,11 +143,8 @@ button {
       display: flex;
       position: absolute;
       left: 50%;
-      top: 44%;
+      top: 45%;
       transform: translate(-50%, -50%);
-      width: 38%;
-      min-width: 174px;
-      height: 65%;
       //background: darken($project-color, 9%);
       background: rgba(0, 0, 0, 0.1);
       margin: auto;
@@ -156,10 +153,26 @@ button {
       border: 1px solid rgba(0, 0, 0, 0.05);
       transition: 0.3s;
 
+      &--vertical {
+        width: 38%;
+        min-width: 174px;
+        height: 65%;
+      }
+
+      &--horizontal {
+        width: 65%;
+        min-width: 174px;
+        height: 40%;
+      }
+
+      &--square {
+        width: 53%;
+        min-width: 174px;
+        height: 53%;
+      }
+
       .project-screen-content {
         display: inline-flex;
-        width: 92%;
-        height: 95%;
         position: absolute;
         left: 50%;
         top: 50%;
@@ -167,15 +180,49 @@ button {
         border-radius: 10px;
         overflow: hidden;
 
+        &--vertical {
+          width: 92%;
+          height: 95%;
+        }
+
+        &--horizontal {
+          width: 95%;
+          height: 93%;
+        }
+
+        &--square {
+          width: 94%;
+          height: 94%;
+        }
+
         .gloss {
-          width: 80%;
-          height: 120%;
           transform: rotate(-25deg);
           background: white;
           position: absolute;
           right: -90px;
           top: -80px;
           opacity: 0.12;
+
+          &--vertical {
+            right: -45%;
+            top: -80px;
+            width: 80%;
+            height: 120%;
+          }
+
+          &--horizontal {
+            right: -40%;
+            top: -120px;
+            width: 80%;
+            height: 160%;
+          }
+
+          &--square {
+            right: -40%;
+            top: -120px;
+            width: 80%;
+            height: 160%;
+          }
         }
 
         .thumb {
@@ -231,7 +278,7 @@ button {
   }
 
   .project:hover .project-screen {
-    top: 43%;
+    top: 44%;
     transition: 0.3s;
     filter: drop-shadow(38px 32px 0px rgba(0, 0, 0, 0.1));
   }

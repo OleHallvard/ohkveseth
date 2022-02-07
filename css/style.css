@@ -18,7 +18,7 @@
     margin-bottom: calc(10px + 1vw); }
   .hero-opener .about-more-button {
     display: block;
-    font-size: calc(14px + 2vw);
+    font-size: calc(14px + 1.8vw);
     font-weight: 500;
     cursor: pointer;
     background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
@@ -90,36 +90,65 @@ button {
       display: flex;
       position: absolute;
       left: 50%;
-      top: 44%;
+      top: 45%;
       transform: translate(-50%, -50%);
-      width: 38%;
-      min-width: 174px;
-      height: 65%;
       background: rgba(0, 0, 0, 0.1);
       margin: auto;
       border-radius: 16px;
       filter: drop-shadow(28px 28px 0px rgba(0, 0, 0, 0.1));
       border: 1px solid rgba(0, 0, 0, 0.05);
       transition: 0.3s; }
+      .project-container .project .project-screen--vertical {
+        width: 38%;
+        min-width: 174px;
+        height: 65%; }
+      .project-container .project .project-screen--horizontal {
+        width: 65%;
+        min-width: 174px;
+        height: 40%; }
+      .project-container .project .project-screen--square {
+        width: 53%;
+        min-width: 174px;
+        height: 53%; }
       .project-container .project .project-screen .project-screen-content {
         display: inline-flex;
-        width: 92%;
-        height: 95%;
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
         border-radius: 10px;
         overflow: hidden; }
+        .project-container .project .project-screen .project-screen-content--vertical {
+          width: 92%;
+          height: 95%; }
+        .project-container .project .project-screen .project-screen-content--horizontal {
+          width: 95%;
+          height: 93%; }
+        .project-container .project .project-screen .project-screen-content--square {
+          width: 94%;
+          height: 94%; }
         .project-container .project .project-screen .project-screen-content .gloss {
-          width: 80%;
-          height: 120%;
           transform: rotate(-25deg);
           background: white;
           position: absolute;
           right: -90px;
           top: -80px;
           opacity: 0.12; }
+          .project-container .project .project-screen .project-screen-content .gloss--vertical {
+            right: -45%;
+            top: -80px;
+            width: 80%;
+            height: 120%; }
+          .project-container .project .project-screen .project-screen-content .gloss--horizontal {
+            right: -40%;
+            top: -120px;
+            width: 80%;
+            height: 160%; }
+          .project-container .project .project-screen .project-screen-content .gloss--square {
+            right: -40%;
+            top: -120px;
+            width: 80%;
+            height: 160%; }
         .project-container .project .project-screen .project-screen-content .thumb {
           object-fit: cover;
           width: 100%;
@@ -154,6 +183,6 @@ button {
           border-radius: 30px;
           font-size: 10px; }
   .project-container .project:hover .project-screen {
-    top: 43%;
+    top: 44%;
     transition: 0.3s;
     filter: drop-shadow(38px 32px 0px rgba(0, 0, 0, 0.1)); }

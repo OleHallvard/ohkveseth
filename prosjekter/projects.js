@@ -11,6 +11,7 @@ let projects = {
         thumbimg: "Smartplanlegger-mockups2.png",
         color: "#306AAD",
         textcolor: textlight,
+        aspect: "vertical"
     },
     Imdi: {
         name: "Imdi",
@@ -20,6 +21,7 @@ let projects = {
         thumbimg: "imdi_toppbilde.jpg",
         color: "#59BBC3",
         textcolor: textlight,
+        aspect: "horizontal"
     },
     Nordea: {
         name: "Nordea",
@@ -29,6 +31,7 @@ let projects = {
         thumbimg: "Nordea_forsidebilde.jpg",
         color: "#1C26A5",
         textcolor: textlight,
+        aspect: "vertical"
     },
     Bouvetgrandprix: {
         name: "Bouvet Grand Prix",
@@ -38,6 +41,7 @@ let projects = {
         thumbimg: "bouvet-grandprix-mobil.png",
         color: "#2B2E35",
         textcolor: textlight,
+        aspect: "vertical"
     },
     OBOS: {
         name: "OBOS",
@@ -47,6 +51,7 @@ let projects = {
         thumbimg: "Obos-mockup-thumb.jpg",
         color: "#77C69E",
         textcolor: textlight,
+        aspect: "horizontal"
     },
     Fjordland: {
         name: "Fjordland",
@@ -56,6 +61,7 @@ let projects = {
         thumbimg: "Fjordland-mockups-thumb.jpg",
         color: "#AE697A",
         textcolor: textlight,
+        aspect: "vertical"
     },
     SNLA: {
         name: "SNLA",
@@ -65,6 +71,7 @@ let projects = {
         thumbimg: "snla_thumb_love.png",
         color: "#3A5862",
         textcolor: textlight,
+        aspect: "horizontal"
     },
     Flytoget: {
         name: "Flytoget",
@@ -74,6 +81,7 @@ let projects = {
         thumbimg: "flytoget.jpg",
         color: "#304262",
         textcolor: textlight,
+        aspect: "square"
     },
     Bouvetfilmen: {
         name: "Bouvet",
@@ -83,6 +91,7 @@ let projects = {
         thumbimg: "bouvetfilmen-thumb.jpg",
         color: "#F2A04E",
         textcolor: textlight,
+        aspect: "horizontal"
     },
     Norwegian: {
         name: "Norwegian",
@@ -92,6 +101,7 @@ let projects = {
         thumbimg: "Norwegian.jpg",
         color: "#C2584C",
         textcolor: textlight,
+        aspect: "square"
     },
     StatensVegvesen: {
         name: "Statens Vegvesen",
@@ -101,6 +111,7 @@ let projects = {
         thumbimg: "Fast&safe2.jpg",
         color: "#1F1E22",
         textcolor: textlight,
+        aspect: "horizontal"
     },
     Ruter: {
         name: "Ruter",
@@ -110,6 +121,7 @@ let projects = {
         thumbimg: "Ruter2.jpg",
         color: "#E67947",
         textcolor: textlight,
+        aspect: "horizontal"
     },
     BlockWatne: {
         name: "Block Watne",
@@ -119,6 +131,7 @@ let projects = {
         thumbimg: "flyttutavbyen.jpg",
         color: "#B1A991",
         textcolor: textlight,
+        aspect: "square"
     },
     Millum: {
         name: "Millum",
@@ -128,6 +141,7 @@ let projects = {
         thumbimg: "Millum_forsidebilde_medium.jpg",
         color: "#DF754C",
         textcolor: textlight,
+        aspect: "horizontal"
     },
     Sparebank1: {
         name: "Sparebank 1",
@@ -137,6 +151,7 @@ let projects = {
         thumbimg: "Sparebank1.jpg",
         color: "#65B3E3",
         textcolor: textlight,
+        aspect: "horizontal"
     },
     Kreftforeningen: {
         name: "Kreftforeningen",
@@ -146,6 +161,7 @@ let projects = {
         thumbimg: "Kreftforeningen.jpg",
         color: "#2B2E35",
         textcolor: textlight,
+        aspect: "horizontal"
     },
     Student: {
         name: "Studentarbeider",
@@ -155,6 +171,7 @@ let projects = {
         thumbimg: "Ikea_stolleken_forsidebilde_small.jpg",
         color: "#2B2E35",
         textcolor: textlight,
+        aspect: "vertical"
     },
     Photoshoping: {
         name: "Photoshoping",
@@ -164,6 +181,7 @@ let projects = {
         thumbimg: "Nike_Halloween_newedition_retusj_8.jpg",
         color: "#C6B3AA",
         textcolor: textlight,
+        aspect: "square"
     },
 };
   

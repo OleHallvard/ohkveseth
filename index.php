@@ -54,23 +54,23 @@
                 for brukeren og kunden. Og hjerte som at løsningen skal fremstå "delightful" for brukeren, og gjøre
                 opplevelsen ekstra god og tiltalende.</p>
 
-            <p class="about-text">Ole Hallvard ser det som svært viktig at løsningene han lager har tydelige mål, og
+            <p class="about-text">Han ser det som svært viktig at løsningene han lager har tydelige mål, og
                 bruker reell innsikt
                 som springbrett til å skape en god og verdifull brukeropplevelse. Løsningene hans gjenspeiler fokus på
                 brukervennlighet, bruk av etablerte prinsipper og konvensjoner, universell utforming, responsivt design,
                 tett kontakt med brukerne, helhetlig og effektiv design (designsystem), og de ekstra visuelle finessene
                 som gjør at løsningen står ut.</p>
 
-            <p class="about-text">Han er svært opptatt av de håndverksmessige finessene, og har en sjelden dybde innen
-                designfag. Med
-                erfaring fra reklamebyrå har han i tillegg en stor kreativ verktøykasse, og har dermed gode kunnskaper
-                om å lage animasjoner, bildebehandling, enkle illustrasjoner og kreativt design.</p>
+            <p class="about-text">Ole Hallvard er svært opptatt av de håndverksmessige finessene. Hans horisontale
+                t-form går i
+                retning av
+                animasjon, front-end utvikling, reklame, grafisk design. </p>
 
-            <p class="about-text">Ole Hallvard higer hele tiden etter å bli en enda bedre designer, og for å oppnå dette
+            <!--<p class="about-text">Ole Hallvard higer hele tiden etter å bli en enda bedre designer, og for å oppnå dette
                 er han også
                 opptatt av den tekniske front-end utviklingen. Både samarbeide tett med utviklere, men også lære seg mer
                 innen dette fagfeltet selv. Ole Hallvard bidrar der han kan med egen kode helt ut i produksjon, for at
-                designet skal skinne litt ekstra.</p>
+                designet skal skinne litt ekstra.</p>-->
 
             <p class="about-text">Ole Hallvard trives i tverrfaglige
                 team, og jobber gjerne
@@ -81,6 +81,8 @@
             <div class="divider-line"></div>
             <div class="title-medium">Kontakt</div>
             <p class="about-text">olehallvard@gmail.com</p>
+            <a href="https://www.linkedin.com/in/ole-hallvard-kveseth-97706744/" target=”_blank”
+                class="classic-link">Linkedin</a>
 
             <div class="divider-line"></div>
 
@@ -95,7 +97,7 @@
                 Diplom – Gullsnitt 2014,
                 2 x Bronse – London International Awards 2014,
                 Sølv – Cristal Awards 2014,
-                Diplom – Gullblyanten 2013<br>
+                Diplom – Gullblyanten 2013
 
 
             <div class="title-medium">Student</div>
@@ -155,6 +157,15 @@
     <script>
     for (let project in projects) {
 
+        let tags =
+            projects[project].tags.map((tags, index) => {
+                return `
+            <span class="tag">${tags}</span>
+    `;
+            }).join('');
+
+
+
         if (projects[project].frontpage === true) {
 
             let projects_html = `
@@ -176,8 +187,7 @@
                 </div>
 
                 <div class="project-tags">
-                    <span class="tag">UX/UI</span>
-                    <span class="tag">Motion</span>
+                ${tags}
                 </div>
                 </div>
 

@@ -173,6 +173,7 @@ button {
     display: block;
     position: relative;
     height: 60vh;
+    min-height: 350px;
 
     .project-screen {
       display: flex;
@@ -189,15 +190,13 @@ button {
       transition: 0.3s;
 
       &--vertical {
-        width: 38%;
-        min-width: 174px;
-        height: 65%;
+        width: 145px;
+        height: 260px;
       }
 
       &--horizontal {
-        width: 65%;
-        min-width: 174px;
-        height: 40%;
+        width: 280px;
+        height: 175px;
       }
 
       &--square {
@@ -261,9 +260,16 @@ button {
         }
 
         .thumb {
-          object-fit: cover;
           width: 100%;
           height: 100%;
+
+          &--top {
+            object-position: top;
+          }
+
+          &--center {
+            object-fit: cover;
+          }
         }
       }
     }
@@ -293,7 +299,7 @@ button {
         .project-title {
           font-size: 12px;
           font-weight: 300;
-          max-width: 70%;
+          max-width: 80%;
         }
       }
 

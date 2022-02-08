@@ -662,6 +662,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/fjordland\/fjordland-thumb.png" : {
+      "ft" : 32768,
+      "iS" : 1183285,
+      "oA" : 0,
+      "oAP" : "\/img\/fjordland\/fjordland-thumb.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/Flytoget\/FLYT0056_230x297_Amagasinet_nettside.jpg" : {
       "ft" : 16384,
       "iS" : 226524,
@@ -1609,6 +1622,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/nordea\/nordeanews-forside.png" : {
+      "ft" : 32768,
+      "iS" : 737467,
+      "oA" : 0,
+      "oAP" : "\/img\/nordea\/nordeanews-forside.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/norwegian\/banner1.png" : {
       "ft" : 32768,
       "iS" : 190546,
@@ -2004,6 +2030,19 @@
       "iS" : 489829,
       "oA" : 0,
       "oAP" : "\/img\/Obos\/Obos-thumb.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/obos\/Obos-thumbnew.png" : {
+      "ft" : 32768,
+      "iS" : 676546,
+      "oA" : 0,
+      "oAP" : "\/img\/obos\/Obos-thumbnew.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3102,6 +3141,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/statnett\/autodig-oppsummering-to.png" : {
+      "ft" : 32768,
+      "iS" : 154964,
+      "oA" : 0,
+      "oAP" : "\/img\/statnett\/autodig-oppsummering-to.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/statnett\/autodig-oppsummering.png" : {
+      "ft" : 32768,
+      "iS" : 142301,
+      "oA" : 0,
+      "oAP" : "\/img\/statnett\/autodig-oppsummering.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/statnett\/Powergrid-thumb-5.jpg" : {
       "ft" : 16384,
       "iS" : 253101,
@@ -3512,6 +3577,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/tine\/smartplanlegger-mobil.png" : {
+      "ft" : 32768,
+      "iS" : 313375,
+      "oA" : 0,
+      "oAP" : "\/img\/tine\/smartplanlegger-mobil.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

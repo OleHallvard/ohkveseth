@@ -105,7 +105,8 @@ button {
   .project-container .project {
     display: block;
     position: relative;
-    height: 60vh; }
+    height: 60vh;
+    min-height: 350px; }
     .project-container .project .project-screen {
       display: flex;
       position: absolute;
@@ -119,13 +120,11 @@ button {
       border: 1px solid rgba(0, 0, 0, 0.05);
       transition: 0.3s; }
       .project-container .project .project-screen--vertical {
-        width: 38%;
-        min-width: 174px;
-        height: 65%; }
+        width: 145px;
+        height: 260px; }
       .project-container .project .project-screen--horizontal {
-        width: 65%;
-        min-width: 174px;
-        height: 40%; }
+        width: 280px;
+        height: 175px; }
       .project-container .project .project-screen--square {
         width: 53%;
         min-width: 174px;
@@ -170,9 +169,12 @@ button {
             width: 80%;
             height: 160%; }
         .project-container .project .project-screen .project-screen-content .thumb {
-          object-fit: cover;
           width: 100%;
           height: 100%; }
+          .project-container .project .project-screen .project-screen-content .thumb--top {
+            object-position: top; }
+          .project-container .project .project-screen .project-screen-content .thumb--center {
+            object-fit: cover; }
     .project-container .project .project-content {
       position: absolute;
       width: 100%;
@@ -192,7 +194,7 @@ button {
         .project-container .project .project-content .projects-facts .project-title {
           font-size: 12px;
           font-weight: 300;
-          max-width: 70%; }
+          max-width: 80%; }
       .project-container .project .project-content .project-tags {
         align-self: flex-end; }
         .project-container .project .project-content .project-tags .tag {

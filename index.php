@@ -175,7 +175,7 @@
             <div class="project-screen project-screen--${projects[project].aspect}" style="background: style="background: ${projects[project].color};">
                 <div class="project-screen-content project-screen-content--${projects[project].aspect}">
                     <div class="gloss gloss--${projects[project].aspect}"></div>
-                   <img class="thumb" src="../img/${projects[project].url}/${projects[project].thumbimg}" alt="${projects[project].shorttile}"/>
+                   <img class="thumb thumb--${projects[project].alignimg}" src="../img/${projects[project].url}/${projects[project].thumbimg}" alt="${projects[project].shorttile}"/>
                 </div>
             </div>
             

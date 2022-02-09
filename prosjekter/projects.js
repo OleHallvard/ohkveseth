@@ -13,7 +13,7 @@ let projects = {
         textcolor: textlight,
         aspect: "vertical",
         alignimg: "top",
-        tags: ["UI/UX", "Animasjon"]
+        tags: ["UI/UX", "Animasjonsfilm"]
     },
     Imdi: {
         name: "Imdi",
@@ -25,7 +25,7 @@ let projects = {
         textcolor: textlight,
         aspect: "horizontal",
         alignimg: "center",
-        tags: ["Animasjon"]
+        tags: ["Animasjonfilm"]
     },
     Nordea: {
         name: "Nordea",
@@ -61,7 +61,7 @@ let projects = {
         textcolor: textlight,
         aspect: "horizontal",
         alignimg: "top",
-        tags: ["UI/UX", "Designsystem"]
+        tags: ["UI/UX", "Designsystem", "Animasjon"]
     },
     OBOS: {
         name: "OBOS",
@@ -121,7 +121,7 @@ let projects = {
         textcolor: textlight,
         aspect: "horizontal",
         alignimg: "center",
-        tags: ["Animasjon"]
+        tags: ["Animasjonsfilm"]
     },
     Norwegian: {
         name: "Norwegian",
@@ -181,7 +181,7 @@ let projects = {
         textcolor: textlight,
         aspect: "horizontal",
         alignimg: "top",
-        tags: ["Animasjon"]
+        tags: ["Animasjonsfilmer"]
     },
     Sparebank1: {
         name: "Sparebank 1",

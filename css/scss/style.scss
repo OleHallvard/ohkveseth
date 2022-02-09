@@ -1,5 +1,6 @@
 @import "../css/scss/colors.scss";
 @import "../css/scss/variabler.scss";
+@import "../css/scss/typography.scss";
 
 * {
   margin: 0;
@@ -44,6 +45,10 @@ $project-color: #2b2e35;
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
 
@@ -53,11 +58,10 @@ $project-color: #2b2e35;
 }
 
 .divider-line {
-  //border-bottom: 1px solid rgb(235, 235, 235);
   height: 2px;
   width: 100%;
   position: relative;
-  margin: 80px 0;
+  margin: 70px 0;
   background: linear-gradient(
     165deg,
     rgba(0, 0, 255, 0.829),
@@ -68,19 +72,6 @@ $project-color: #2b2e35;
 .active,
 .collapsible:hover {
   background: red;
-}
-
-.title-medium {
-  font-weight: 600;
-  margin-top: 120px;
-  font-size: calc(14px + 1.52vw);
-  background: linear-gradient(
-    165deg,
-    rgba(0, 0, 255, 0.829),
-    rgb(224, 26, 158)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .content {
@@ -192,17 +183,31 @@ button {
       &--vertical {
         width: 145px;
         height: 260px;
+
+        @media (min-width: $screen-desktop) {
+          width: 210px;
+          height: 380px;
+        }
       }
 
       &--horizontal {
         width: 280px;
         height: 175px;
+
+        @media (min-width: $screen-desktop) {
+          width: 430px;
+          height: 270px;
+        }
       }
 
       &--square {
         width: 53%;
         min-width: 174px;
         height: 53%;
+
+        @media (min-width: $screen-desktop) {
+          max-width: 60vw;
+        }
       }
 
       .project-screen-content {
@@ -289,6 +294,9 @@ button {
       .projects-facts {
         flex: 1;
         width: fit-content;
+        min-width: 145px;
+        display: block;
+        align-self: end;
 
         .project-client {
           font-size: 14px;
@@ -305,14 +313,22 @@ button {
 
       .project-tags {
         align-self: flex-end;
+        text-align: right;
+        flex-basis: min-content;
+
+        @media (min-width: $screen-laptop) {
+          flex-basis: auto;
+        }
         .tag {
           color: white;
           font-weight: 500;
+          margin-top: 4px;
           //background: darken($project-color, 9%);
           background: rgba(0, 0, 0, 0.15);
           padding: 6px 12px;
           border-radius: 30px;
           font-size: 10px;
+          display: inline-block;
         }
       }
     }

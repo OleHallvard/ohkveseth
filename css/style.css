@@ -1,3 +1,50 @@
+.title {
+  width: fit-content;
+  background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+  .title--small {
+    font-weight: 600;
+    margin-top: 80px;
+    font-size: calc(10px + 1.52vw); }
+  .title--medium {
+    font-weight: 600;
+    margin-top: 80px;
+    font-size: calc(14px + 1.52vw); }
+
+/*
+
+.title--small {
+  background: linear-gradient(
+    165deg,
+    rgba(0, 0, 255, 0.829),
+    rgb(224, 26, 158)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  margin-top: 80px;
+  font-size: calc(10px + 1.52vw);
+  display: unset;
+  width: fit-content;
+}
+
+.title--medium {
+  background: linear-gradient(
+    165deg,
+    rgba(0, 0, 255, 0.829),
+    rgb(224, 26, 158)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  margin-top: 80px;
+  font-size: calc(14px + 1.52vw);
+  display: unset;
+  width: fit-content;
+}
+
+*/
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +71,8 @@
     background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
+    .hero-opener .about-more-button:hover {
+      opacity: 0.8; }
 
 .collapsible {
   cursor: pointer;
@@ -33,20 +82,12 @@
   height: 2px;
   width: 100%;
   position: relative;
-  margin: 80px 0;
+  margin: 70px 0;
   background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e); }
 
 .active,
 .collapsible:hover {
   background: red; }
-
-.title-medium {
-  font-weight: 600;
-  margin-top: 120px;
-  font-size: calc(14px + 1.52vw);
-  background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
 
 .content {
   max-height: 0;
@@ -122,13 +163,24 @@ button {
       .project-container .project .project-screen--vertical {
         width: 145px;
         height: 260px; }
+        @media (min-width: 1600px) {
+          .project-container .project .project-screen--vertical {
+            width: 210px;
+            height: 380px; } }
       .project-container .project .project-screen--horizontal {
         width: 280px;
         height: 175px; }
+        @media (min-width: 1600px) {
+          .project-container .project .project-screen--horizontal {
+            width: 430px;
+            height: 270px; } }
       .project-container .project .project-screen--square {
         width: 53%;
         min-width: 174px;
         height: 53%; }
+        @media (min-width: 1600px) {
+          .project-container .project .project-screen--square {
+            max-width: 60vw; } }
       .project-container .project .project-screen .project-screen-content {
         display: inline-flex;
         position: absolute;
@@ -186,7 +238,10 @@ button {
         display: flex; }
       .project-container .project .project-content .projects-facts {
         flex: 1;
-        width: fit-content; }
+        width: fit-content;
+        min-width: 145px;
+        display: block;
+        align-self: end; }
         .project-container .project .project-content .projects-facts .project-client {
           font-size: 14px;
           font-weight: 600;
@@ -196,14 +251,21 @@ button {
           font-weight: 300;
           max-width: 80%; }
       .project-container .project .project-content .project-tags {
-        align-self: flex-end; }
+        align-self: flex-end;
+        text-align: right;
+        flex-basis: min-content; }
+        @media (min-width: 1000px) {
+          .project-container .project .project-content .project-tags {
+            flex-basis: auto; } }
         .project-container .project .project-content .project-tags .tag {
           color: white;
           font-weight: 500;
+          margin-top: 4px;
           background: rgba(0, 0, 0, 0.15);
           padding: 6px 12px;
           border-radius: 30px;
-          font-size: 10px; }
+          font-size: 10px;
+          display: inline-block; }
   .project-container .project:hover .project-screen {
     top: 44%;
     transition: 0.3s;

@@ -79,14 +79,14 @@
 
 
             <div class="divider-line"></div>
-            <div class="title-medium">Kontakt</div>
+            <div class="title title--medium">Kontakt</div>
             <p class="about-text">olehallvard@gmail.com</p>
             <a href="https://www.linkedin.com/in/ole-hallvard-kveseth-97706744/" target=”_blank”
                 class="classic-link">Linkedin</a>
 
             <div class="divider-line"></div>
 
-            <div class="title-medium">Utmerkelser</div>
+            <div class="title title--medium">Utmerkelser</div>
             <p class="about-text">
                 Sølv – Max Marketing Mix 2018,
                 Gull + bronse – Gullblyanten 2015,
@@ -100,7 +100,7 @@
                 Diplom – Gullblyanten 2013
 
 
-            <div class="title-medium">Student</div>
+            <div class="title title--small">Student</div>
             <p class="about-text">
                 Gull - Max Marketing Mix 2012,
                 Gullblyanten – Diplom 2012,
@@ -112,7 +112,7 @@
             <div class="divider-line"></div>
 
 
-            <div class="title-medium">Arbeidserfaring</div>
+            <div class="title title--medium">Arbeidserfaring</div>
             <p class="about-text">
                 Bouvet,
                 McCann,

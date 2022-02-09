@@ -49,7 +49,10 @@ let projects = {
         textcolor: textlight,
         aspect: "vertical",
         alignimg: "top",
-        tags: ["UI/UX", "Animasjon"]
+        tags: ["UI/UX", "Animasjon"],
+        lead: "Da Bouvet i Oslo flyttet ved nyttår 2017, ga ikke det bare behov for å fortelle om vår nye adresse, det ga også en anledning til å fortelle noe om oss selv – på en avhengighetsskapende måte.",
+        filmone: "https://player.vimeo.com/video/225247842"
+
     },
     Statnett: {
         name: "Statnett",

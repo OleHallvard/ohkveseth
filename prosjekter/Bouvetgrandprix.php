@@ -7,13 +7,9 @@
 
     <meta charset="UTF-8">
 
-
     <link rel="stylesheet" href="../css/project.css">
-
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-
-    <link rel="shortcut icon" type="image/png" href="/img/bouvet-mal/bouvet-facicon.png">
 
     <meta name="viewport" content="width=device-width">
 
@@ -25,12 +21,6 @@
 
 
 <body>
-
-
-
-
-
-
 
 
     <div class="project-hero">
@@ -49,6 +39,12 @@
         egenutviklet bilspill. Spillet var basert på basert på Google/MapBox veivisningstjeneste, og kom du høyt nok
         på high score-listen vanket det også premie på festen som beste sjåfør. Se hvor raskt du selv kan kjøre til
         kontoret vårt!</p>
+
+
+    <div class="video-container">
+        <iframe src="https://player.vimeo.com/video/225247842" width="640" height="360" frameborder="0"
+            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
 
     <div class="one-col one-col--large">
         <div class="one-col-content">

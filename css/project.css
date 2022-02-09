@@ -142,6 +142,15 @@
   .one-col .one-col-content {
     overflow: auto; }
 
+.video-container {
+  margin: auto;
+  padding: 20px;
+  max-width: 80%;
+  margin-bottom: calc(40px + 3vw); }
+  .video-container iframe {
+    width: 100%;
+    height: 70vh; }
+
 .img-fit-cover {
   object-fit: cover;
   width: 100%;

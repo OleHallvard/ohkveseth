@@ -42,20 +42,9 @@
 
 
 
-    <!--  Header   -->
+    <!--  
 
 
-
-
-
-
-    <?php include('../includes/header.php');?>
-
-
-
-
-
-    <!-- Toppbilde -->
 
 
 
@@ -100,8 +89,6 @@
 
 
 
-    <!-- Introtekst + knapper -->
-
 
 
 
@@ -123,40 +110,8 @@
 
 
 
-    <!--
-  
-		<div class="valg">
-		
-        <a class="knapp-filformater" href="omfilformater.php" target="_blank">Om filformater</a>
-           		
-       <div class="knapp-filformater" onclick="toggle_visibility('foo');toggle(this);"><span>Språk</span></div>
-          
-    </div>
-
-
-    <div id="foo">
-
-
-          <div class="sprakvalg">
-            <a id="hoverfarge" class="knapp-filformater fargeendring  href="#">Norsk</a>
-            <a id="hoverfarge" class="knapp-filformater fargeendring" href="#">Svenska</a>
-            <a id="hoverfarge" class="knapp-filformater fargeendring" href="#">English</a>
-          </div>
-
-
-     </div>
-
-   -->
 
     </div>
-
-
-
-
-
-
-    <!-- Filmer  -->
-
 
 
 
@@ -171,19 +126,12 @@
 
 
 
-
-        <!-- Film 1 
-
-
-<!--<div class="film-container">-->
-
-
         <div class="content-film-container">
 
 
             <div class="video-wrapper">
                 <div class="video-container-breddeformat">
-                    <!-- Breddeformat -->
+                  
                     <iframe src="https://player.vimeo.com/video/225247842" width="640" height="360" frameborder="0"
                         webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
@@ -203,14 +151,14 @@
             egenutviklet bilspill. Spillet var basert på basert på Google/MapBox veivisningstjeneste, og kom du høyt nok
             på high score-listen vanket det også premie på festen som beste sjåfør. Se hvor raskt du selv kan kjøre til
             kontoret vårt! <a href="http://grandprix.bouvet.no/">Spill her</a> eller skriv inn grandprix.bouvet.no.</p>
-        <!-- Nedlastning  -->
+        
 
 
 
 
         <div class="wrap">
 
-            <!--nedlastning-->
+      
             <a class="knapp-filformater2"
                 href="/bouvet-referanser/img/grandprix/Bouvet Grand Prix Case – 130717_Final_HQS.mp4" download> Last
                 ned</a>
@@ -233,63 +181,7 @@
 
 
 
-
-    <!-- Film 2 
-
-<div class="film-container">
-
- 
-
-  <div class="video-wrapper">
-    <div class="video-container-kvadratisk"> Kvadratisk
-      <iframe src="https://player.vimeo.com/video/273356449" width="640" height="640" frameborder="0"  mozallowfullscreen allowfullscreen></iframe>
-  
-    </div>
-    </div>
-
-
-
-
-		<div class="filminfo">
-
-			<div class="desktoptekst"><h3>Millum </div>
-      <div class="mobiltekst"><h3>Millum<font color="#00a0ff"><b>(Skisse)</h3></b></div>
-
-			<h4>Trade</h4>
-
-
-		</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- Footer -->
-
-
-
-
-    <?php include("../../bouvet-referanser/includes/footer.php"); ?>
-
-
-
-
-
+                    -->
 
 
 

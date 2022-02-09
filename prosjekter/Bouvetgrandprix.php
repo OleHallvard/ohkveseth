@@ -3,102 +3,247 @@
 <html>
 
 <head>
+    <title>Ole Hallvard</title>
+
     <meta charset="UTF-8">
-    <title>OH I Bouvet Grand Prix</title>
-    <link rel="stylesheet" href="/css/deltstyle.css">
-    <link rel="stylesheet" href="/css/prosjekter.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,300i,400,500,600,700" rel="stylesheet">
 
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="../css/project.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/png" href="/img/bouvet-mal/bouvet-facicon.png">
+
     <meta name="viewport" content="width=device-width">
+
+    <script src="/prosjekter/projects.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
 
 
 
-<style>
-::-moz-selection {
-    /* Code for Firefox */
-    color: #eee;
-    background: #1b14ac;
-}
-
-::selection {
-    color: #eee;
-    background: #1b14ac;
-}
-</style>
-
-
 <body>
 
-    <?php include("../includes/meny.php"); ?>
-
-
-
-    <div class="tiltoppen"><a id="top"></a></div>
-
-
-    <div class="velkommen">
 
 
 
 
 
-        <img class="forsidebilde-mobil" src="../img/Bouvetgrandprix/BGP_Toppbilde_mobil.jpg"
-            alt="Bouvet Grand Prix forsidebilde">
-
-        <img class="forsidebilde-desktop-m" src="../img/Bouvetgrandprix/BGP_Toppbilde.jpg"
-            alt="Bouvet Grand Prix forsidebilde">
-
-        <img class="forsidebilde-desktop-l" src="../img/Bouvetgrandprix/BGP_Toppbilde.jpg"
-            alt="Bouvet Grand Prix forsidebilde">
 
 
+    <div class="project-hero">
+        <h1 class="title title--hero">Statnett</h1>
+        <div class="project-tags">
+            <span class="tag">${tags}</span>
+            <span class="tag">${tags}</span>
+            <span class="tag">${tags}</span>
+        </div>
+    </div>
 
-        <div class="tekstwrapper">
+    <p class="project-lead lead">Det gjelder å utnytte de muligheter som byr seg, og vi valgte derfor også å kombinere
+        ”flyttemeldingen” med
+        en leken invitasjon til den aller første kundefesten i våre nye lokaler. I praksis betydde dette en e-post
+        med en festinvitasjon – og med en mulighet til å råkjøre veien fra våre gamle lokaler til de nye i et
+        egenutviklet bilspill. Spillet var basert på basert på Google/MapBox veivisningstjeneste, og kom du høyt nok
+        på high score-listen vanket det også premie på festen som beste sjåfør. Se hvor raskt du selv kan kjøre til
+        kontoret vårt!</p>
 
-            <h4 class="reveal-text">Bouvet</h4>
+    <div class="one-col one-col--large">
+        <div class="one-col-content">
+            <img src="/img/main/olehallvard-profilbilde.jpeg" alt="profilbilde"" />
+        </div>
+    </div>
 
-            <h5 class="reveal-text2">Bouvet Grand Prix</h5>
+    <div class=" two-col">
+            <div class="two-col-content"></div>
+            <div class="two-col-content"></div>
+        </div>
+
+        <p class="project-body body">Det gjelder å utnytte de muligheter som byr seg, og vi valgte derfor også å
+            kombinere
+            ”flyttemeldingen” med
+            en leken invitasjon til den aller første kundefesten i våre nye lokaler. I praksis betydde dette en e-post
+            med en festinvitasjon – og med en mulighet til å råkjøre veien fra våre gamle lokaler til de nye i et
+            egenutviklet bilspill. Spillet var basert på basert på Google/MapBox veivisningstjeneste, og kom du høyt nok
+            på high score-listen vanket det også premie på festen som beste sjåfør. Se hvor raskt du selv kan kjøre til
+            kontoret vårt!</p>
+
+        <div class="one-col one-col--medium">
+            <div class="one-col-content"></div>
         </div>
 
 
-    </div>
+
+
+        <p class="project-body body">Det gjelder å utnytte de muligheter som byr seg, og vi valgte derfor også å
+            kombinere
+            ”flyttemeldingen” med
+            en leken invitasjon til den aller første kundefesten i våre nye lokaler. I praksis betydde dette en e-post
+            med en festinvitasjon – og med en mulighet til å råkjøre veien fra våre gamle lokaler til de nye i et
+            egenutviklet bilspill. Spillet var basert på basert på Google/MapBox veivisningstjeneste, og kom du høyt nok
+            på high score-listen vanket det også premie på festen som beste sjåfør. Se hvor raskt du selv kan kjøre til
+            kontoret vårPortrait</p>
+
+        <div class="one-col one-col--portrait">
+            <div class="one-col-content"></div>
+        </div>
+
+        <div class="team">
+
+            <h4 class="title title--medium center-text">Team</h4>
+            <span class="member body body--small">Frode Kolstad // Grafisk designer</span>
+            <span class="member body body--small">Marc Garcia // UX designer</span>
+        </div>
+        <div id="ohk-projects" class="project-container"></div>
+
+        <script>
+        for (let project in projects) {
+
+            let tags =
+                projects[project].tags.map((tags, index) => {
+                    return `
+            <span class="tag">${tags}</span>
+    `;
+                }).join('');
 
 
 
+            if (projects[project].frontpage === true) {
 
+                let projects_html = `
 
-
-    <div class="ikoner">
-
-
-        <div class="scroll-downs">
-            <div class="mousey">
-                <div class="scroller"></div>
+            <a href="/prosjekter/${projects[project].url}" class="project" style="background: ${projects[project].color};">
+                
+            <div class="project-screen project-screen--${projects[project].aspect}" style="background: style="background: ${projects[project].color};">
+                <div class="project-screen-content project-screen-content--${projects[project].aspect}">
+                    <div class="gloss gloss--${projects[project].aspect}"></div>
+                   <img class="thumb thumb--${projects[project].alignimg}" src="../img/${projects[project].url}/${projects[project].thumbimg}" alt="${projects[project].shorttile}"/>
+                </div>
             </div>
+            
+            <div class="project-content">
+                <div class="project-padding">
+                <div class="projects-facts" style="color: ${projects[project].textcolor};">
+                    <h4 class="project-client">${projects[project].name}</h4>
+                    <h5 class="project-title">${projects[project].shorttitle}</h5>
+                </div>
+
+                <div class="project-tags">
+                ${tags}
+                </div>
+                </div>
+
+            </div>
+        </a>              
+`;
+
+                document.getElementById("ohk-projects").innerHTML += projects_html;
+            };
+        };
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--  
+
+
+
+
+
+
+
+
+
+
+    <div class="toppbilde-wrapper">
+
+        <img id="toppbilde" src="/bouvet-referanser/img/grandprix/BGP_Toppbilde.jpg" alt="Grand Prix forsidebilde">
+
+
+        <div class="vektor-container">
+
+            <svg x="0" y="0" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none" fill="white">
+                <path d="
+
+     
+       		M 
+      		 0,0,
+     		 27,13.5,
+       		 100, 2
+ 
+       		L 
+       		100, 20 
+       		0,20
+      
+
+      		  Z" />
+            </svg>
         </div>
 
-        <div class="scrolltekst">S<br>c<br>r<br>o<br>l<br>l</div>
-
-        <img class="pilnedover2" src="/img/Main/pilnedover_bla.svg" /></a>
-
-    </div>
-
-
 
     </div>
 
 
 
 
-    <div class="prosjektwrapper">
 
-        <p>Da Bouvet i Oslo flyttet ved nyttår 2017, ga ikke det bare behov for å fortelle
-            om vår nye adresse, det ga også en anledning til å fortelle noe om oss selv
-            – på en avhengighetsskapende måte.
-        </p>
+
+
+
+
+
+
+
+
+
+
+    <div class="intro">
+
+
+        <h1>Bouvet Grand Prix</h1>
+
+        <h2>En fartsfylt festinvitasjon til våre nye lokaler. </h2>
+
+    </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="content-film-container">
+
 
 
 
@@ -108,7 +253,7 @@
 
             <div class="video-wrapper">
                 <div class="video-container-breddeformat">
-                    <!-- Breddeformat -->
+                  
                     <iframe src="https://player.vimeo.com/video/225247842" width="640" height="360" frameborder="0"
                         webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
@@ -117,59 +262,40 @@
 
         </div>
 
+
+
+
+
+
         <p>Det gjelder å utnytte de muligheter som byr seg, og vi valgte derfor også å kombinere ”flyttemeldingen” med
-            en leken invitasjon til den aller første kundefesten i våre nye
-            lokaler. I praksis betydde dette en e-post med en festinvitasjon – og med en mulighet til å råkjøre veien
-            fra våre gamle lokaler til de nye i et egenutviklet bilspill. Spillet var basert på basert på Google/MapBox
-            veivisningstjeneste, og kom du høyt nok på
-            high score-listen vanket det også premie på festen som beste sjåfør. Se hvor raskt du selv kan kjøre til
-            kontoret vårt! Spill <a href="http://grandprix.bouvet.no" target="_blank">her</a> eller skriv inn
-            grandprix.bouvet.no</p>
+            en leken invitasjon til den aller første kundefesten i våre nye lokaler. I praksis betydde dette en e-post
+            med en festinvitasjon – og med en mulighet til å råkjøre veien fra våre gamle lokaler til de nye i et
+            egenutviklet bilspill. Spillet var basert på basert på Google/MapBox veivisningstjeneste, og kom du høyt nok
+            på high score-listen vanket det også premie på festen som beste sjåfør. Se hvor raskt du selv kan kjøre til
+            kontoret vårt! <a href="http://grandprix.bouvet.no/">Spill her</a> eller skriv inn grandprix.bouvet.no.</p>
+        
 
 
 
 
-        <img class="prosjektbilde2" src="/img/Bouvetgrandprix/BGP_iPad_closeup_2.jpg" />
+        <div class="wrap">
 
-        <img class="prosjektbilde2" src="/img/Bouvetgrandprix/BGP_iPad_closeup_.jpg" />
+      
+            <a class="knapp-filformater2"
+                href="/bouvet-referanser/img/grandprix/Bouvet Grand Prix Case – 130717_Final_HQS.mp4" download> Last
+                ned</a>
 
-        <img class="prosjektbilde2" src="/img/Bouvetgrandprix/BGP_Macbooksscreen_english.jpg" />
+            <div class="beskrivelse">
+                <h5>Casefilm Bouvet Grand Prix</h5>
+            </div>
 
-        <img class="prosjektbilde2" src="/img/Bouvetgrandprix/BGPiphonemapenglish.jpg" />
-
-        <img class="prosjektbilde2" src="/img/Bouvetgrandprix/BGP_Poster_facebook.jpg" />
-
-        <img class="prosjektbilde2" src="/img/Bouvetgrandprix/BGP_bottle.jpg" />
-
-
-        <p><br><b>Andre bidragsytere:</b><br><b>Tech lead/utvikler</b>: Kristian Wille
-            <br><b>Utvikler:</b> Zulfeekar "Zulu" Cheriyampurath
-        </p>
+        </div>
 
 
 
 
 
 
-
-        <!-- Om man har stående bilde bruke denne koden under 
-	<img class="prosjektbilde" src="img/FLYT0056_230x297_Amagasinet_nettside.jpg"/>
-	-->
-
-
-
-
-
-
-
-
-        <!-- Om man ønsker to kvadratiske bilder ved siden av hverandre 
-	<div class="tobilderwrapper">
-		<img class="prosjektbilde_kvadrat" src="img/BW_firkant.jpg"/>
-		<img class="prosjektbilde_kvadrat" src="img/BW_firkant.jpg"/>
-
-	</div>
-	-->
 
 
     </div>
@@ -177,93 +303,9 @@
 
 
 
+                    -->
 
 
-
-
-
-
-    <div class="nesteprosjektwrapper">
-
-
-
-        <a href="/prosjekter/Smartidrettsmat.php">
-            <div class="circle c2 revealer">
-                <div class="container container--circles">
-                    <div class="circle c1 revealer">
-                        <div class="circle__inner">
-                            <div class="prosjekt1 revealer">
-
-                                <div class="tekstwrapper">
-                                    <h4 class="reveal-text3">Forrige prosjekt</h4>
-                                    <h6 class="reveal-text3">Tine</h6>
-                                </div>
-
-                                <div class="sortoverlay3"></div>
-                                <img id="thumb" src="../img/Smartidrettsmat/Tine_SI_Forsidebilde_Thumb.jpg"
-                                    alt="Tine bilde">
-
-
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </a>
-
-
-
-
-        <a href="/prosjekter/Ruter.php">
-            <div class="circle c2 revealer">
-                <div class="container container--circles">
-                    <div class="circle c1 revealer">
-                        <div class="circle__inner">
-                            <div class="prosjekt2 revealer">
-
-                                <div class="tekstwrapper">
-                                    <h4 class="reveal-text3">Neste prosjekt</h4>
-                                    <h6 class="reveal-text3">Ruter</h6>
-
-                                </div>
-
-                                <div class="sortoverlay3"></div>
-                                <img id="thumb" src="../img/Ruter/Ruter2.jpg" alt="Norwegianbilde">
-
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </a>
-    </div>
-    </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-    <?php include("../includes/prosjektfooter.php"); ?>
-
-
-
-
-
-
-
-
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js'></script>
-
-    <script src="/js/index.js"></script>
 
 
 

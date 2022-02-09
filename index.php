@@ -22,6 +22,7 @@
     <meta charset="UTF-8">
     <title>Ole Hallvard</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/ohk-ds/tags.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -36,7 +37,7 @@
 
 <body>
 
-    <div class="hero-opener">
+    <div class="hero">
         <div class="gradient">
             <div class="name"><b>Ole Hallvard Kveseth</b></div>
             <div class="about">T-formet <b>designer</b> med fokus på <b>UX/UI</b></div>

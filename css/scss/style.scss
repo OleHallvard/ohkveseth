@@ -1,6 +1,7 @@
 @import "../css/scss/colors.scss";
 @import "../css/scss/variabler.scss";
 @import "../css/scss/typography.scss";
+@import "../css/ohk-ds/tags.scss";
 
 * {
   margin: 0;
@@ -10,7 +11,7 @@
 
 $project-color: #2b2e35;
 
-.hero-opener {
+.hero {
   padding: calc(20px + 3vw) calc(#{$space-m} + 1vw);
   line-height: 1.1;
   font-size: 9vw;
@@ -319,17 +320,6 @@ button {
 
         @media (min-width: $screen-laptop) {
           flex-basis: auto;
-        }
-        .tag {
-          color: white;
-          font-weight: 500;
-          margin-top: 4px;
-          //background: darken($project-color, 9%);
-          background: rgba(0, 0, 0, 0.15);
-          padding: 6px 12px;
-          border-radius: 30px;
-          font-size: 10px;
-          display: inline-block;
         }
       }
     }

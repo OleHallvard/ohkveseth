@@ -1,16 +1,29 @@
 .title {
-  width: fit-content;
   background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
   .title--small {
     font-weight: 600;
     margin-top: 80px;
-    font-size: calc(10px + 1.52vw); }
+    font-size: calc(10px + 1.52vw);
+    width: fit-content; }
   .title--medium {
     font-weight: 600;
     margin-top: 80px;
-    font-size: calc(14px + 1.52vw); }
+    font-size: calc(14px + 1.52vw);
+    width: fit-content; }
+  .title--hero {
+    padding: calc(20px + 3vw) calc(24px + 1vw);
+    line-height: 1.1;
+    font-size: 9vw;
+    font-weight: 600; }
+
+.lead {
+  font-weight: 400;
+  margin-top: 80px;
+  font-size: calc(10px + 1.1vw);
+  font-size: calc(14px + 1.1vw);
+  width: fit-content; }
 
 /*
 
@@ -50,20 +63,20 @@
   padding: 0;
   font-family: "Inter", sans-serif; }
 
-.hero-opener {
+.hero {
   padding: calc(20px + 3vw) calc(24px + 1vw);
   line-height: 1.1;
   font-size: 9vw;
   font-weight: 200; }
-  .hero-opener .gradient {
+  .hero .gradient {
     background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
-  .hero-opener .name {
+  .hero .name {
     white-space: nowrap; }
-  .hero-opener .about {
+  .hero .about {
     margin-bottom: calc(10px + 1vw); }
-  .hero-opener .about-more-button {
+  .hero .about-more-button {
     display: block;
     font-size: calc(14px + 1.8vw);
     font-weight: 500;
@@ -71,7 +84,7 @@
     background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
-    .hero-opener .about-more-button:hover {
+    .hero .about-more-button:hover {
       opacity: 0.8; }
 
 .collapsible {
@@ -257,15 +270,6 @@ button {
         @media (min-width: 1000px) {
           .project-container .project .project-content .project-tags {
             flex-basis: auto; } }
-        .project-container .project .project-content .project-tags .tag {
-          color: white;
-          font-weight: 500;
-          margin-top: 4px;
-          background: rgba(0, 0, 0, 0.15);
-          padding: 6px 12px;
-          border-radius: 30px;
-          font-size: 10px;
-          display: inline-block; }
   .project-container .project:hover .project-screen {
     top: 44%;
     transition: 0.3s;

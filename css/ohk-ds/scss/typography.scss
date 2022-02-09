@@ -13,30 +13,26 @@ $ohk-font-primary: "Inter", sans-serif;
 
   &--x-small {
     font-weight: 600;
-    margin-top: 80px;
     font-size: calc(10px + 1.3vw);
     width: fit-content;
   }
 
   &--small {
     font-weight: 600;
-    margin-top: 80px;
     font-size: calc(10px + 1.52vw);
     width: fit-content;
   }
 
   &--medium {
     font-weight: 600;
-    margin-top: 80px;
     font-size: calc(14px + 1.52vw);
     width: fit-content;
   }
 
   &--hero {
-    padding: calc(20px + 3vw) calc(#{$space-m} + 1vw);
     line-height: 1.1;
-    font-size: 9vw;
-    font-weight: 600;
+    font-size: 10vw;
+    font-weight: 700;
   }
 }
 
@@ -53,7 +49,8 @@ $ohk-font-primary: "Inter", sans-serif;
 .lead {
   font-weight: 400;
   margin-top: 80px;
-  font-size: calc(14px + 1vw);
+  line-height: 150%;
+  font-size: calc(14px + 0.5vw);
   width: fit-content;
 }
 

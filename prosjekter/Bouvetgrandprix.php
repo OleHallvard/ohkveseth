@@ -36,9 +36,9 @@
     <div class="project-hero">
         <h1 class="title title--hero">Statnett</h1>
         <div class="project-tags">
-            <span class="tag">${tags}</span>
-            <span class="tag">${tags}</span>
-            <span class="tag">${tags}</span>
+            <span class="tag tag--gradient-bg">${tags}</span>
+            <span class="tag tag--gradient-bg">${tags}</span>
+            <span class="tag tag--gradient-bg">${tags}</span>
         </div>
     </div>
 
@@ -52,67 +52,78 @@
 
     <div class="one-col one-col--large">
         <div class="one-col-content">
-            <img src="/img/main/olehallvard-profilbilde.jpeg" alt="profilbilde"" />
+            <img class="img-fit-cover" src="/img/main/olehallvard-profilbilde.jpeg" alt="profilbilde" />
         </div>
+        <div class="img-description body body--small">Bilde tatt fra arrangement</div>
     </div>
 
     <div class=" two-col">
-            <div class="two-col-content"></div>
-            <div class="two-col-content"></div>
+        <div class="two-col-content">
+            <img class="img-fit-cover" src="/img/main/olehallvard-profilbilde.jpeg" alt="profilbilde" />
         </div>
-
-        <p class="project-body body">Det gjelder å utnytte de muligheter som byr seg, og vi valgte derfor også å
-            kombinere
-            ”flyttemeldingen” med
-            en leken invitasjon til den aller første kundefesten i våre nye lokaler. I praksis betydde dette en e-post
-            med en festinvitasjon – og med en mulighet til å råkjøre veien fra våre gamle lokaler til de nye i et
-            egenutviklet bilspill. Spillet var basert på basert på Google/MapBox veivisningstjeneste, og kom du høyt nok
-            på high score-listen vanket det også premie på festen som beste sjåfør. Se hvor raskt du selv kan kjøre til
-            kontoret vårt!</p>
-
-        <div class="one-col one-col--medium">
-            <div class="one-col-content"></div>
+        <div class="two-col-content">
+            <img class="img-fit-cover" src="/img/main/olehallvard-profilbilde.jpeg" alt="profilbilde" />
         </div>
+    </div>
 
+    <p class="project-body body">Det gjelder å utnytte de muligheter som byr seg, og vi valgte derfor også å
+        kombinere
+        ”flyttemeldingen” med
+        en leken invitasjon til den aller første kundefesten i våre nye lokaler. I praksis betydde dette en e-post
+        med en festinvitasjon – og med en mulighet til å råkjøre veien fra våre gamle lokaler til de nye i et
+        egenutviklet bilspill. Spillet var basert på basert på Google/MapBox veivisningstjeneste, og kom du høyt nok
+        på high score-listen vanket det også premie på festen som beste sjåfør. Se hvor raskt du selv kan kjøre til
+        kontoret vårt!</p>
 
-
-
-        <p class="project-body body">Det gjelder å utnytte de muligheter som byr seg, og vi valgte derfor også å
-            kombinere
-            ”flyttemeldingen” med
-            en leken invitasjon til den aller første kundefesten i våre nye lokaler. I praksis betydde dette en e-post
-            med en festinvitasjon – og med en mulighet til å råkjøre veien fra våre gamle lokaler til de nye i et
-            egenutviklet bilspill. Spillet var basert på basert på Google/MapBox veivisningstjeneste, og kom du høyt nok
-            på high score-listen vanket det også premie på festen som beste sjåfør. Se hvor raskt du selv kan kjøre til
-            kontoret vårPortrait</p>
-
-        <div class="one-col one-col--portrait">
-            <div class="one-col-content"></div>
+    <div class="one-col one-col--medium">
+        <h3 class="title title--small center-text space-s">Overskrift</h3>
+        <div class="one-col-content">
+            <img class="img-fit-cover" src="/img/main/olehallvard-profilbilde.jpeg" alt="profilbilde" />
         </div>
+        <div class="img-description body body--small">Bilde tatt fra arrangement</div>
+    </div>
 
-        <div class="team">
 
-            <h4 class="title title--medium center-text">Team</h4>
-            <span class="member body body--small">Frode Kolstad // Grafisk designer</span>
-            <span class="member body body--small">Marc Garcia // UX designer</span>
+
+
+    <p class="project-body body">Det gjelder å utnytte de muligheter som byr seg, og vi valgte derfor også å
+        kombinere
+        ”flyttemeldingen” med
+        en leken invitasjon til den aller første kundefesten i våre nye lokaler. I praksis betydde dette en e-post
+        med en festinvitasjon – og med en mulighet til å råkjøre veien fra våre gamle lokaler til de nye i et
+        egenutviklet bilspill. Spillet var basert på basert på Google/MapBox veivisningstjeneste, og kom du høyt nok
+        på high score-listen vanket det også premie på festen som beste sjåfør. Se hvor raskt du selv kan kjøre til
+        kontoret vårPortrait</p>
+
+    <div class="one-col one-col--portrait">
+        <div class="one-col-content">
+            <img class="img-fit-cover" src="/img/main/olehallvard-profilbilde.jpeg" alt="profilbilde" />
         </div>
-        <div id="ohk-projects" class="project-container"></div>
+    </div>
 
-        <script>
-        for (let project in projects) {
+    <div class="team">
 
-            let tags =
-                projects[project].tags.map((tags, index) => {
-                    return `
+        <h4 class="title title--medium center-text">Team</h4>
+        <span class="member body body--small">Frode Kolstad // Grafisk designer</span>
+        <span class="member body body--small">Marc Garcia // UX designer</span>
+    </div>
+    <div id="ohk-projects" class="project-container"></div>
+
+    <script>
+    for (let project in projects) {
+
+        let tags =
+            projects[project].tags.map((tags, index) => {
+                return `
             <span class="tag">${tags}</span>
     `;
-                }).join('');
+            }).join('');
 
 
 
-            if (projects[project].frontpage === true) {
+        if (projects[project].frontpage === true) {
 
-                let projects_html = `
+            let projects_html = `
 
             <a href="/prosjekter/${projects[project].url}" class="project" style="background: ${projects[project].color};">
                 
@@ -139,10 +150,10 @@
         </a>              
 `;
 
-                document.getElementById("ohk-projects").innerHTML += projects_html;
-            };
+            document.getElementById("ohk-projects").innerHTML += projects_html;
         };
-        </script>
+    };
+    </script>
 
 
 
@@ -164,7 +175,7 @@
 
 
 
-        <!--  
+    <!--  
 
 
 

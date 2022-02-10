@@ -142,12 +142,12 @@
   .one-col .one-col-content {
     overflow: auto; }
 
-.video-container {
+.project-film {
   margin: auto;
   padding: 20px;
   max-width: 80%;
   margin-bottom: calc(40px + 3vw); }
-  .video-container iframe {
+  .project-film iframe {
     width: 100%;
     height: 70vh; }
 
@@ -162,8 +162,12 @@
 
 .team {
   width: 100% !important;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: calc(40px + 3vw); }
+  .team .title {
+    margin-bottom: 8px; }
   .team .member {
     display: block;
     text-align: center;
-    width: 100% !important; }
+    width: 100% !important;
+    margin-bottom: 4px; }

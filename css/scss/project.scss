@@ -84,7 +84,7 @@ $space-bottom: calc(40px + 3vw);
   }
 }
 
-.video-container {
+.project-film {
   margin: auto;
   padding: 20px;
   max-width: 80%;
@@ -109,10 +109,16 @@ $space-bottom: calc(40px + 3vw);
 .team {
   width: 100% !important;
   text-align: center;
+  margin-bottom: $space-bottom;
+
+  .title {
+    margin-bottom: $space-xs;
+  }
 
   .member {
     display: block;
     text-align: center;
     width: 100% !important;
+    margin-bottom: $space-xxs;
   }
 }

@@ -51,7 +51,34 @@ let projects = {
         alignimg: "top",
         tags: ["UI/UX", "Animasjon"],
         lead: "Da Bouvet i Oslo flyttet ved nyttår 2017, ga ikke det bare behov for å fortelle om vår nye adresse, det ga også en anledning til å fortelle noe om oss selv – på en avhengighetsskapende måte.",
-        filmone: "https://player.vimeo.com/video/225247842"
+        filmone: {
+            title: "Filmtitle 1", 
+            filmurl: "https://player.vimeo.com/video/225247842"
+        },
+        filmtwo: {
+            title: "Filmtitle 2", 
+            filmurl: "https://player.vimeo.com/video/225247842"
+        },
+        bodytextone: "Lorem ipsum 1",
+        bodytexttwo: "Lorem ipsum 2",
+
+        imgtwocolumn: {
+            imgone: {
+                imgurl: "/img/main/olehallvard-profilbilde.jpeg",
+                alt: "Alternativ tekst"
+            },
+            imgtwo: {
+                imgurl: "/img/main/olehallvard-profilbilde.jpeg",
+                alt: "Alternativ tekst"
+            }
+        },
+        imgonecolmedium: ["/img/main/olehallvard-profilbilde.jpeg", "/img/main/olehallvard-profilbilde.jpeg"],
+        imgonecollarge: {
+            imgurl: "/img/main/olehallvard-profilbilde.jpeg",
+            text: "Bildetekst her",
+            alt: "Alternativ tekst"
+        },
+        team: ["Frode Kolstad // Grafisk design", "Marc Garcia // UX-Lead", "Ole Hallvard // UX/UI"]
 
     },
     Statnett: {
@@ -64,7 +91,12 @@ let projects = {
         textcolor: textlight,
         aspect: "horizontal",
         alignimg: "top",
-        tags: ["UI/UX", "Designsystem", "Animasjon"]
+        tags: ["UI/UX", "Designsystem", "Animasjon"],
+        lead: "Casepresentasjon om arbeidet med Statnetts designsystem Power Grid.",
+        filmone: "https://player.vimeo.com/video/225247842",
+        filmtwo: "https://player.vimeo.com/video/225247842",
+        bodytextone: "Lorem ipsum 1",
+        bodytexttwo: "Lorem ipsum 2"
     },
     OBOS: {
         name: "OBOS",
@@ -233,7 +265,7 @@ let projects = {
         aspect: "horizontal",
         alignimg: "center",
         tags: ["Bildebehandling"]
-    },
+    }
 };
   
   

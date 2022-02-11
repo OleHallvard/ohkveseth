@@ -78,6 +78,7 @@ let projects = {
             text: "Bildetekst her",
             alt: "Alternativ tekst"
         },
+        imgportrait: ["/img/main/olehallvard-profilbilde.jpeg", "/img/main/olehallvard-profilbilde.jpeg", "/img/main/olehallvard-profilbilde.jpeg"],
         team: ["Frode Kolstad // Grafisk design", "Marc Garcia // UX-Lead", "Ole Hallvard // UX/UI"]
 
     },

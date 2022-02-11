@@ -151,11 +151,34 @@
     document.getElementById("body-text-two").innerHTML = bodytexttwo;
     </script>
 
+
+
+
+
+
+
+
     <div class="one-col one-col--portrait">
         <div class="one-col-content">
             <img class="img-fit-cover" src="/img/main/olehallvard-profilbilde.jpeg" alt="profilbilde" />
         </div>
+
     </div>
+
+    <script>
+    const project_team = projects['Bouvetgrandprix'].team.map((team, index) => {
+        return `
+        <span class="member body body--small">${team}</span>
+            `;
+    }).join('');
+
+    document.getElementById("project-team").innerHTML = project_team;
+    </script>
+
+
+
+
+
 
 
     <div class="team">

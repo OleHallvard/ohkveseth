@@ -22,17 +22,19 @@
 
 <body>
 
-    <script>
-    const projectname = "Bouvetgrandprix";
-    </script>
-
     <div class="project-hero">
-        <h1 class="title title--hero">Bouvetgrandprix</h1>
+        <h1 id="project-name" class="title title--hero"></h1>
         <div id="project-tags" class="project-tags">
         </div>
     </div>
 
     <script>
+    let project_name = projects['Bouvetgrandprix'].name.toString();
+
+    document.getElementById("project-name").innerHTML = project_name;
+
+
+
     const project_tags = projects['Bouvetgrandprix'].tags.map((tags, index) => {
         return `
         <span class="tag tag--gradient-bg">${tags}</span>
@@ -103,8 +105,6 @@
     <script>
     let imgtwocolumnimgoneimgurl = projects['Bouvetgrandprix'].imgtwocolumn.imgone.imgurl.toString();
     let imgtwocolumnimgonealt = projects['Bouvetgrandprix'].imgtwocolumn.imgone.alt.toString();
-
-    console.log(imgtwocolumnimgoneimgurl + imgtwocolumnimgonealt)
 
     let imgtwocolumnimgtwoimgurl = projects['Bouvetgrandprix'].imgtwocolumn.imgtwo.imgurl.toString();
     let imgtwocolumnimgtwoalt = projects['Bouvetgrandprix'].imgtwocolumn.imgtwo.alt.toString();
@@ -198,7 +198,6 @@
         <span class="member body body--small">${team}</span>
             `;
     }).join('');
-    console.log(project_team);
 
     document.getElementById("project-team").innerHTML = project_team;
     </script>

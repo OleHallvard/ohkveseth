@@ -22,6 +22,10 @@
 
 <body>
 
+    <script>
+    const projectname = "Bouvetgrandprix";
+    </script>
+
     <div class="project-hero">
         <h1 class="title title--hero">Bouvetgrandprix</h1>
         <div id="project-tags" class="project-tags">
@@ -159,20 +163,22 @@
 
 
     <div class="one-col one-col--portrait">
-        <div class="one-col-content">
-            <img class="img-fit-cover" src="/img/main/olehallvard-profilbilde.jpeg" alt="profilbilde" />
+        <div id="imgonecolportrait" class="">
+
         </div>
 
     </div>
 
+
     <script>
-    const project_team = projects['Bouvetgrandprix'].team.map((team, index) => {
+    const imgonecolportrait = projects['Bouvetgrandprix'].imgportrait.map((imgportrait, index) => {
         return `
-        <span class="member body body--small">${team}</span>
+        <img class="img-fit-original" src="${imgportrait}" alt="profilbilde" />
+        
             `;
     }).join('');
 
-    document.getElementById("project-team").innerHTML = project_team;
+    document.getElementById("imgonecolportrait").innerHTML = imgonecolportrait;
     </script>
 
 
@@ -192,6 +198,7 @@
         <span class="member body body--small">${team}</span>
             `;
     }).join('');
+    console.log(project_team);
 
     document.getElementById("project-team").innerHTML = project_team;
     </script>

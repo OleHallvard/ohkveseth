@@ -73,7 +73,6 @@ $space-bottom: calc(40px + 3vw);
 
   &--portrait {
     max-width: 35vw;
-    height: 85vh;
   }
 
   .one-col-content {
@@ -98,8 +97,15 @@ $space-bottom: calc(40px + 3vw);
 
 .img-fit-cover {
   object-fit: cover;
+  display: block;
   width: 100%;
   height: 100%;
+}
+
+.img-fit-original {
+  display: block;
+  width: 100%;
+  margin-bottom: $space-bottom;
 }
 
 .center-text {

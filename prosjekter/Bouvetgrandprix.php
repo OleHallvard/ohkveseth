@@ -84,9 +84,10 @@
     let imgonecollargeimgurl = projects['Bouvetgrandprix'].imgonecollarge.imgurl.toString();
     let imgonecollargetext = projects['Bouvetgrandprix'].imgonecollarge.text.toString();
     let imgonecollargealt = projects['Bouvetgrandprix'].imgonecollarge.alt.toString();
+    let projecturl = projects['Bouvetgrandprix'].url.toString();
 
     let imgonecollarge = `<div class="one-col-content">
-            <img class="img-fit-cover" src="${imgonecollargeimgurl}" alt="${imgonecollargealt}" />
+            <img class="img-fit-cover" src="/img/${projecturl}/${imgonecollargeimgurl}" alt="${imgonecollargealt}" />
         </div>
         <div class="img-description body body--small">${imgonecollargetext}</div>`;
 
@@ -111,11 +112,11 @@
 
     let imgtwocolumn = `
         <div class="two-col-content">
-            <img class="img-fit-cover" src="${imgtwocolumnimgoneimgurl}" alt="${imgtwocolumnimgonealt}" />
+            <img class="img-fit-cover" src="/img/${projecturl}/${imgtwocolumnimgoneimgurl}" alt="${imgtwocolumnimgonealt}" />
         </div>
         
         <div class="two-col-content">
-            <img class="img-fit-cover" src="${imgtwocolumnimgtwoimgurl}" alt="${imgtwocolumnimgtwoalt}" />
+            <img class="img-fit-cover" src="/img/${projecturl}/${imgtwocolumnimgtwoimgurl}" alt="${imgtwocolumnimgtwoalt}" />
         </div>`;
 
     document.getElementById("two-col").innerHTML = imgtwocolumn;
@@ -136,10 +137,12 @@
     document.getElementById("body-text-one").innerHTML = bodytextone;
     </script>
 
+
+
     <div class="one-col one-col--medium">
         <h3 class="title title--small center-text space-s">Overskrift</h3>
         <div class="one-col-content">
-            <img class="img-fit-cover" src="/img/main/olehallvard-profilbilde.jpeg" alt="profilbilde" />
+            <img class="img-fit-cover" src="/img/bouvetgrandprix/BGP_Map_english.jpg" alt="profilbilde" />
         </div>
         <div class="img-description body body--small">Bilde tatt fra arrangement</div>
     </div>
@@ -173,16 +176,13 @@
     <script>
     const imgonecolportrait = projects['Bouvetgrandprix'].imgportrait.map((imgportrait, index) => {
         return `
-        <img class="img-fit-original" src="${imgportrait}" alt="profilbilde" />
+        <img class="img-fit-original" src="/img/${projecturl}/${imgportrait}" alt="profilbilde" />
         
             `;
     }).join('');
 
     document.getElementById("imgonecolportrait").innerHTML = imgonecolportrait;
     </script>
-
-
-
 
 
 

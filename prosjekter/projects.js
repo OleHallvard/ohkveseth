@@ -52,7 +52,7 @@ let projects = {
         tags: ["UI/UX", "Animasjon"],
         lead: "Da Bouvet i Oslo flyttet ved nyttår 2017, ga ikke det bare behov for å fortelle om vår nye adresse, det ga også en anledning til å fortelle noe om oss selv – på en avhengighetsskapende måte.",
         filmone: {
-            title: "Filmtitle 1", 
+            title: "Promofilm", 
             filmurl: "https://player.vimeo.com/video/225247842"
         },
         filmtwo: {
@@ -64,22 +64,22 @@ let projects = {
 
         imgtwocolumn: {
             imgone: {
-                imgurl: "/img/main/olehallvard-profilbilde.jpeg",
+                imgurl: "BGP_iPad_closeup_2.jpg",
                 alt: "Alternativ tekst"
             },
             imgtwo: {
-                imgurl: "/img/main/olehallvard-profilbilde.jpeg",
+                imgurl: "BGP_iPad_closeup_.jpg",
                 alt: "Alternativ tekst"
             }
         },
         imgonecolmedium: ["/img/main/olehallvard-profilbilde.jpeg", "/img/main/olehallvard-profilbilde.jpeg"],
         imgonecollarge: {
-            imgurl: "/img/main/olehallvard-profilbilde.jpeg",
+            imgurl: "BGP_Toppbilde.jpg",
             text: "Bildetekst her",
             alt: "Alternativ tekst"
         },
-        imgportrait: ["/img/main/olehallvard-profilbilde.jpeg", "/img/main/olehallvard-profilbilde.jpeg", "/img/main/olehallvard-profilbilde.jpeg"],
-        team: ["Frode Kolstad // Grafisk design", "Marc Garcia // UX-Lead", "Ole Hallvard // UX/UI"]
+        imgportrait: ["BGPiphonemapenglish.jpg", "BGP_Macbooksscreen_english.jpg", "bgp.jpg"],
+        team: ["Kristian Wille // Tech lead", "Zulu // Frontend utvikler", "Ole Hallvard Kveseth // UX/UI"]
 
     },
     Statnett: {

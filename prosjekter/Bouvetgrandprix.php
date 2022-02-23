@@ -14,9 +14,6 @@
     <meta name="viewport" content="width=device-width">
 
     <script src="/prosjekter/projects.js"></script>
-
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
 
 
@@ -43,17 +40,13 @@
     <p id="body-text-two" class="project-body body"></p>
 
     <div class="one-col one-col--portrait">
-        <div id="imgonecolportrait" class="">
-
-        </div>
-
+        <div id="imgonecolportrait" class=""></div>
     </div>
 
     <div class="team">
         <h4 class="title title--medium center-text">Team</h4>
         <div id="project-team"></div>
     </div>
-
 
 </body>
 
@@ -66,41 +59,39 @@
 
 
 <script>
-let project_name = projects['Bouvetgrandprix'].name.toString();
+const projectname = 'Bouvetgrandprix';
+console.log(projectname);
+
+// inserts project name
+let project_name = projects[projectname].name.toString();
 
 document.getElementById("project-name").innerHTML = project_name;
 
 
-
-const project_tags = projects['Bouvetgrandprix'].tags.map((tags, index) => {
+// inserts project tags
+const project_tags = projects[projectname].tags.map((tags, index) => {
     return `
         <span class="tag tag--gradient-bg">${tags}</span>
             `;
 }).join('');
 
 document.getElementById("project-tags").innerHTML = project_tags;
-</script>
 
 
 
-
-
-
-<script>
-let project_lead = projects['Bouvetgrandprix'].lead.toString();
+// inserts project lead text
+let project_lead = projects[projectname].lead.toString();
 
 document.getElementById("project-lead").innerHTML = project_lead;
-</script>
 
 
 
 
+// inserts project films
+const filmurl = projects[projectname].film.map((i) => i.url.toString());
+const filmtitle = projects[projectname].film.map((i) => i.title.toString());
 
-<script>
-const filmurl = projects['Bouvetgrandprix'].film.map((i) => i.url.toString());
-const filmtitle = projects['Bouvetgrandprix'].film.map((i) => i.title.toString());
-
-const film = projects['Bouvetgrandprix'].film.map((film, index) => {
+const film = projects[projectname].film.map((film, index) => {
 
     return `<h3 class="title title--small center-text space-s">${film.title}</h3>
         <iframe src="${film.url}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
@@ -108,16 +99,15 @@ const film = projects['Bouvetgrandprix'].film.map((film, index) => {
 }).join('');
 
 document.getElementById("project-film").innerHTML = film;
-</script>
 
 
 
 
-<script>
-let imgonecollargeimgurl = projects['Bouvetgrandprix'].imgonecollarge.imgurl.toString();
-let imgonecollargetext = projects['Bouvetgrandprix'].imgonecollarge.text.toString();
-let imgonecollargealt = projects['Bouvetgrandprix'].imgonecollarge.alt.toString();
-let projecturl = projects['Bouvetgrandprix'].url.toString();
+// inserts large imgages
+let imgonecollargeimgurl = projects[projectname].imgonecollarge.imgurl.toString();
+let imgonecollargetext = projects[projectname].imgonecollarge.text.toString();
+let imgonecollargealt = projects[projectname].imgonecollarge.alt.toString();
+let projecturl = projects[projectname].url.toString();
 
 let imgonecollarge = `<div class="one-col-content">
             <img class="img-fit-cover" src="/img/${projecturl}/${imgonecollargeimgurl}" alt="${imgonecollargealt}" />
@@ -126,19 +116,16 @@ let imgonecollarge = `<div class="one-col-content">
 
 
 document.getElementById("one-col--large").innerHTML = imgonecollarge;
-</script>
 
 
 
 
+// inserts two column images
+let imgtwocolumnimgoneimgurl = projects[projectname].imgtwocolumn.imgone.imgurl.toString();
+let imgtwocolumnimgonealt = projects[projectname].imgtwocolumn.imgone.alt.toString();
 
-
-<script>
-let imgtwocolumnimgoneimgurl = projects['Bouvetgrandprix'].imgtwocolumn.imgone.imgurl.toString();
-let imgtwocolumnimgonealt = projects['Bouvetgrandprix'].imgtwocolumn.imgone.alt.toString();
-
-let imgtwocolumnimgtwoimgurl = projects['Bouvetgrandprix'].imgtwocolumn.imgtwo.imgurl.toString();
-let imgtwocolumnimgtwoalt = projects['Bouvetgrandprix'].imgtwocolumn.imgtwo.alt.toString();
+let imgtwocolumnimgtwoimgurl = projects[projectname].imgtwocolumn.imgtwo.imgurl.toString();
+let imgtwocolumnimgtwoalt = projects[projectname].imgtwocolumn.imgtwo.alt.toString();
 
 let imgtwocolumn = `
         <div class="two-col-content">
@@ -150,73 +137,54 @@ let imgtwocolumn = `
         </div>`;
 
 document.getElementById("two-col").innerHTML = imgtwocolumn;
-</script>
 
 
 
 
-
-<script>
-let bodytextone = projects['Bouvetgrandprix'].bodytextone.toString();
+// inserts body text nr one
+let bodytextone = projects[projectname].bodytextone.toString();
 
 document.getElementById("body-text-one").innerHTML = bodytextone;
-</script>
 
 
 
+// inserts medium size images
+const onecolmediumurl = projects[projectname].imgonecolmedium.map((i) => i.url.toString());
+const onecolmediumtitle = projects[projectname].imgonecolmedium.map((i) => i.title.toString());
+const onecolmediumalt = projects[projectname].imgonecolmedium.map((i) => i.alt.toString());
+const onecolmediumtext = projects[projectname].imgonecolmedium.map((i) => i.text.toString());
+const project_url = projects[projectname].url.toString();
 
 
-
-<script>
-const onecolmediumurl = projects['Bouvetgrandprix'].imgonecolmedium.map((i) => i.url.toString());
-const onecolmediumtitle = projects['Bouvetgrandprix'].imgonecolmedium.map((i) => i.title.toString());
-const onecolmediumalt = projects['Bouvetgrandprix'].imgonecolmedium.map((i) => i.alt.toString());
-const onecolmediumtext = projects['Bouvetgrandprix'].imgonecolmedium.map((i) => i.text.toString());
-
-const onecolmedium = projects['Bouvetgrandprix'].imgonecolmedium.map((imgonecolmedium, index) => {
+const onecolmedium = projects[projectname].imgonecolmedium.map((imgonecolmedium, index) => {
 
     return ` <h3 class="title title--small center-text space-s">${imgonecolmedium.title}</h3>
         <div class="one-col-content">
-            <img class="img-fit-cover" src="${imgonecolmedium.url}" alt="${imgonecolmedium.alt}" />
+            <img class="img-fit-cover" src="/img/${project_url}/${imgonecolmedium.url}" alt="${imgonecolmedium.alt}" />
         </div>
         <div class="img-description body body--small">${imgonecolmedium.text}</div>`;
 }).join('');
 
 document.getElementById("one-col--medium").innerHTML = onecolmedium;
-</script>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-<script>
-let bodytexttwo = projects['Bouvetgrandprix'].bodytexttwo.toString();
-
+// inserts body text two
+let bodytexttwo = projects[projectname].bodytexttwo.toString();
 document.getElementById("body-text-two").innerHTML = bodytexttwo;
-</script>
 
 
 
 
+// inserts portaite mode images
+const imgonecolumnportraitimgurl = projects[projectname].imgportrait.map((i) => i.imgurl.toString());
+const imgonecolumnportraittext = projects[projectname].imgportrait.map((i) => i.text.toString());
+const imgonecolumnportraitalt = projects[projectname].imgportrait.map((i) => i.alt.toString());
 
 
-
-<script>
-const imgonecolumnportraitimgurl = projects['Bouvetgrandprix'].imgportrait.map((i) => i.imgurl.toString());
-const imgonecolumnportraittext = projects['Bouvetgrandprix'].imgportrait.map((i) => i.text.toString());
-const imgonecolumnportraitalt = projects['Bouvetgrandprix'].imgportrait.map((i) => i.alt.toString());
-
-
-const imgonecolportrait = projects['Bouvetgrandprix'].imgportrait.map((imgportrait, index) => {
+const imgonecolportrait = projects[projectname].imgportrait.map((imgportrait, index) => {
 
     return `
         <img class="img-fit-original" src="/img/bouvetgrandprix/${imgportrait.imgurl}" alt="${imgportrait.alt}" />
@@ -225,16 +193,12 @@ const imgonecolportrait = projects['Bouvetgrandprix'].imgportrait.map((imgportra
 }).join('');
 
 document.getElementById("imgonecolportrait").innerHTML = imgonecolportrait;
-</script>
 
 
 
-
-
-
-
-<script>
-const project_team = projects['Bouvetgrandprix'].team.map((team, index) => {
+////////////////////////////////////////
+// inserts project team
+const project_team = projects[projectname].team.map((team, index) => {
     return `
         <span class="member body body--small">${team}</span>
             `;
@@ -242,7 +206,6 @@ const project_team = projects['Bouvetgrandprix'].team.map((team, index) => {
 
 document.getElementById("project-team").innerHTML = project_team;
 </script>
-
 
 
 

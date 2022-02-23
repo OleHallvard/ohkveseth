@@ -82,19 +82,19 @@ let projects = {
      
         imgonecolmedium: [{
             title: "Mediumbilde", 
-            url: "/img/main/olehallvard-profilbilde.jpeg",
+            url: "BGP_iPad_closeup_.jpg",
             alt: "alt tekst",
             text: "bildetekst her"
         },
         {
             title: "Mediumbilde", 
-            url: "/img/main/olehallvard-profilbilde.jpeg",
+            url: "BGP_iPad_closeup_.jpg",
             alt: "alt tekst",
             text: "bildetekst her"
         },
         {
             title: "Mediumbilde", 
-            url: "/img/main/olehallvard-profilbilde.jpeg",
+            url: "BGP_iPad_closeup_.jpg",
             alt: "alt tekst",
             text: "bildetekst her"
         }],

@@ -79,7 +79,25 @@ let projects = {
                 alt: "Alternativ tekst"
             }
         },
-        imgonecolmedium: ["/img/main/olehallvard-profilbilde.jpeg", "/img/main/olehallvard-profilbilde.jpeg"],
+     
+        imgonecolmedium: [{
+            title: "Mediumbilde", 
+            url: "/img/main/olehallvard-profilbilde.jpeg",
+            alt: "alt tekst",
+            text: "bildetekst her"
+        },
+        {
+            title: "Mediumbilde", 
+            url: "/img/main/olehallvard-profilbilde.jpeg",
+            alt: "alt tekst",
+            text: "bildetekst her"
+        },
+        {
+            title: "Mediumbilde", 
+            url: "/img/main/olehallvard-profilbilde.jpeg",
+            alt: "alt tekst",
+            text: "bildetekst her"
+        }],
  
         imgonecollarge: {
             imgurl: "BGP_Toppbilde.jpg",

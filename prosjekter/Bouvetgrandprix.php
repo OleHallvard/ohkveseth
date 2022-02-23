@@ -61,12 +61,8 @@
 
 
     <script>
-    console.log("Hei");
     const filmurl = projects['Bouvetgrandprix'].film.map((i) => i.url.toString());
     const filmtitle = projects['Bouvetgrandprix'].film.map((i) => i.title.toString());
-    console.log(filmurl);
-    console.log(filmtitle);
-
 
     const film = projects['Bouvetgrandprix'].film.map((film, index) => {
 
@@ -76,8 +72,6 @@
     }).join('');
 
     document.getElementById("project-film").innerHTML = film;
-
-    console.log(film);
     </script>
 
 
@@ -137,13 +131,39 @@
 
 
 
-    <div class="one-col one-col--medium">
-        <h3 class="title title--small center-text space-s">Overskrift</h3>
+    <div id="one-col--medium" class="one-col one-col--medium"></div>
+
+
+
+    <script>
+    const onecolmediumurl = projects['Bouvetgrandprix'].imgonecolmedium.map((i) => i.url.toString());
+    const onecolmediumtitle = projects['Bouvetgrandprix'].imgonecolmedium.map((i) => i.title.toString());
+    const onecolmediumalt = projects['Bouvetgrandprix'].imgonecolmedium.map((i) => i.alt.toString());
+    const onecolmediumtext = projects['Bouvetgrandprix'].imgonecolmedium.map((i) => i.text.toString());
+
+    console.log(onecolmediumtitle);
+    console.log(onecolmediumalt);
+
+    const onecolmedium = projects['Bouvetgrandprix'].imgonecolmedium.map((imgonecolmedium, index) => {
+
+        return ` <h3 class="title title--small center-text space-s">${imgonecolmedium.title}</h3>
         <div class="one-col-content">
-            <img class="img-fit-cover" src="/img/main/olehallvard-profilbilde.jpeg" alt="profilbilde" />
+            <img class="img-fit-cover" src="${imgonecolmedium.url}" alt="${imgonecolmedium.alt}" />
         </div>
-        <div class="img-description body body--small">Bilde tatt fra arrangement</div>
-    </div>
+        <div class="img-description body body--small">${imgonecolmedium.text}</div>`;
+    }).join('');
+
+    document.getElementById("one-col--medium").innerHTML = onecolmedium;
+    </script>
+
+
+
+
+
+
+
+
+
 
 
 

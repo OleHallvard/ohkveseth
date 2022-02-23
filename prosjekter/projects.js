@@ -51,14 +51,21 @@ let projects = {
         alignimg: "top",
         tags: ["UI/UX", "Animasjon"],
         lead: "Da Bouvet i Oslo flyttet ved nyttår 2017, ga ikke det bare behov for å fortelle om vår nye adresse, det ga også en anledning til å fortelle noe om oss selv – på en avhengighetsskapende måte.",
-        filmone: {
+    
+        film: [{
             title: "Promofilm", 
-            filmurl: "https://player.vimeo.com/video/225247842"
+            url: "https://player.vimeo.com/video/225247842"
         },
-        filmtwo: {
-            title: "Filmtitle 2", 
-            filmurl: "https://player.vimeo.com/video/225247842"
+        {
+            title: "Promofilm", 
+            url: "https://player.vimeo.com/video/225247842"
         },
+        {
+            title: "Promofilm", 
+            url: "https://player.vimeo.com/video/225247842"
+        }],
+
+
         bodytextone: "Det gjelder å utnytte de muligheter som byr seg, og vi valgte derfor også å kombinere ”flyttemeldingen” med en leken invitasjon til den aller første kundefesten i våre nye lokaler. I praksis betydde dette en e-post med en festinvitasjon – og med en mulighet til å råkjøre veien fra våre gamle lokaler til de nye i et egenutviklet bilspill. Spillet var basert på basert på Google/MapBox veivisningstjeneste, og kom du høyt nok på high score-listen vanket det også premie på festen som beste sjåfør.",
         bodytexttwo: "Lorem ipsum 2",
 

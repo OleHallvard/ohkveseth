@@ -25,8 +25,7 @@
 
     <div class="project-hero">
         <h1 id="project-name" class="title title--hero"></h1>
-        <div id="project-tags" class="project-tags">
-        </div>
+        <div id="project-tags" class="project-tags"></div>
     </div>
 
     <script>
@@ -58,24 +57,28 @@
 
 
 
-
-
-
-    <div id="project-filmone" class="project-film"></div>
+    <div id="project-film" class="project-film"></div>
 
 
     <script>
-    let filmtitle = projects['Bouvetgrandprix'].filmone.title.toString();
-    let filmurl = projects['Bouvetgrandprix'].filmone.filmurl.toString();
+    console.log("Hei");
+    const filmurl = projects['Bouvetgrandprix'].film.map((i) => i.url.toString());
+    const filmtitle = projects['Bouvetgrandprix'].film.map((i) => i.title.toString());
+    console.log(filmurl);
+    console.log(filmtitle);
 
-    let filmone = `<h3 class="title title--small center-text space-s">${filmtitle}</h3>
-        <iframe src="${filmurl}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+
+    const film = projects['Bouvetgrandprix'].film.map((film, index) => {
+
+        return `<h3 class="title title--small center-text space-s">${film.title}</h3>
+        <iframe src="${film.url}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
             allowfullscreen></iframe>`;
+    }).join('');
 
-    document.getElementById("project-filmone").innerHTML = filmone;
+    document.getElementById("project-film").innerHTML = film;
+
+    console.log(film);
     </script>
-
-
 
 
 
@@ -95,8 +98,6 @@
 
     document.getElementById("one-col--large").innerHTML = imgonecollarge;
     </script>
-
-
 
 
 
@@ -122,10 +123,6 @@
 
     document.getElementById("two-col").innerHTML = imgtwocolumn;
     </script>
-
-
-
-
 
 
 
@@ -162,10 +159,6 @@
 
 
 
-
-
-
-
     <div class="one-col one-col--portrait">
         <div id="imgonecolportrait" class="">
 
@@ -178,9 +171,6 @@
     const imgonecolumnportraitimgurl = projects['Bouvetgrandprix'].imgportrait.map((i) => i.imgurl.toString());
     const imgonecolumnportraittext = projects['Bouvetgrandprix'].imgportrait.map((i) => i.text.toString());
     const imgonecolumnportraitalt = projects['Bouvetgrandprix'].imgportrait.map((i) => i.alt.toString());
-    console.log(imgonecolumnportraitalt);
-    console.log(imgonecolumnportraittext);
-    console.log(imgonecolumnportraitimgurl);
 
 
     const imgonecolportrait = projects['Bouvetgrandprix'].imgportrait.map((imgportrait, index) => {

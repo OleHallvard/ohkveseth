@@ -59,7 +59,7 @@ let projects = {
             title: "Filmtitle 2", 
             filmurl: "https://player.vimeo.com/video/225247842"
         },
-        bodytextone: "Lorem ipsum 1",
+        bodytextone: "Det gjelder å utnytte de muligheter som byr seg, og vi valgte derfor også å kombinere ”flyttemeldingen” med en leken invitasjon til den aller første kundefesten i våre nye lokaler. I praksis betydde dette en e-post med en festinvitasjon – og med en mulighet til å råkjøre veien fra våre gamle lokaler til de nye i et egenutviklet bilspill. Spillet var basert på basert på Google/MapBox veivisningstjeneste, og kom du høyt nok på high score-listen vanket det også premie på festen som beste sjåfør.",
         bodytexttwo: "Lorem ipsum 2",
 
         imgtwocolumn: {
@@ -73,12 +73,29 @@ let projects = {
             }
         },
         imgonecolmedium: ["/img/main/olehallvard-profilbilde.jpeg", "/img/main/olehallvard-profilbilde.jpeg"],
+ 
         imgonecollarge: {
             imgurl: "BGP_Toppbilde.jpg",
             text: "Bildetekst her",
             alt: "Alternativ tekst"
         },
-        imgportrait: ["BGPiphonemapenglish.jpg", "BGP_Macbooksscreen_english.jpg", "bgp.jpg"],
+        
+        imgportrait: [{
+            imgurl: "BGP_Toppbilde.jpg",
+            text: "Bildetekst her1",
+            alt: "Alternativ tekst1"
+        },
+        {
+            imgurl: "BGP_Toppbilde.jpg",
+            text: "Bildetekst her2",
+            alt: "Alternativ tekst2"
+        },
+        {
+            imgurl: "BGP_Toppbilde.jpg",
+            text: "Bildetekst her3",
+            alt: "Alternativ tekst3"
+        }],
+
         team: ["Kristian Wille // Tech lead", "Zulu // Frontend utvikler", "Ole Hallvard Kveseth // UX/UI"]
 
     },

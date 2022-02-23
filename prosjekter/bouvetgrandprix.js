@@ -1,40 +1,12 @@
-<!DOCTYPE html>
 
-<html>
+    // insert project name    
 
-<head>
-    <title>Ole Hallvard</title>
-
-    <meta charset="UTF-8">
-
-    <link rel="stylesheet" href="../css/project.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-
-    <meta name="viewport" content="width=device-width">
-
-    <script src="/prosjekter/projects.js"></script>
-
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-</head>
-
-
-
-<body>
-
-    <div class="project-hero">
-        <h1 id="project-name" class="title title--hero"></h1>
-        <div id="project-tags" class="project-tags">
-        </div>
-    </div>
-
-    <script>
     let project_name = projects['Bouvetgrandprix'].name.toString();
 
     document.getElementById("project-name").innerHTML = project_name;
 
 
+    // insert project tafs
 
     const project_tags = projects['Bouvetgrandprix'].tags.map((tags, index) => {
         return `
@@ -43,28 +15,20 @@
     }).join('');
 
     document.getElementById("project-tags").innerHTML = project_tags;
-    </script>
 
 
 
+    // inset lead text
 
-    <p id="project-lead" class="project-lead lead"></p>
-
-    <script>
     let project_lead = projects['Bouvetgrandprix'].lead.toString();
 
     document.getElementById("project-lead").innerHTML = project_lead;
-    </script>
 
 
 
 
+    // insert films
 
-
-    <div id="project-filmone" class="project-film"></div>
-
-
-    <script>
     let filmtitle = projects['Bouvetgrandprix'].filmone.title.toString();
     let filmurl = projects['Bouvetgrandprix'].filmone.filmurl.toString();
 
@@ -73,15 +37,11 @@
             allowfullscreen></iframe>`;
 
     document.getElementById("project-filmone").innerHTML = filmone;
-    </script>
 
 
 
 
-
-    <div id="one-col--large" class="one-col one-col--large"></div>
-
-    <script>
+    // insert large one column images
     let imgonecollargeimgurl = projects['Bouvetgrandprix'].imgonecollarge.imgurl.toString();
     let imgonecollargetext = projects['Bouvetgrandprix'].imgonecollarge.text.toString();
     let imgonecollargealt = projects['Bouvetgrandprix'].imgonecollarge.alt.toString();
@@ -94,17 +54,10 @@
 
 
     document.getElementById("one-col--large").innerHTML = imgonecollarge;
-    </script>
 
 
 
-
-
-
-    <div id="two-col" class="two-col"></div>
-
-
-    <script>
+    // insert two colum images
     let imgtwocolumnimgoneimgurl = projects['Bouvetgrandprix'].imgtwocolumn.imgone.imgurl.toString();
     let imgtwocolumnimgonealt = projects['Bouvetgrandprix'].imgtwocolumn.imgone.alt.toString();
 
@@ -121,90 +74,40 @@
         </div>`;
 
     document.getElementById("two-col").innerHTML = imgtwocolumn;
-    </script>
 
 
 
-
-
-
-
-
-    <p id="body-text-one" class="project-body body"></p>
-
-    <script>
+    // insert body text 1
     let bodytextone = projects['Bouvetgrandprix'].bodytextone.toString();
 
     document.getElementById("body-text-one").innerHTML = bodytextone;
-    </script>
-
-
-
-    <div class="one-col one-col--medium">
-        <h3 class="title title--small center-text space-s">Overskrift</h3>
-        <div class="one-col-content">
-            <img class="img-fit-cover" src="/img/main/olehallvard-profilbilde.jpeg" alt="profilbilde" />
-        </div>
-        <div class="img-description body body--small">Bilde tatt fra arrangement</div>
-    </div>
-
-
-
-
-    <p id="body-text-two" class="project-body body"></p>
-
-    <script>
+ 
+    // insert body text 2
     let bodytexttwo = projects['Bouvetgrandprix'].bodytexttwo.toString();
 
     document.getElementById("body-text-two").innerHTML = bodytexttwo;
-    </script>
+  
 
 
 
+// insert images one colum portrait
+    const imgonecolumnportraitimgurl = projects['Bouvetgrandprix'].imgportrait[1].imgurl.toString();
+    const imgonecolumnportraittext = projects['Bouvetgrandprix'].imgportrait[1].text.toString();
+    const imgonecolumnportraitalt = projects['Bouvetgrandprix'].imgportrait[1].alt.toString();
 
-
-
-
-
-    <div class="one-col one-col--portrait">
-        <div id="imgonecolportrait" class="">
-
-        </div>
-
-    </div>
-
-
-    <script>
-    const imgonecolumnportraitimgurl = projects['Bouvetgrandprix'].imgportrait.map((i) => i.imgurl.toString());
-    const imgonecolumnportraittext = projects['Bouvetgrandprix'].imgportrait.map((i) => i.text.toString());
-    const imgonecolumnportraitalt = projects['Bouvetgrandprix'].imgportrait.map((i) => i.alt.toString());
-    console.log(imgonecolumnportraitalt);
-    console.log(imgonecolumnportraittext);
-    console.log(imgonecolumnportraitimgurl);
-
-
-    const imgonecolportrait = projects['Bouvetgrandprix'].imgportrait.map((imgportrait, index) => {
+    const imgonecolportrait = projects['Bouvetgrandprix'].imgportrait.text.map((imgportrait, index) => {
 
         return `
-        <img class="img-fit-original" src="/img/bouvetgrandprix/${imgportrait.imgurl}" alt="${imgportrait.alt}" />
+        <img class="img-fit-original" src="/img/bouvetgrandprix/${imgurl}" alt="${alt}" />
         
             `;
     }).join('');
 
     document.getElementById("imgonecolportrait").innerHTML = imgonecolportrait;
-    </script>
 
 
 
-
-
-
-    <div class="team">
-        <h4 class="title title--medium center-text">Team</h4>
-        <div id="project-team"></div>
-    </div>
-
-    <script>
+    // insert team members
     const project_team = projects['Bouvetgrandprix'].team.map((team, index) => {
         return `
         <span class="member body body--small">${team}</span>
@@ -212,10 +115,3 @@
     }).join('');
 
     document.getElementById("project-team").innerHTML = project_team;
-    </script>
-
-
-
-</body>
-
-</html>

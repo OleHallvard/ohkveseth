@@ -27,7 +27,9 @@
 
     <p id="project-lead" class="project-lead lead"></p>
 
-    <div id="project-film" class="project-film"></div>
+    <div class="project-film">
+        <div id="project-film"></div>
+    </div>
 
     <div id="one-col--large" class="one-col one-col--large"></div>
 
@@ -162,7 +164,7 @@ const onecolmedium = projects[projectname].imgonecolmedium.map((imgonecolmedium,
         <div class="one-col-content">
             <img class="img-fit-cover" src="/img/${project_url}/${imgonecolmedium.url}" alt="${imgonecolmedium.alt}" />
         </div>
-        <div class="img-description body body--small">${imgonecolmedium.text}</div>`;
+        <div class="img-description body body--small space-xl">${imgonecolmedium.text}</div>`;
 }).join('');
 
 document.getElementById("one-col--medium").innerHTML = onecolmedium;
@@ -187,7 +189,7 @@ const imgonecolumnportraitalt = projects[projectname].imgportrait.map((i) => i.a
 const imgonecolportrait = projects[projectname].imgportrait.map((imgportrait, index) => {
 
     return `
-        <img class="img-fit-original" src="/img/bouvetgrandprix/${imgportrait.imgurl}" alt="${imgportrait.alt}" />
+        <img class="img-fit-original space-xl" src="/img/bouvetgrandprix/${imgportrait.imgurl}" alt="${imgportrait.alt}" />
         
             `;
 }).join('');
@@ -196,7 +198,6 @@ document.getElementById("imgonecolportrait").innerHTML = imgonecolportrait;
 
 
 
-////////////////////////////////////////
 // inserts project team
 const project_team = projects[projectname].team.map((team, index) => {
     return `

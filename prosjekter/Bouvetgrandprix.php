@@ -33,12 +33,6 @@
 
     <div id="project-items"></div>
 
-    <p id="body-text-two" class="project-body body"></p>
-
-    <div class="one-col one-col--portrait">
-        <div id="imgonecolportrait"></div>
-    </div>
-
     <div class="team">
         <h4 class="title title--medium center-text">Team</h4>
         <div id="project-team"></div>
@@ -172,7 +166,10 @@ document.getElementById("project-items").innerHTML += onecolmedium;
 
 // inserts body text two
 let bodytexttwo = projects[projectname].bodytexttwo.toString();
-document.getElementById("body-text-two").innerHTML = bodytexttwo;
+
+let bodytexttwohmtl = `<p id="body-text-two" class="project-body body">${bodytexttwo}</p>`;
+
+document.getElementById("project-items").innerHTML += bodytexttwohmtl;
 
 
 
@@ -191,7 +188,10 @@ const imgonecolportrait = projects[projectname].imgportrait.map((imgportrait, in
             `;
 }).join('');
 
-document.getElementById("imgonecolportrait").innerHTML = imgonecolportrait;
+const imgonecolportraithtml = `<div class="one-col one-col--portrait">
+        <div id="imgonecolportrait">${imgonecolportrait}</div>
+    </div>`;
+document.getElementById("project-items").innerHTML += imgonecolportraithtml;
 
 
 

@@ -163,7 +163,8 @@ let projects = {
         textcolor: textlight,
         aspect: "vertical",
         alignimg: "top",
-        tags: ["UI/UX"]
+        tags: ["UI/UX"],
+        team: 'singel'
     },
     SNLA: {
         name: "SNLA",
@@ -295,7 +296,8 @@ let projects = {
         textcolor: textlight,
         aspect: "vertical",
         alignimg: "center",
-        tags: ["Reklame"]
+        tags: ["Reklame"],
+        team: 'singel'
     },
     Photoshoping: {
         name: "Bildebehandling",
@@ -307,7 +309,8 @@ let projects = {
         textcolor: textlight,
         aspect: "horizontal",
         alignimg: "center",
-        tags: ["Bildebehandling"]
+        tags: ["Bildebehandling"],
+        team: 'singel'
     }
 };
   

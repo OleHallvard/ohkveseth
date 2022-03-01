@@ -72,23 +72,25 @@ $space-bottom: calc(40px + 3vw);
   &--portrait {
     max-width: 40vw;
   }
+}
 
-  .one-col-content {
-    //overflow: auto;
-  }
+.film-container {
+  max-width: 1920px;
+  padding: $space-s;
+  margin: auto;
 
-  img {
+  @media (min-width: $screen-laptop) {
+    padding: $space-xl;
   }
 }
 
-.project-film {
+.video-wrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
   height: 0;
 
   iframe {
-    width: 100% !important;
-    height: auto !important;
     position: absolute;
     top: 0;
     left: 0;

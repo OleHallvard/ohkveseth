@@ -27,8 +27,8 @@
 
     <p id="project-lead" class="project-lead lead"></p>
 
-    <div class="project-film">
-        <div id="project-film"></div>
+    <div class="project-container">
+        <div class="film-container" id="project-film"></div>
     </div>
 
     <div id="one-col--large" class="one-col one-col--large"></div>
@@ -95,9 +95,10 @@ const filmtitle = projects[projectname].film.map((i) => i.title.toString());
 
 const film = projects[projectname].film.map((film, index) => {
 
-    return `<h3 class="title title--small center-text space-s">${film.title}</h3>
+    return `<h3 class="title title--small center-text space-xs">${film.title}</h3>
+        <div class="video-wrapper space-xl">
         <iframe src="${film.url}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
-            allowfullscreen></iframe>`;
+            allowfullscreen></iframe></div>`;
 }).join('');
 
 document.getElementById("project-film").innerHTML = film;

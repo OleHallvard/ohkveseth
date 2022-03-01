@@ -150,14 +150,20 @@
   .one-col--portrait {
     max-width: 40vw; }
 
-.project-film {
+.film-container {
+  max-width: 1920px;
+  padding: 16px;
+  margin: auto; }
+  @media (min-width: 1000px) {
+    .film-container {
+      padding: 48px; } }
+.video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
+  padding-top: 25px;
   height: 0; }
-  .project-film iframe {
-    width: 100% !important;
-    height: auto !important;
+  .video-wrapper iframe {
     position: absolute;
     top: 0;
     left: 0;

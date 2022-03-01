@@ -3,134 +3,35 @@
 <html>
 
 <head>
+    <title>Ole Hallvard</title>
+
     <meta charset="UTF-8">
-    <title>OH I Case</title>
-    <link rel="stylesheet" href="/css/deltstyle.css">
-    <link rel="stylesheet" href="/css/prosjekter.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,300i,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/project.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <meta name="viewport" content="width=device-width">
+
+    <script src="/prosjekter/projects.js"></script>
+
 </head>
 
-
-
-<style>
-::-moz-selection {
-    /* Code for Firefox */
-    color: #eee;
-    background: #1b14ac;
-}
-
-::selection {
-    color: #eee;
-    background: #1b14ac;
-}
-</style>
-
-
 <body>
-
-    <?php include("../includes/meny.php"); ?>
-
-    <div class="tiltoppen"><a id="top"></a></div>
-
-
-    <div class="velkommen">
-
-
-        <img class="forsidebilde-mobil" src="../img/statnett/Powergrid-thumb-5.jpg"
-            alt="Bilde av emblem for Statnetts designsystem">
-
-        <img class="forsidebilde-desktop-m" src="../img/statnett/Powergrid-thumb-5.jpg"
-            alt="Bilde av emblem for Statnetts designsystem">
-
-        <img class="forsidebilde-desktop-l" src="../img/statnett/Powergrid-thumb-5.jpg"
-            alt="Bilde av emblem for Statnetts designsystem">
-
-
-
-        <div class="tekstwrapper">
-
-            <h4 class="reveal-text">Statnett</h4>
-
-            <h5 class="reveal-text2">Designsystem</h5>
-        </div>
-
-
+    <div class="project-hero">
+        <h1 id="project-name" class="title title--hero"></h1>
+        <div id="project-tags" class="project-tags"></div>
     </div>
 
+    <p id="project-lead" class="project-lead lead space-site"></p>
 
-
-
-
-
-    <div class="ikoner">
-
-
-        <div class="scroll-downs">
-            <div class="mousey">
-                <div class="scroller"></div>
-            </div>
-        </div>
-
-        <div class="scrolltekst">S<br>c<br>r<br>o<br>l<br>l</div>
-
-        <img class="pilnedover2" src="/img/Main/pilnedover_bla.svg" /></a>
-
-    </div>
-
-
-
-    </div>
-
-
-
-
-    <div class="prosjektwrapper">
-
-        <p>Casepresentasjon om arbeidet med Statnetts designsystem "Power Grid".
-        </p>
-
-
-
-
-        <div class="content-film-container">
-
-
-            <div class="video-wrapper">
-                <div class="video-container-breddeformat">
-                    <!-- Breddeformat -->
-                    <iframe src="https://player.vimeo.com/video/665628604" width="1280" height="720" frameborder="0"
-                        webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </div>
-            </div>
-
-            <p class="center-text"><br><br>Demo av designsystemet i Figma.
-            </p>
-
-            <div class="video-wrapper">
-                <div class="video-container-breddeformat">
-                    <!-- Breddeformat -->
-                    <iframe src="https://player.vimeo.com/video/671851808" width="1280" height="720" frameborder="0"
-                        webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </div>
-            </div>
-
-
-        </div>
-
-        <!--<p>Filmen over er versjon 1.0</p>-->
-
-    </div>
-
-    <?php include("../includes/prosjektfooter.php"); ?>
-
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js'></script>
-
-    <script src="/js/index.js"></script>
+    <div id="project-items"></div>
 
 </body>
+
+<script>
+const projectname = 'Statnett';
+</script>
+<script src="/js/projectspinnup.js"></script>
 
 </html>

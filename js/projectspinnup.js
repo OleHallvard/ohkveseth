@@ -1,4 +1,5 @@
-const projectname = 'Bouvetgrandprix';
+// Legg inn prosjektnavnet som variabel nederst i htmln
+//const projectname = 'insertprojectname';
 
 // inserts project name
 let project_name = projects[projectname].name.toString();
@@ -30,7 +31,10 @@ let imgonecollargetext = projects[projectname].imgonecollarge.text.toString();
 let imgonecollargealt = projects[projectname].imgonecollarge.alt.toString();
 let projecturl = projects[projectname].url.toString();
 
-if (imgonecollargeimgurl !== "") {
+
+console.log("Dette står der" + imgonecollargeimgurl);
+
+if (imgonecollargeimgurl !== ""  || 'undefined' || true) {
     let imgonecollarge = `<div class="one-col one-col--large one-col-content space-site">
             <img class="img-fit-cover" src="/img/${projecturl}/${imgonecollargeimgurl}" alt="${imgonecollargealt}" />
             <div class="img-description body body--small">${imgonecollargetext}</div>

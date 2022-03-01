@@ -136,10 +136,20 @@ let projects = {
         alignimg: "top",
         tags: ["UI/UX", "Designsystem", "Animasjon"],
         lead: "Casepresentasjon om arbeidet med Statnetts designsystem Power Grid.",
-        filmone: "https://player.vimeo.com/video/225247842",
-        filmtwo: "https://player.vimeo.com/video/225247842",
+
+        film: [{
+            title: "Casepresentasjon", 
+            url: "https://player.vimeo.com/video/665628604"
+        },
+        {
+            title: "Demo fra Figma", 
+            url: "https://player.vimeo.com/video/671851808"
+        }
+        ],
+
         bodytextone: "Lorem ipsum 1",
-        bodytexttwo: "Lorem ipsum 2"
+        bodytexttwo: "Lorem ipsum 2",
+        team: ["Frode Kolstad // Grafisk designer", "Marc Garcia // UX Designer", "Ole Hallvard Kveseth // UX/UI"]
     },
     OBOS: {
         name: "OBOS",

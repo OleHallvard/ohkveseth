@@ -33,10 +33,6 @@
 
     <div id="project-items"></div>
 
-    <p id="body-text-one" class="project-body body"></p>
-
-    <div id="one-col--medium" class="one-col one-col--medium"></div>
-
     <p id="body-text-two" class="project-body body"></p>
 
     <div class="one-col one-col--portrait">
@@ -145,7 +141,9 @@ document.getElementById("project-items").innerHTML = imgtwocolumn;
 // inserts body text nr one
 let bodytextone = projects[projectname].bodytextone.toString();
 
-document.getElementById("body-text-one").innerHTML = bodytextone;
+const bodytextonehtml = `<p id="body-text-one" class="project-body body">${bodytextone}</p>`;
+
+document.getElementById("project-items").innerHTML += bodytextonehtml;
 
 
 
@@ -160,13 +158,13 @@ const project_url = projects[projectname].url.toString();
 const onecolmedium = projects[projectname].imgonecolmedium.map((imgonecolmedium, index) => {
 
     return ` <h3 class="title title--small center-text space-s">${imgonecolmedium.title}</h3>
-        <div class="one-col-content">
+        <div class="one-col-content one-col one-col--medium">
             <img class="img-fit-cover" src="/img/${project_url}/${imgonecolmedium.url}" alt="${imgonecolmedium.alt}" />
         </div>
         <div class="img-description body body--small space-xl">${imgonecolmedium.text}</div>`;
 }).join('');
 
-document.getElementById("one-col--medium").innerHTML = onecolmedium;
+document.getElementById("project-items").innerHTML += onecolmedium;
 
 
 

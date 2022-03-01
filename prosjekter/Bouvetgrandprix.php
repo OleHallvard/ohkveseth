@@ -27,10 +27,6 @@
 
     <p id="project-lead" class="project-lead lead"></p>
 
-    <div class="project-container">
-        <div class="film-container" id="project-film"></div>
-    </div>
-
     <div id="project-items"></div>
 
     <div class="team">
@@ -46,11 +42,8 @@
 
 
 
-
-
 <script>
 const projectname = 'Bouvetgrandprix';
-console.log(projectname);
 
 // inserts project name
 let project_name = projects[projectname].name.toString();
@@ -89,7 +82,14 @@ const film = projects[projectname].film.map((film, index) => {
             allowfullscreen></iframe></div>`;
 }).join('');
 
-document.getElementById("project-film").innerHTML = film;
+
+
+const filmhtml = `<div class="project-container">
+        <div class="film-container" id="project-film">${film}</div>
+    </div>`;
+console.log(filmhtml);
+
+document.getElementById("project-items").innerHTML += filmhtml;
 
 
 
@@ -106,7 +106,7 @@ let imgonecollarge = `<div class="one-col one-col--large one-col-content">
         <div class="img-description body body--small">${imgonecollargetext}</div>`;
 
 
-document.getElementById("project-items").innerHTML = imgonecollarge;
+document.getElementById("project-items").innerHTML += imgonecollarge;
 
 
 
@@ -127,7 +127,7 @@ let imgtwocolumn = `<div class="two-col">
             <img class="img-fit-cover" src="/img/${projecturl}/${imgtwocolumnimgtwoimgurl}" alt="${imgtwocolumnimgtwoalt}" />
         </div></div>`;
 
-document.getElementById("project-items").innerHTML = imgtwocolumn;
+document.getElementById("project-items").innerHTML += imgtwocolumn;
 
 
 

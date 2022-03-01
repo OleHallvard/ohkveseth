@@ -151,11 +151,11 @@ const project_url = projects[projectname].url.toString();
 
 const onecolmedium = projects[projectname].imgonecolmedium.map((imgonecolmedium, index) => {
 
-    return ` <h3 class="title title--small center-text space-s">${imgonecolmedium.title}</h3>
-        <div class="one-col-content one-col one-col--medium">
+    return ` <div class="one-col one-col--medium"><h3 class="title title--small center-text space-s">${imgonecolmedium.title}</h3>
+        <div class="one-col-content">
             <img class="img-fit-cover" src="/img/${project_url}/${imgonecolmedium.url}" alt="${imgonecolmedium.alt}" />
         </div>
-        <div class="img-description body body--small space-xl">${imgonecolmedium.text}</div>`;
+        <div class="img-description body body--small">${imgonecolmedium.text}</div></div>`;
 }).join('');
 
 document.getElementById("project-items").innerHTML += onecolmedium;

@@ -107,7 +107,7 @@
 .project-hero {
   text-align: center;
   color: #333333;
-  margin: 12vh 0; }
+  margin: 20vh 0; }
   .project-hero .project-tags {
     margin-top: calc(20px + 2vw); }
 
@@ -151,12 +151,12 @@
     max-width: 40vw; }
 
 .film-container {
-  max-width: 1920px;
+  max-width: 1200px;
   padding: 16px;
   margin: auto; }
   @media (min-width: 1000px) {
     .film-container {
-      padding: 48px; } }
+      padding: 80px; } }
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%;

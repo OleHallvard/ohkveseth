@@ -31,9 +31,7 @@
         <div class="film-container" id="project-film"></div>
     </div>
 
-    <div id="one-col--large" class="one-col one-col--large"></div>
-
-    <div id="two-col" class="two-col"></div>
+    <div id="project-items"></div>
 
     <p id="body-text-one" class="project-body body"></p>
 
@@ -42,7 +40,7 @@
     <p id="body-text-two" class="project-body body"></p>
 
     <div class="one-col one-col--portrait">
-        <div id="imgonecolportrait" class=""></div>
+        <div id="imgonecolportrait"></div>
     </div>
 
     <div class="team">
@@ -112,13 +110,13 @@ let imgonecollargetext = projects[projectname].imgonecollarge.text.toString();
 let imgonecollargealt = projects[projectname].imgonecollarge.alt.toString();
 let projecturl = projects[projectname].url.toString();
 
-let imgonecollarge = `<div class="one-col-content">
+let imgonecollarge = `<div class="one-col one-col--large one-col-content">
             <img class="img-fit-cover" src="/img/${projecturl}/${imgonecollargeimgurl}" alt="${imgonecollargealt}" />
         </div>
         <div class="img-description body body--small">${imgonecollargetext}</div>`;
 
 
-document.getElementById("one-col--large").innerHTML = imgonecollarge;
+document.getElementById("project-items").innerHTML = imgonecollarge;
 
 
 
@@ -130,16 +128,16 @@ let imgtwocolumnimgonealt = projects[projectname].imgtwocolumn.imgone.alt.toStri
 let imgtwocolumnimgtwoimgurl = projects[projectname].imgtwocolumn.imgtwo.imgurl.toString();
 let imgtwocolumnimgtwoalt = projects[projectname].imgtwocolumn.imgtwo.alt.toString();
 
-let imgtwocolumn = `
+let imgtwocolumn = `<div class="two-col">
         <div class="two-col-content">
             <img class="img-fit-cover" src="/img/${projecturl}/${imgtwocolumnimgoneimgurl}" alt="${imgtwocolumnimgonealt}" />
         </div>
         
         <div class="two-col-content">
             <img class="img-fit-cover" src="/img/${projecturl}/${imgtwocolumnimgtwoimgurl}" alt="${imgtwocolumnimgtwoalt}" />
-        </div>`;
+        </div></div>`;
 
-document.getElementById("two-col").innerHTML = imgtwocolumn;
+document.getElementById("project-items").innerHTML = imgtwocolumn;
 
 
 

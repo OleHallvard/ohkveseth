@@ -15,7 +15,7 @@ $space-bottom: calc(40px + 3vw);
 .project-hero {
   text-align: center;
   color: $text;
-  margin: 20vh 0;
+  margin: 30vh 0 10vh 0;
 
   .project-tags {
     margin-top: calc(20px + 2vw);
@@ -23,13 +23,13 @@ $space-bottom: calc(40px + 3vw);
 }
 
 .project-lead {
-  max-width: 50vw;
+  max-width: 650px;
   margin: auto;
   margin-bottom: $space-bottom;
 }
 
 .project-body {
-  max-width: 40vw;
+  max-width: 650px;
   margin: auto;
   margin-bottom: $space-bottom;
 }
@@ -56,13 +56,12 @@ $space-bottom: calc(40px + 3vw);
 
 .one-col {
   display: grid;
-  width: 100%;
   grid-template-columns: 1fr;
   margin: auto;
   margin-bottom: $space-bottom;
 
   &--medium {
-    max-width: 80vw;
+    max-width: 1400px;
   }
 
   &--large {
@@ -70,7 +69,7 @@ $space-bottom: calc(40px + 3vw);
   }
 
   &--portrait {
-    max-width: 40vw;
+    max-width: 800px;
   }
 }
 

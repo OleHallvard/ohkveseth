@@ -7,6 +7,10 @@
 .space-xl {
   margin-bottom: 48px; }
 
+.space-site {
+  padding-left: 16px;
+  padding-right: 16px; }
+
 .space-s {
   margin-bottom: 16px; }
 
@@ -15,6 +19,10 @@
 
 .space-xl {
   margin-bottom: 48px; }
+
+.space-site {
+  padding-left: 16px;
+  padding-right: 16px; }
 
 .title {
   background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
@@ -107,17 +115,17 @@
 .project-hero {
   text-align: center;
   color: #333333;
-  margin: 20vh 0; }
+  margin: 30vh 0 10vh 0; }
   .project-hero .project-tags {
     margin-top: calc(20px + 2vw); }
 
 .project-lead {
-  max-width: 50vw;
+  max-width: 650px;
   margin: auto;
   margin-bottom: calc(40px + 3vw); }
 
 .project-body {
-  max-width: 40vw;
+  max-width: 650px;
   margin: auto;
   margin-bottom: calc(40px + 3vw); }
 
@@ -139,16 +147,15 @@
 
 .one-col {
   display: grid;
-  width: 100%;
   grid-template-columns: 1fr;
   margin: auto;
   margin-bottom: calc(40px + 3vw); }
   .one-col--medium {
-    max-width: 80vw; }
+    max-width: 1400px; }
   .one-col--large {
     max-width: 95vw; }
   .one-col--portrait {
-    max-width: 40vw; }
+    max-width: 800px; }
 
 .film-container {
   max-width: 1200px;

@@ -25,7 +25,7 @@
         <div id="project-tags" class="project-tags"></div>
     </div>
 
-    <p id="project-lead" class="project-lead lead"></p>
+    <p id="project-lead" class="project-lead lead space-site"></p>
 
     <div id="project-items"></div>
 
@@ -69,6 +69,24 @@ document.getElementById("project-lead").innerHTML = project_lead;
 
 
 
+// inserts large imgages
+let imgonecollargeimgurl = projects[projectname].imgonecollarge.imgurl.toString();
+let imgonecollargetext = projects[projectname].imgonecollarge.text.toString();
+let imgonecollargealt = projects[projectname].imgonecollarge.alt.toString();
+let projecturl = projects[projectname].url.toString();
+
+let imgonecollarge = `<div class="one-col one-col--large one-col-content">
+            <img class="img-fit-cover" src="/img/${projecturl}/${imgonecollargeimgurl}" alt="${imgonecollargealt}" />
+            <div class="img-description body body--small">${imgonecollargetext}</div>
+            </div>
+        `;
+
+
+document.getElementById("project-items").innerHTML += imgonecollarge;
+
+
+
+
 
 // inserts project films
 const filmurl = projects[projectname].film.map((i) => i.url.toString());
@@ -91,22 +109,6 @@ console.log(filmhtml);
 
 document.getElementById("project-items").innerHTML += filmhtml;
 
-
-
-
-// inserts large imgages
-let imgonecollargeimgurl = projects[projectname].imgonecollarge.imgurl.toString();
-let imgonecollargetext = projects[projectname].imgonecollarge.text.toString();
-let imgonecollargealt = projects[projectname].imgonecollarge.alt.toString();
-let projecturl = projects[projectname].url.toString();
-
-let imgonecollarge = `<div class="one-col one-col--large one-col-content">
-            <img class="img-fit-cover" src="/img/${projecturl}/${imgonecollargeimgurl}" alt="${imgonecollargealt}" />
-        </div>
-        <div class="img-description body body--small">${imgonecollargetext}</div>`;
-
-
-document.getElementById("project-items").innerHTML += imgonecollarge;
 
 
 
@@ -135,7 +137,7 @@ document.getElementById("project-items").innerHTML += imgtwocolumn;
 // inserts body text nr one
 let bodytextone = projects[projectname].bodytextone.toString();
 
-const bodytextonehtml = `<p id="body-text-one" class="project-body body">${bodytextone}</p>`;
+const bodytextonehtml = `<p id="body-text-one" class="project-body body space-site">${bodytextone}</p>`;
 
 document.getElementById("project-items").innerHTML += bodytextonehtml;
 
@@ -151,7 +153,7 @@ const project_url = projects[projectname].url.toString();
 
 const onecolmedium = projects[projectname].imgonecolmedium.map((imgonecolmedium, index) => {
 
-    return ` <div class="one-col one-col--medium"><h3 class="title title--small center-text space-s">${imgonecolmedium.title}</h3>
+    return ` <div class="one-col one-col--medium space-site"><h3 class="title title--small center-text space-s">${imgonecolmedium.title}</h3>
         <div class="one-col-content">
             <img class="img-fit-cover" src="/img/${project_url}/${imgonecolmedium.url}" alt="${imgonecolmedium.alt}" />
         </div>
@@ -167,7 +169,7 @@ document.getElementById("project-items").innerHTML += onecolmedium;
 // inserts body text two
 let bodytexttwo = projects[projectname].bodytexttwo.toString();
 
-let bodytexttwohmtl = `<p id="body-text-two" class="project-body body">${bodytexttwo}</p>`;
+let bodytexttwohmtl = `<p id="body-text-two" class="project-body body space-site">${bodytexttwo}</p>`;
 
 document.getElementById("project-items").innerHTML += bodytexttwohmtl;
 
@@ -188,7 +190,7 @@ const imgonecolportrait = projects[projectname].imgportrait.map((imgportrait, in
             `;
 }).join('');
 
-const imgonecolportraithtml = `<div class="one-col one-col--portrait">
+const imgonecolportraithtml = `<div class="one-col one-col--portrait space-site">
         <div id="imgonecolportrait">${imgonecolportrait}</div>
     </div>`;
 document.getElementById("project-items").innerHTML += imgonecolportraithtml;

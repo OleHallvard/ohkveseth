@@ -27,6 +27,8 @@
 
 
 
+
+
     // insert films
 
     let filmtitle = projects['Bouvetgrandprix'].filmone.title.toString();
@@ -38,22 +40,6 @@
 
     document.getElementById("project-filmone").innerHTML = filmone;
 
-
-
-
-    // insert large one column images
-    let imgonecollargeimgurl = projects['Bouvetgrandprix'].imgonecollarge.imgurl.toString();
-    let imgonecollargetext = projects['Bouvetgrandprix'].imgonecollarge.text.toString();
-    let imgonecollargealt = projects['Bouvetgrandprix'].imgonecollarge.alt.toString();
-    let projecturl = projects['Bouvetgrandprix'].url.toString();
-
-    let imgonecollarge = `<div class="one-col-content">
-            <img class="img-fit-cover" src="/img/${projecturl}/${imgonecollargeimgurl}" alt="${imgonecollargealt}" />
-        </div>
-        <div class="img-description body body--small">${imgonecollargetext}</div>`;
-
-
-    document.getElementById("one-col--large").innerHTML = imgonecollarge;
 
 
 

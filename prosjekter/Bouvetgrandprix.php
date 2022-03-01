@@ -75,7 +75,7 @@ let imgonecollargetext = projects[projectname].imgonecollarge.text.toString();
 let imgonecollargealt = projects[projectname].imgonecollarge.alt.toString();
 let projecturl = projects[projectname].url.toString();
 
-let imgonecollarge = `<div class="one-col one-col--large one-col-content">
+let imgonecollarge = `<div class="one-col one-col--large one-col-content space-site">
             <img class="img-fit-cover" src="/img/${projecturl}/${imgonecollargeimgurl}" alt="${imgonecollargealt}" />
             <div class="img-description body body--small">${imgonecollargetext}</div>
             </div>
@@ -120,7 +120,7 @@ let imgtwocolumnimgonealt = projects[projectname].imgtwocolumn.imgone.alt.toStri
 let imgtwocolumnimgtwoimgurl = projects[projectname].imgtwocolumn.imgtwo.imgurl.toString();
 let imgtwocolumnimgtwoalt = projects[projectname].imgtwocolumn.imgtwo.alt.toString();
 
-let imgtwocolumn = `<div class="two-col">
+let imgtwocolumn = `<div class="two-col space-site">
         <div class="two-col-content">
             <img class="img-fit-cover" src="/img/${projecturl}/${imgtwocolumnimgoneimgurl}" alt="${imgtwocolumnimgonealt}" />
         </div>

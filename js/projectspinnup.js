@@ -10,7 +10,7 @@ document.getElementById("project-name").innerHTML = project_name;
 // inserts project tags
 const project_tags = projects[projectname].tags.map((tags, index) => {
     return `
-        <span class="tag tag--gradient-bg">${tags}</span>
+        <span class="tag tag--large tag--gradient-bg">${tags}</span>
             `;
 }).join('');
 
@@ -167,13 +167,13 @@ if (ismultipleteammember !== ["singel"]) {
     const project_team = projects[projectname].team.map((team, index) => {
 
         return `
-        <span class="member body body--small">${team}</span>
+        <span class="member body body--x-small">${team}</span>
             `;
     }).join('');
 
     const teammembershtml = `
 <div class="team">
-        <h4 class="title title--medium center-text">Team</h4>
+        <h4 class="title title--small center-text">Team</h4>
         <div id="project-team">${project_team}</div>
     </div>
 `;

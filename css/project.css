@@ -77,6 +77,11 @@
   border-radius: 30px;
   font-size: 10px;
   display: inline-block; }
+  .tag--large {
+    padding: 8px 14px;
+    font-size: 12px;
+    margin-left: 2px;
+    margin-right: 2px; }
   .tag--gradient-bg {
     background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e); }
 
@@ -106,7 +111,8 @@
 .img-description {
   margin-top: 4px;
   text-align: center;
-  font-style: italic; }
+  font-style: italic;
+  color: #7d7a83; }
 
 .two-col {
   display: grid;

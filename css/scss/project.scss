@@ -37,6 +37,7 @@ $space-bottom: calc(40px + 3vw);
 .img-description {
   margin-top: 4px;
   text-align: center;
+  font-style: italic;
 }
 
 .two-col {
@@ -62,7 +63,7 @@ $space-bottom: calc(40px + 3vw);
   display: grid;
   grid-template-columns: 1fr;
   margin: auto;
-  margin-bottom: $space-bottom;
+  margin-bottom: $space-xl;
 
   &--medium {
     max-width: 1000px;
@@ -125,7 +126,8 @@ $space-bottom: calc(40px + 3vw);
 .team {
   width: 100% !important;
   text-align: center;
-  margin-bottom: $space-bottom;
+  margin-top: $space-xxxl;
+  margin-bottom: $space-xxxl;
 
   .title {
     margin-bottom: $space-xs;

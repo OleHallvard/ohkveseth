@@ -8,8 +8,8 @@
   margin-bottom: 48px; }
 
 .space-site {
-  padding-left: 16px;
-  padding-right: 16px; }
+  padding-left: 24px;
+  padding-right: 24px; }
   @media (min-width: 1000px) {
     .space-site {
       padding-left: 32px;
@@ -24,8 +24,8 @@
   margin-bottom: 48px; }
 
 .space-site {
-  padding-left: 16px;
-  padding-right: 16px; }
+  padding-left: 24px;
+  padding-right: 24px; }
   @media (min-width: 1000px) {
     .space-site {
       padding-left: 32px;
@@ -58,6 +58,8 @@
   line-height: 150%; }
   .body--small {
     font-size: calc(12px + 0.5vw); }
+  .body--x-small {
+    font-size: calc(10px + 0.5vw); }
 
 .lead {
   font-weight: 400;
@@ -103,7 +105,8 @@
 
 .img-description {
   margin-top: 4px;
-  text-align: center; }
+  text-align: center;
+  font-style: italic; }
 
 .two-col {
   display: grid;
@@ -123,7 +126,7 @@
   display: grid;
   grid-template-columns: 1fr;
   margin: auto;
-  margin-bottom: calc(40px + 3vw); }
+  margin-bottom: 48px; }
   .one-col--medium {
     max-width: 1000px; }
   .one-col--large {
@@ -172,7 +175,8 @@
 .team {
   width: 100% !important;
   text-align: center;
-  margin-bottom: calc(40px + 3vw); }
+  margin-top: 80px;
+  margin-bottom: 80px; }
   .team .title {
     margin-bottom: 8px; }
   .team .member {

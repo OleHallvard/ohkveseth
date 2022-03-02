@@ -36,7 +36,7 @@ let projecturl = projects[projectname].url.toString();
 if (imgonecollargeimgurl !== "" ) {
     let imgonecollarge = `<div class="one-col one-col--large one-col-content space-site">
             <img class="img-fit-cover" src="/img/${projecturl}/${imgonecollargeimgurl}" alt="${imgonecollargealt}" />
-            <div class="img-description body body--small">${imgonecollargetext}</div>
+            <div class="img-description body body--x-small">${imgonecollargetext}</div>
             </div>
         `;
     document.getElementById("project-items").innerHTML += imgonecollarge;
@@ -117,7 +117,7 @@ if (onecolmediumurl[0] !== "") {
         <div class="one-col-content">
             <img class="img-fit-cover" src="/img/${project_url}/${imgonecolmedium.url}" alt="${imgonecolmedium.alt}" />
         </div>
-        <div class="img-description body body--small">${imgonecolmedium.text}</div></div>`;
+        <div class="img-description body body--x-small">${imgonecolmedium.text}</div></div>`;
     }).join('');
 
     document.getElementById("project-items").innerHTML += onecolmedium;

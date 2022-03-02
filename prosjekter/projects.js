@@ -50,24 +50,16 @@ let projects = {
         aspect: "vertical",
         alignimg: "top",
         tags: ["UI/UX", "Animasjon"],
-        lead: "Da Bouvet i Oslo flyttet ved nyttår 2017, ga ikke det bare behov for å fortelle om vår nye adresse, det ga også en anledning til å fortelle noe om oss selv – på en avhengighetsskapende måte.",
+        lead: "Da Bouvet i Oslo flyttet til nye lokaler vinteren 2017, ga det oss en mulighet til å videreformidle vår nye adresse på en artig måte. Ja, faktisk måtte du finne frem til adressen selv i bilspillet, Bouvet Grand Prix. Start streken var ved våre gamle lokaler, målstreken, vår nye adresse. Klar, ferdig, kjør!",
     
         film: [{
-            title: "Promofilm", 
-            url: "https://player.vimeo.com/video/225247842"
-        },
-        {
-            title: "Promofilm", 
-            url: "https://player.vimeo.com/video/225247842"
-        },
-        {
-            title: "Promofilm", 
+            title: "Konseptfilm", 
             url: "https://player.vimeo.com/video/225247842"
         }],
 
 
-        bodytextone: "Det gjelder å utnytte de muligheter som byr seg, og vi valgte derfor også å kombinere ”flyttemeldingen” med en leken invitasjon til den aller første kundefesten i våre nye lokaler. I praksis betydde dette en e-post med en festinvitasjon – og med en mulighet til å råkjøre veien fra våre gamle lokaler til de nye i et egenutviklet bilspill. Spillet var basert på basert på Google/MapBox veivisningstjeneste, og kom du høyt nok på high score-listen vanket det også premie på festen som beste sjåfør.",
-        bodytexttwo: "Lorem ipsum 2",
+        bodytextone: "Vi sendte ut lenken til spillet sammen med en digital invitasjon til innflytningsfesten. I praksis betydde dette en e-post med en festinvitasjon – og med en mulighet til å råkjøre veien fra våre gamle lokaler til de nye i et egenutviklet bilspill. Spillet var basert på basert på Google/MapBox veivisningstjeneste, og kom du høyt nok på high score-listen vanket det også premie på festen som beste sjåfør.",
+        bodytexttwo: "",
 
         imgtwocolumn: {
             imgone: {
@@ -80,45 +72,47 @@ let projects = {
             }
         },
      
-        imgonecolmedium: [{
-            title: "Mediumbilde", 
-            url: "BGP_iPad_closeup_.jpg",
+        imgonecolmedium: [
+        {
+            title: "", 
+            url: "BGP_Macbooksscreen_english.jpg",
             alt: "alt tekst",
-            text: "bildetekst her"
+            text: ""
         },
         {
-            title: "Mediumbilde", 
-            url: "BGP_iPad_closeup_.jpg",
+            title: "", 
+            url: "BGPiphonemapenglish.jpg",
             alt: "alt tekst",
-            text: "bildetekst her"
+            text: ""
         },
         {
-            title: "Mediumbilde", 
-            url: "BGP_iPad_closeup_.jpg",
+            title: "", 
+            url: "BGP_Poster_facebook.jpg",
             alt: "alt tekst",
-            text: "bildetekst her"
+            text: "Plakater som hangt på kontoret"
+        },
+        {
+            title: "", 
+            url: "BGP_bottle.jpg",
+            alt: "alt tekst",
+            text: "Vi satt frem unike Bouvet Grand Prix prosecco i hver etasje for å promotere spillet internt."
         }],
  
         imgonecollarge: {
             imgurl: "BGP_Toppbilde.jpg",
-            text: "Bildetekst her",
-            alt: "Alternativ tekst"
+            text: "Bilde av landingssiden",
+            alt: "Bilde av landingssiden"
         },
         
         imgportrait: [{
-            imgurl: "BGP_Toppbilde.jpg",
+            imgurl: "",
             text: "Bildetekst her1",
             alt: "Alternativ tekst1"
         },
         {
-            imgurl: "BGP_Toppbilde.jpg",
+            imgurl: "",
             text: "Bildetekst her2",
             alt: "Alternativ tekst2"
-        },
-        {
-            imgurl: "BGP_Toppbilde.jpg",
-            text: "Bildetekst her3",
-            alt: "Alternativ tekst3"
         }],
 
         team: ["Kristian Wille // Tech lead", "Zulu // Frontend utvikler", "Ole Hallvard Kveseth // UX/UI"]
@@ -294,7 +288,19 @@ let projects = {
         textcolor: textlight,
         aspect: "horizontal",
         alignimg: "top",
-        tags: ["Animasjonsfilmer"]
+        tags: ["Animasjonsfilmer"],
+        film: [{
+            title: "Konseptfilm", 
+            url: "https://player.vimeo.com/video/225247842"
+        },
+        {
+            title: "Promofilm", 
+            url: "https://player.vimeo.com/video/225247842"
+        },
+        {
+            title: "Promofilm", 
+            url: "https://player.vimeo.com/video/225247842"
+        }],
     },
     Sparebank1: {
         name: "Sparebank 1",

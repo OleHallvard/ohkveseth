@@ -65,7 +65,7 @@ $space-bottom: calc(40px + 3vw);
   margin-bottom: $space-bottom;
 
   &--medium {
-    max-width: 1400px;
+    max-width: 1000px;
   }
 
   &--large {
@@ -81,6 +81,7 @@ $space-bottom: calc(40px + 3vw);
   max-width: 1000px;
   padding: 0 $space-s;
   margin: auto;
+  margin-bottom: $space-xxl;
 
   @media (min-width: $screen-laptop) {
     padding: 0 $space-xxxl;

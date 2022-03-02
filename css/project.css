@@ -125,7 +125,7 @@
   margin: auto;
   margin-bottom: calc(40px + 3vw); }
   .one-col--medium {
-    max-width: 1400px; }
+    max-width: 1000px; }
   .one-col--large {
     max-width: 1600px; }
   .one-col--portrait {
@@ -134,7 +134,8 @@
 .film-container {
   max-width: 1000px;
   padding: 0 16px;
-  margin: auto; }
+  margin: auto;
+  margin-bottom: 64px; }
   @media (min-width: 1000px) {
     .film-container {
       padding: 0 80px; } }

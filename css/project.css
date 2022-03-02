@@ -55,8 +55,7 @@
 .body {
   font-weight: 300;
   font-size: calc(12px + 0.7vw);
-  line-height: 150%;
-  color: #333333; }
+  line-height: 150%; }
   .body--small {
     font-size: calc(12px + 0.5vw); }
 
@@ -67,39 +66,6 @@
   font-size: calc(14px + 0.5vw);
   width: fit-content; }
 
-/*
-
-.title--small {
-  background: linear-gradient(
-    165deg,
-    rgba(0, 0, 255, 0.829),
-    rgb(224, 26, 158)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 600;
-  margin-top: 80px;
-  font-size: calc(10px + 1.52vw);
-  display: unset;
-  width: fit-content;
-}
-
-.title--medium {
-  background: linear-gradient(
-    165deg,
-    rgba(0, 0, 255, 0.829),
-    rgb(224, 26, 158)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 600;
-  margin-top: 80px;
-  font-size: calc(14px + 1.52vw);
-  display: unset;
-  width: fit-content;
-}
-
-*/
 .tag {
   color: white;
   font-weight: 500;
@@ -116,11 +82,11 @@
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
-  background: white; }
+  background: white;
+  color: #39363f; }
 
 .project-hero {
   text-align: center;
-  color: #333333;
   margin: 20vh 0 10vh 0; }
   .project-hero .project-tags {
     margin-top: calc(20px + 2vw); }
@@ -128,7 +94,7 @@
 .project-lead {
   max-width: 650px;
   margin: auto;
-  margin-bottom: calc(40px + 3vw); }
+  margin-bottom: 64px; }
 
 .project-body {
   max-width: 650px;
@@ -166,12 +132,12 @@
     max-width: 800px; }
 
 .film-container {
-  max-width: 1200px;
-  padding: 16px;
+  max-width: 1000px;
+  padding: 0 16px;
   margin: auto; }
   @media (min-width: 1000px) {
     .film-container {
-      padding: 80px; } }
+      padding: 0 80px; } }
   @media (min-width: 1600px) {
     .film-container {
       max-width: 1400px; } }

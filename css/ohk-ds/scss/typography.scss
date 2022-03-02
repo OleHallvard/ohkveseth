@@ -41,7 +41,6 @@ $ohk-font-primary: "Inter", sans-serif;
   font-weight: 300;
   font-size: calc(12px + 0.7vw);
   line-height: 150%;
-  color: $text;
 
   &--small {
     font-size: calc(12px + 0.5vw);
@@ -54,37 +53,3 @@ $ohk-font-primary: "Inter", sans-serif;
   font-size: calc(14px + 0.5vw);
   width: fit-content;
 }
-
-/*
-
-.title--small {
-  background: linear-gradient(
-    165deg,
-    rgba(0, 0, 255, 0.829),
-    rgb(224, 26, 158)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 600;
-  margin-top: 80px;
-  font-size: calc(10px + 1.52vw);
-  display: unset;
-  width: fit-content;
-}
-
-.title--medium {
-  background: linear-gradient(
-    165deg,
-    rgba(0, 0, 255, 0.829),
-    rgb(224, 26, 158)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 600;
-  margin-top: 80px;
-  font-size: calc(14px + 1.52vw);
-  display: unset;
-  width: fit-content;
-}
-
-*/

@@ -26,21 +26,19 @@ document.getElementById("project-lead").innerHTML = project_lead;
 
 
 // inserts large imgages
+
 let imgonecollargeimgurl = projects[projectname].imgonecollarge.imgurl.toString();
 let imgonecollargetext = projects[projectname].imgonecollarge.text.toString();
 let imgonecollargealt = projects[projectname].imgonecollarge.alt.toString();
 let projecturl = projects[projectname].url.toString();
 
 
-console.log("Dette står der" + imgonecollargeimgurl);
-
-if (imgonecollargeimgurl !== ""  || 'undefined' || true) {
+if (imgonecollargeimgurl !== "" ) {
     let imgonecollarge = `<div class="one-col one-col--large one-col-content space-site">
             <img class="img-fit-cover" src="/img/${projecturl}/${imgonecollargeimgurl}" alt="${imgonecollargealt}" />
             <div class="img-description body body--small">${imgonecollargetext}</div>
             </div>
         `;
-
     document.getElementById("project-items").innerHTML += imgonecollarge;
 }
 
@@ -51,7 +49,7 @@ if (imgonecollargeimgurl !== ""  || 'undefined' || true) {
 const filmurl = projects[projectname].film.map((i) => i.url.toString());
 const filmtitle = projects[projectname].film.map((i) => i.title.toString());
 
-if (filmurl !== "") {
+if (filmurl[0] !== "") {
 
     const film = projects[projectname].film.map((film, index) => {
 
@@ -111,8 +109,8 @@ const onecolmediumalt = projects[projectname].imgonecolmedium.map((i) => i.alt.t
 const onecolmediumtext = projects[projectname].imgonecolmedium.map((i) => i.text.toString());
 const project_url = projects[projectname].url.toString();
 
-if (onecolmediumurl !== "") {
-
+if (onecolmediumurl[0] !== "") {
+  
     const onecolmedium = projects[projectname].imgonecolmedium.map((imgonecolmedium, index) => {
 
         return ` <div class="one-col one-col--medium space-site"><h3 class="title title--small center-text space-s">${imgonecolmedium.title}</h3>
@@ -144,7 +142,7 @@ const imgonecolumnportraitimgurl = projects[projectname].imgportrait.map((i) => 
 const imgonecolumnportraittext = projects[projectname].imgportrait.map((i) => i.text.toString());
 const imgonecolumnportraitalt = projects[projectname].imgportrait.map((i) => i.alt.toString());
 
-if (imgonecolumnportraitimgurl !== "") {
+if (imgonecolumnportraitimgurl[0] !== "") {
 
     const imgonecolportrait = projects[projectname].imgportrait.map((imgportrait, index) => {
 

@@ -8,13 +8,13 @@
   padding: 0;
   font-family: $ohk-font-primary;
   background: white;
+  color: $text-default;
 }
 
 $space-bottom: calc(40px + 3vw);
 
 .project-hero {
   text-align: center;
-  color: $text;
   margin: 20vh 0 10vh 0;
 
   .project-tags {
@@ -25,7 +25,7 @@ $space-bottom: calc(40px + 3vw);
 .project-lead {
   max-width: 650px;
   margin: auto;
-  margin-bottom: $space-bottom;
+  margin-bottom: $space-xxl;
 }
 
 .project-body {
@@ -78,12 +78,12 @@ $space-bottom: calc(40px + 3vw);
 }
 
 .film-container {
-  max-width: 1200px;
-  padding: $space-s;
+  max-width: 1000px;
+  padding: 0 $space-s;
   margin: auto;
 
   @media (min-width: $screen-laptop) {
-    padding: $space-xxxl;
+    padding: 0 $space-xxxl;
   }
   @media (min-width: $screen-desktop) {
     max-width: 1400px;

@@ -135,10 +135,9 @@ let projects = {
         aspect: "horizontal",
         alignimg: "top",
         tags: ["UI/UX", "Designsystem", "Animasjon"],
-        lead: "Casepresentasjon om arbeidet med Statnetts designsystem Power Grid.",
-
+        lead: "I Statnett samlet vi alle teamene og lagde et felles designsystem som brukes på tvers av Statnetts fagsystemer. Under kan du se en kort film som forteller om arbeidet.",
         film: [{
-            title: "Casepresentasjon", 
+            title: "Casefilm", 
             url: "https://player.vimeo.com/video/665628604"
         },
         {
@@ -146,9 +145,34 @@ let projects = {
             url: "https://player.vimeo.com/video/671851808"
         }
         ],
-
-        bodytextone: "Lorem ipsum 1",
-        bodytexttwo: "Lorem ipsum 2",
+        imgtwocolumn: {
+            imgone: {
+                imgurl: "",
+                alt: ""
+            },
+            imgtwo: {
+                imgurl: "",
+                alt: ""
+            }
+        },
+        imgonecolmedium: [{
+            title: "false", 
+            url: "",
+            alt: "",
+            text: ""
+        }],
+        imgonecollarge: {
+            imgurl: "",
+            text: "",
+            alt: ""
+        },
+        imgportrait: [{
+            imgurl: "",
+            text: "",
+            alt: ""
+        }],
+        bodytextone: "",
+        bodytexttwo: "",
         team: ["Frode Kolstad // Grafisk designer", "Marc Garcia // UX Designer", "Ole Hallvard Kveseth // UX/UI"]
     },
     OBOS: {

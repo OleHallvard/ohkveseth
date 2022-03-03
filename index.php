@@ -39,10 +39,10 @@
 
     <div class="hero">
         <div class="gradient">
-            <div class="name"><b>Ole Hallvard Kveseth</b></div>
-            <div class="about">T-formet <b>designer</b> med fokus på <b>UX/UI</b></div>
+            <div class="name gradient"><b>Ole Hallvard Kveseth</b></div>
+            <div class="about gradient">T-formet <b>designer</b> med fokus på <b>UX/UI</b></div>
         </div>
-        <button id="myDIV" class="about-more-button">+ Les mer</button>
+        <button class="about-more-button gradient"><span id="myDIV" class="gradient">+ Les mer</span></button>
 
         <div class="content">
 

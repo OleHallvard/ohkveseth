@@ -31,7 +31,7 @@
       padding-left: 32px;
       padding-right: 32px; } }
 .title {
-  background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
+  background: linear-gradient(165deg, #0000ff, #e01a9e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
   .title--x-small {
@@ -78,7 +78,7 @@
   font-size: 10px;
   display: inline-block; }
   .tag--large {
-    padding: 8px 14px;
+    padding: 7px 14px;
     font-size: 12px;
     margin-left: 2px;
     margin-right: 2px; }

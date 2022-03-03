@@ -17,16 +17,6 @@ $project-color: #2b2e35;
   font-size: 9vw;
   font-weight: 200;
 
-  .gradient {
-    background: linear-gradient(
-      165deg,
-      rgba(0, 0, 255, 0.829),
-      rgb(224, 26, 158)
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
   .name {
     white-space: nowrap;
   }
@@ -39,18 +29,17 @@ $project-color: #2b2e35;
     font-size: calc(14px + 1.8vw);
     font-weight: 500;
     cursor: pointer;
-    background: linear-gradient(
-      165deg,
-      rgba(0, 0, 255, 0.829),
-      rgb(224, 26, 158)
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 
     &:hover {
       opacity: 0.8;
     }
   }
+}
+
+.gradient {
+  background: linear-gradient(165deg, #0000ff, #e01a9e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .collapsible {
@@ -72,7 +61,6 @@ $project-color: #2b2e35;
 
 .active,
 .collapsible:hover {
-  background: red;
 }
 
 .content {
@@ -297,8 +285,8 @@ button {
         flex: 1;
         width: fit-content;
         min-width: 145px;
-        display: block;
         align-self: end;
+        margin-top: auto;
 
         .project-client {
           font-size: 14px;
@@ -317,6 +305,7 @@ button {
         align-self: flex-end;
         text-align: right;
         flex-basis: min-content;
+        max-width: 100px;
 
         @media (min-width: $screen-laptop) {
           flex-basis: auto;

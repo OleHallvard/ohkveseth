@@ -37,11 +37,14 @@
 
 <body>
 
+
     <div class="hero">
         <div class="gradient">
             <div class="name gradient"><b>Ole Hallvard Kveseth</b></div>
             <div class="about gradient">T-formet <b>designer</b> med fokus på <b>UX/UI</b></div>
         </div>
+
+
         <button class="about-more-button gradient"><span id="myDIV" class="gradient">+ Les mer</span></button>
 
         <div class="content">
@@ -66,12 +69,6 @@
                 t-form går i
                 retning av
                 animasjon, front-end utvikling, reklame, grafisk design. </p>
-
-            <!--<p class="about-text">Ole Hallvard higer hele tiden etter å bli en enda bedre designer, og for å oppnå dette
-                er han også
-                opptatt av den tekniske front-end utviklingen. Både samarbeide tett med utviklere, men også lære seg mer
-                innen dette fagfeltet selv. Ole Hallvard bidrar der han kan med egen kode helt ut i produksjon, for at
-                designet skal skinne litt ekstra.</p>-->
 
             <p class="about-text">Ole Hallvard trives i tverrfaglige
                 team, og jobber gjerne
@@ -120,10 +117,26 @@
                 Kitchen,
                 Try (praksis).
         </div>
+
+
+        <!--<div class="toggle-title">Visning</div>-->
+        <div class="toggle-buttons">
+            <button onclick="toggleit()" class="toggle toggle-one active" role="button">Kortversjonen</button>
+            <button onclick="toggleit()" class="toggle toggle-two" role="button">Mellom</button>
+            <button onclick="toggleit()" class="toggle toggle-two" role="button">Lang</button>
+        </div>
+
+
     </div>
     </div>
     </div>
     </div>
+
+    <script>
+    function toggleit() {
+        alert("Phet");
+    }
+    </script>
 
     <script>
     var coll = document.getElementsByClassName("about-more-button");

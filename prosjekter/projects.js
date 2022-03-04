@@ -139,34 +139,6 @@ let projects = {
             url: "https://player.vimeo.com/video/671851808"
         }
         ],
-        imgtwocolumn: {
-            imgone: {
-                imgurl: "",
-                alt: ""
-            },
-            imgtwo: {
-                imgurl: "",
-                alt: ""
-            }
-        },
-        imgonecolmedium: [{
-            title: "false", 
-            url: "",
-            alt: "",
-            text: ""
-        }],
-        imgonecollarge: {
-            imgurl: "",
-            text: "",
-            alt: ""
-        },
-        imgportrait: [{
-            imgurl: "",
-            text: "",
-            alt: ""
-        }],
-        bodytextone: "",
-        bodytexttwo: "",
         team: ["Frode Kolstad // Grafisk designer", "Marc Garcia // UX Designer", "Ole Hallvard Kveseth // UX/UI"]
     },
     OBOS: {

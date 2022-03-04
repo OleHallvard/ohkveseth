@@ -19,21 +19,21 @@ document.getElementById("project-tags").innerHTML = project_tags;
 
 
 // inserts project lead text
-let project_lead = projects[projectname].lead.toString();
+let project_lead = projects[projectname]?.lead.toString();
 
 document.getElementById("project-lead").innerHTML = project_lead;
 
 
 
-// inserts large imgages
+// inserts large images
 
-let imgonecollargeimgurl = projects[projectname].imgonecollarge.imgurl.toString();
-let imgonecollargetext = projects[projectname].imgonecollarge.text.toString();
-let imgonecollargealt = projects[projectname].imgonecollarge.alt.toString();
-let projecturl = projects[projectname].url.toString();
+let imgonecollargeimgurl = projects[projectname].imgonecollarge?.imgurl.toString();
+let imgonecollargetext = projects[projectname].imgonecollarge?.text.toString();
+let imgonecollargealt = projects[projectname].imgonecollarge?.alt.toString();
+let projecturl = projects[projectname].url?.toString();
 
 
-if (imgonecollargeimgurl !== "" ) {
+if (imgonecollargeimgurl !== undefined) {
     let imgonecollarge = `<div class="one-col one-col--large one-col-content space-site">
             <img class="img-fit-cover" src="/img/${projecturl}/${imgonecollargeimgurl}" alt="${imgonecollargealt}" />
             <div class="img-description body body--x-small">${imgonecollargetext}</div>
@@ -71,13 +71,13 @@ if (filmurl[0] !== "") {
 
 
 // inserts two column images
-let imgtwocolumnimgoneimgurl = projects[projectname].imgtwocolumn.imgone.imgurl.toString();
-let imgtwocolumnimgonealt = projects[projectname].imgtwocolumn.imgone.alt.toString();
+let imgtwocolumnimgoneimgurl = projects[projectname].imgtwocolumn?.imgone.imgurl.toString();
+let imgtwocolumnimgonealt = projects[projectname].imgtwocolumn?.imgone.alt.toString();
 
-let imgtwocolumnimgtwoimgurl = projects[projectname].imgtwocolumn.imgtwo.imgurl.toString();
-let imgtwocolumnimgtwoalt = projects[projectname].imgtwocolumn.imgtwo.alt.toString();
+let imgtwocolumnimgtwoimgurl = projects[projectname].imgtwocolumn?.imgtwo.imgurl.toString();
+let imgtwocolumnimgtwoalt = projects[projectname].imgtwocolumn?.imgtwo.alt.toString();
 
-if (imgtwocolumnimgoneimgurl !== "") {
+if (imgtwocolumnimgoneimgurl !== undefined) {
 
     let imgtwocolumn = `<div class="two-col space-site">
         <div class="two-col-content">
@@ -95,21 +95,21 @@ if (imgtwocolumnimgoneimgurl !== "") {
 
 
 // inserts body text nr one
-let bodytextone = projects[projectname].bodytextone.toString();
+let bodytextone = projects[projectname]?.bodytextone?.toString();
 
-if (bodytextone !== "") {
+if (bodytextone !== undefined) {
     const bodytextonehtml = `<p id="body-text-one" class="project-body body space-site">${bodytextone}</p>`;
     document.getElementById("project-items").innerHTML += bodytextonehtml;
 }
 
 // inserts medium size images
-const onecolmediumurl = projects[projectname].imgonecolmedium.map((i) => i.url.toString());
-const onecolmediumtitle = projects[projectname].imgonecolmedium.map((i) => i.title.toString());
-const onecolmediumalt = projects[projectname].imgonecolmedium.map((i) => i.alt.toString());
-const onecolmediumtext = projects[projectname].imgonecolmedium.map((i) => i.text.toString());
-const project_url = projects[projectname].url.toString();
+const onecolmediumurl = projects[projectname].imgonecolmedium?.map((i) => i.url.toString());
+const onecolmediumtitle = projects[projectname].imgonecolmedium?.map((i) => i.title.toString());
+const onecolmediumalt = projects[projectname].imgonecolmedium?.map((i) => i.alt.toString());
+const onecolmediumtext = projects[projectname].imgonecolmedium?.map((i) => i.text.toString());
+const project_url = projects[projectname]?.url.toString();
 
-if (onecolmediumurl[0] !== "") {
+if (onecolmediumurl !== undefined) {
   
     const onecolmedium = projects[projectname].imgonecolmedium.map((imgonecolmedium, index) => {
 
@@ -127,9 +127,9 @@ if (onecolmediumurl[0] !== "") {
 
 
 // inserts body text two
-let bodytexttwo = projects[projectname].bodytexttwo.toString();
+let bodytexttwo = projects[projectname]?.bodytexttwo?.toString();
 
-if (bodytexttwo !== "") {
+if (bodytexttwo !== undefined) {
     let bodytexttwohmtl = `<p id="body-text-two" class="project-body body space-site">${bodytexttwo}</p>`;
 
     document.getElementById("project-items").innerHTML += bodytexttwohmtl;
@@ -138,11 +138,11 @@ if (bodytexttwo !== "") {
 
 
 // inserts portaite mode images
-const imgonecolumnportraitimgurl = projects[projectname].imgportrait.map((i) => i.imgurl.toString());
-const imgonecolumnportraittext = projects[projectname].imgportrait.map((i) => i.text.toString());
-const imgonecolumnportraitalt = projects[projectname].imgportrait.map((i) => i.alt.toString());
+const imgonecolumnportraitimgurl = projects[projectname].imgportrait?.map((i) => i.imgurl.toString());
+const imgonecolumnportraittext = projects[projectname].imgportrait?.map((i) => i.text.toString());
+const imgonecolumnportraitalt = projects[projectname].imgportrait?.map((i) => i.alt.toString());
 
-if (imgonecolumnportraitimgurl[0] !== "") {
+if (imgonecolumnportraitimgurl !== undefined) {
 
     const imgonecolportrait = projects[projectname].imgportrait.map((imgportrait, index) => {
 

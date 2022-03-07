@@ -89,7 +89,6 @@
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
-  background: white;
   color: #39363f; }
 
 .project-hero {
@@ -196,13 +195,15 @@
   border-top: 1px solid #dcdcdc; }
   .other-projects .other-link {
     display: flex;
-    justify-content: center; }
-    .other-projects .other-link a {
-      text-decoration: none; }
+    text-decoration: none;
+    width: 100%;
+    max-width: 500px;
+    margin: auto; }
+    .other-projects .other-link:hover {
+      background: #f8f8f8; }
   .other-projects .other-items {
     padding: 20px;
-    justify-items: center;
-    display: inline-flex;
+    display: flex;
     border-bottom: 1px solid #dcdcdc;
     width: 100%;
     max-width: 500px;

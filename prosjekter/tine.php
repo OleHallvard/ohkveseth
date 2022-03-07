@@ -40,6 +40,24 @@
                 <div class="tag tag--large tag--gradient-bg">${tags}</div>
             </div>
         </a>
+        <a href="" class="other-link">
+            <div class="other-items">
+                <div class="other-name">Statnett</div>
+                <div class="tag tag--large tag--gradient-bg">${tags}</div>
+            </div>
+        </a>
+        <a href="" class="other-link">
+            <div class="other-items">
+                <div class="other-name">Statnett</div>
+                <div class="tag tag--large tag--gradient-bg">${tags}</div>
+            </div>
+        </a>
+        <a href="" class="other-link">
+            <div class="other-items">
+                <div class="other-name">Statnett</div>
+                <div class="tag tag--large tag--gradient-bg">${tags}</div>
+            </div>
+        </a>
     </div>
 
 

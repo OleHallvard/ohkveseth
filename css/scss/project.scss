@@ -7,7 +7,6 @@
   margin: 0;
   padding: 0;
   font-family: $ohk-font-primary;
-  background: white;
   color: $text-default;
 }
 
@@ -144,22 +143,24 @@ $space-bottom: calc(40px + 3vw);
 
 .other-projects {
   padding: $space-xxxl $space-xs $space-xxxl $space-xs;
-  border-top: 1px solid #dcdcdc;
+  border-top: 1px solid $border-default;
 
   .other-link {
     display: flex;
-    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
 
-    a {
-      text-decoration: none;
+    &:hover {
+      background: #f8f8f8;
     }
   }
 
   .other-items {
     padding: 20px;
-    justify-items: center;
-    display: inline-flex;
-    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    border-bottom: 1px solid $border-default;
     width: 100%;
     max-width: 500px;
     align-items: center;

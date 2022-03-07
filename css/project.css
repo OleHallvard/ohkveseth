@@ -192,7 +192,7 @@
 
 .other-projects {
   padding: 80px 8px 80px 8px;
-  border-top: 1px solid #dcdcdc; }
+  background: #f8f8f8; }
   .other-projects .other-link {
     display: flex;
     text-decoration: none;
@@ -200,9 +200,9 @@
     max-width: 500px;
     margin: auto; }
     .other-projects .other-link:hover {
-      background: #f8f8f8; }
+      background: #fff; }
   .other-projects .other-items {
-    padding: 20px;
+    padding: 16px;
     display: flex;
     border-bottom: 1px solid #dcdcdc;
     width: 100%;

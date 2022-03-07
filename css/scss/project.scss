@@ -143,7 +143,7 @@ $space-bottom: calc(40px + 3vw);
 
 .other-projects {
   padding: $space-xxxl $space-xs $space-xxxl $space-xs;
-  border-top: 1px solid $border-default;
+  background: $background-default;
 
   .other-link {
     display: flex;
@@ -153,12 +153,12 @@ $space-bottom: calc(40px + 3vw);
     margin: auto;
 
     &:hover {
-      background: #f8f8f8;
+      background: #fff;
     }
   }
 
   .other-items {
-    padding: 20px;
+    padding: $space-s;
     display: flex;
     border-bottom: 1px solid $border-default;
     width: 100%;

@@ -358,7 +358,22 @@ let projects = {
         aspect: "vertical",
         alignimg: "top",
         tags: ["UI/UX"],
-        team: 'singel'
+        team: 'singel',
+        lead: "Fjordland AS er en merkevarebedrift som utvikler, selger og markedsfører merkevarene Fjordland, Bremykt, Brelett, Yoplait og KOS. Prosjektet omhandlet å lage nye nettsider for hovedmerke Fjordland. Fjordland sitt nettsted skal være et hjem for en mengde produkter, oppskrifter og et sted for å lære mer om Fjordland. Den tekniske løsningen er bygd på Enonic XP, og skal forenkle redaktørrollen internt. Det er viktig at brukerne har enkel tilgang til produktene for å finne nyttig informasjon om allergener og tilbredning, i tillegg til å friste til handel.",
+        imgonecollarge: {
+            imgurl: "Fjordland-mockups-front.png",
+            text: "Bilde bra nettsiden til Fjordland.",
+            alt: "Bilde fra fjordland.no."
+        },
+        imgonecolmedium: [
+            {
+                title: "", 
+                url: "fjordland-screen.png",
+                alt: "Bilde fra nettsiden",
+                text: ""
+            }],
+            team: ["Trond Erling Hundal // Utvikler", "Ole Hallvard Kveseth // UX/UI"]
+            
     },
     SNLA: {
         name: "SNLA",

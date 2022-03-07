@@ -511,7 +511,7 @@ let projects = {
         alignimg: "center",
         tags: ["Reklame"]
     },
-    StatensVegvesen: {
+    Statensvegvesen: {
         name: "Statens Vegvesen",
         url: "statensvegvesen",
         frontpage: true,
@@ -521,7 +521,121 @@ let projects = {
         textcolor: textlight,
         aspect: "horizontal",
         alignimg: "center",
-        tags: ["Reklame"]
+        tags: ["Reklame"],
+        lead:"Drivers who don´t use seat belts are often young, immature and inexperienced. We wanted to find a forum which put our message about using seat belts into a relevant context for this group. We decided to coup the premiere of the high testosterone film, Fast & Furious 6. A film event our target group most surely would attend.",
+        imgonecollarge: {
+            imgurl: "Bilde6_medium.png",
+            text: "I forbindelse med å få funge til å bruke bilbelte, monterte vi setebelter på kinosetene ifb med filmen Fast & Furious.",
+            alt: "Bilde fra gjennomføringen av stuntet fra kinosalen."
+        },
+        imgonecolmedium: [
+  
+            {
+                title: "Bilder fra stuntet", 
+                url: "bilde1.png",
+                alt: "Bilde fra stuntet",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde2.png",
+                alt: "Bilde fra stuntet",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde3.png",
+                alt: "Bilde fra stuntet",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde4.png",
+                alt: "Bilde fra stuntet",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde5.png",
+                alt: "Bilde fra stuntet",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde6.png",
+                alt: "Bilde fra stuntet",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde7.png",
+                alt: "Bilde fra stuntet",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde11.png",
+                alt: "Bilde fra stuntet",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde12.png",
+                alt: "Bilde fra stuntet",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde14.png",
+                alt: "Bilde fra stuntet",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde15.png",
+                alt: "Bilde fra stuntet",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde16.png",
+                alt: "Bilde fra stuntet",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde17.png",
+                alt: "Bilde fra stuntet",
+                text: ""
+            }
+        ],
+            film: [{
+                title: "Film om stuntet", 
+                url: "https://player.vimeo.com/video/254757804"
+            }
+            ],
+            imgportrait: [{
+                imgurl: "facebook_Screen.png",
+                text: "Skjermbilde fra Facebook-posten",
+                alt: "Kommentarer fra Facebook-posten"
+            },
+            {
+                imgurl: "facebook-post.png",
+                text: "Skjermbilde fra Facebook-posten",
+                alt: "Kommentarer fra Facebook-posten"
+            },
+          {
+                imgurl: "statensvegvesen_kommentarer_.jpg",
+                text: "Skjermbilde fra Facebook-posten",
+                alt: "Kommentarer fra Facebook-posten"
+            },
+            {
+                imgurl: "Fastnsafe_Eurobest.jpg",
+                text: "Stuntet vant både internasjonale og nasjonale utmerkelser: London International Awards - Bronze x2, Eurobest - Shortlist, Cristal Festival 2013 - Silver, Diplom (Stunt/Event) - Gullblyanten 2013.",
+                alt: "Kommentarer fra Facebook-posten"
+            }],
+            team: ["Øystein Vik // Art Director", "Ole Hallvard Kveseth // Art Director", "Bendik Romstad // Tekstforfatter"]
+    
     },
     Ruter: {
         name: "Ruter",

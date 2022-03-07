@@ -147,7 +147,7 @@ if (imgonecolumnportraitimgurl !== undefined) {
     const imgonecolportrait = projects[projectname].imgportrait.map((imgportrait, index) => {
 
         return `
-        <img class="img-fit-original space-xl" src="/img/bouvetgrandprix/${imgportrait.imgurl}" alt="${imgportrait.alt}" />
+        <img class="img-fit-original space-xl" src="/img/${projecturl}/${imgportrait.imgurl}" alt="${imgportrait.alt}" /><div class="img-description body body--x-small">${imgportrait.text}</div>
         
             `;
     }).join('');

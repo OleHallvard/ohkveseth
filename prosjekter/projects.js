@@ -16,7 +16,7 @@ let projects = {
         tags: ["UI/UX", "Animasjonsfilm"]
     },
     Imdi: {
-        name: "Imdi",
+        name: "IMDi",
         url: "imdi",
         frontpage: true,
         shorttitle: "Animasjonsfilm om nytt digitalt verktøy for ansatte i Imdi.",
@@ -25,7 +25,58 @@ let projects = {
         textcolor: textlight,
         aspect: "horizontal",
         alignimg: "center",
-        tags: ["Animasjonfilm"]
+        tags: ["Animasjonfilm"],
+        lead: "Animasjonsfilm for Integrerings og mangfoldsdirektoratet som forteller om deres nye digitale verktøy for ansatte i Imdi.",
+        film: [{
+            title: "Film", 
+            url: "https://player.vimeo.com/video/377254014"
+        }],
+        bodytextone: "Animasjonsfilm i forbindelse med intern lansering av det nye systemet IMDinett mottak, som forenkler hverdagen til mottaksansatte rundt om i landet og IMDi, og forhåpentligvis gir flyktninger et godt sted å bo. Se film for å lære mer :-) ",
+        bodytexttwo: "",
+
+        imgtwocolumn: {
+            imgone: {
+                imgurl: "bilde1.png",
+                alt: "Bilde fra filmen"
+            },
+            imgtwo: {
+                imgurl: "bilde3.png",
+                alt: "Bilde fra filmen"
+            }
+        },
+     
+        imgonecolmedium: [
+        {
+            title: "", 
+            url: "bilde2.png",
+            alt: "Bilde fra filmen",
+            text: ""
+        },
+        {
+            title: "", 
+            url: "bilde4.png",
+            alt: "Bilde fra filmen",
+            text: ""
+        },
+        {
+            title: "", 
+            url: "bilde5.png",
+            alt: "Bilde fra filmen",
+            text: ""
+        },
+        {
+            title: "", 
+            url: "bilde6.png",
+            alt: "Bilde fra filmen",
+            text: "Bilder fra filmen."
+        }],
+ 
+        imgonecollarge: {
+            imgurl: "imdi_toppbildebouvet.jpg",
+            text: "God stemning",
+            alt: "Imdi illustrasjonskarakterer som ser ut som trekanter"
+        },
+        team: ["Ole-Henrik Larssen // Tekstforfatter", "Ole Hallvard // Design og animasjon"]
     },
     Nordea: {
         name: "Nordea",

@@ -385,7 +385,27 @@ let projects = {
         textcolor: textlight,
         aspect: "horizontal",
         alignimg: "center",
-        tags: ["Reklame", "Animasjon"]
+        tags: ["Reklame", "Animasjon"],
+        lead:"Hjelp 113-appen er laget av Stiftelsen Norsk Luftambulanse (SNLA) og gjør det enklere for redningspersonell å nå raskere ut. Det redder liv – og å laste ned appen er dermed jevngodt med livreddende arbeid.",
+        bodytextone: "Vi gikk «all-in» i én Facebook-post til SNLAs følgere og helteerklærte alle som lastet ned eller spredte info om appen. Ja, ikke bare det – vi ga dem hver sin digitale fortjenestemedalje for sin digitale heltedåd. Det var en anerkjennelse som ble satt pris på. Posten ga 5809 direkte delinger og 3389 kommentarer med delinger, og totalt ga kampanjen 19 000 likes og nådde over 1,2 millioner mennesker! Vi oppnådde 220 000 nye nedlastninger og passerte dermed millionen totalt. SNLA fikk også 106 000 GDPR-samtykker og 5000 nye følgere.",
+        imgonecollarge: {
+            imgurl: "Snla_forsidebilde.png",
+            text: "Utklipp fra Facebook-poster i kampanjeperioden.",
+            alt: "Utklipp fra Facebook-poster i kampanjeperioden."
+        },
+        imgonecolmedium: [
+            {
+                title: "", 
+                url: "Snla_forsidebilde1_love.png",
+                alt: "Kampanjebilde",
+                text: ""
+            }],
+            film: [{
+                title: "Casepresentasjon", 
+                url: "https://player.vimeo.com/video/294466951"
+            }
+            ],
+            team: ["Ole-Henrik Larssen // Tekstforfatter", "Astrid Storkås // Innholdsprodusent", "Ole Hallvard Kveseth // UX/UI"]
     },
     Flytoget: {
         name: "Flytoget",

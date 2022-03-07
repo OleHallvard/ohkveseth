@@ -190,3 +190,22 @@
     text-align: center;
     width: 100% !important;
     margin-bottom: 4px; }
+
+.other-projects {
+  padding: 80px 8px 80px 8px;
+  border-top: 1px solid #dcdcdc; }
+  .other-projects .other-link {
+    display: flex;
+    justify-content: center; }
+    .other-projects .other-link a {
+      text-decoration: none; }
+  .other-projects .other-items {
+    padding: 20px;
+    justify-items: center;
+    display: inline-flex;
+    border-bottom: 1px solid #dcdcdc;
+    width: 100%;
+    max-width: 500px;
+    align-items: center; }
+    .other-projects .other-items .tag {
+      margin-left: auto; }

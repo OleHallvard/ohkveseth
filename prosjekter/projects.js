@@ -672,17 +672,52 @@ let projects = {
         aspect: "horizontal",
         alignimg: "top",
         tags: ["Animasjonsfilmer"],
+        lead:"En god handel satt i system - for hotell, restaurant og storhusholdning. Millum er bindeleddet mellom kjøper og selger i Storhusholdningsbransjen og i offentlig sektor. Millum sine innkjøpsportaler handles varer for over 7,2 milliarder i året. Våre løsninger spenner fra rene innkjøps- og leverandørportaler med integrerte fakturaløsninger, til nøkkelferdige netthandelsløsninger, spesialløsninger for inn og utgående fakturaer og dessuten håndtering av all meldingstrafikk gjennom PEPPOL. Millum hjelper deg ganske enkelt å effektivisere ordreprosesser, frigjøre tid og, gjennom det, øke inntjeningen. Vi har laget en serie av filmer om de ulike produktene, her kan du se to av dem.",
+        imgonecollarge: {
+            imgurl: "Millum_forsidebilde_stor.jpg",
+            text: "Illustrasjoner fra filmene.",
+            alt: "Illustrasjoner fra filmene."
+        },
+        imgonecolmedium: [
+  
+            {
+                title: "Bilder fra filmene", 
+                url: "Millum_Arbeidere2.jpg",
+                alt: "Bilde fra filmene",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "Millum_Handshake.jpg",
+                alt: "Bilde fra filmene",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "Millum_lastebil.jpg",
+                alt: "Bilde fra filmene",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "Millum_Uniformer.jpg",
+                alt: "Bilde fra filmene",
+                text: ""
+            }
+        ],
+            team: ["Ole-Henrik Larssen // Tekstforfatter", "Ole Hallvard Kveseth // Animasjon", "Astrid Storkås // Illustrasjoner"],
+    
         film: [{
-            title: "Konseptfilm", 
-            url: "https://player.vimeo.com/video/225247842"
+            title: "Millum Procurement", 
+            url: "https://player.vimeo.com/video/273356449"
         },
         {
-            title: "Promofilm", 
-            url: "https://player.vimeo.com/video/225247842"
+            title: "Millum Trade", 
+            url: "https://player.vimeo.com/video/275492462"
         },
         {
-            title: "Promofilm", 
-            url: "https://player.vimeo.com/video/225247842"
+            title: "Millum Commerce", 
+            url: "https://player.vimeo.com/video/294945526"
         }],
     },
     Sparebank1: {

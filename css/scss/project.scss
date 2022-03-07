@@ -141,3 +141,31 @@ $space-bottom: calc(40px + 3vw);
     margin-bottom: $space-xxs;
   }
 }
+
+.other-projects {
+  padding: $space-xxxl $space-xs $space-xxxl $space-xs;
+  border-top: 1px solid #dcdcdc;
+
+  .other-link {
+    display: flex;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .other-items {
+    padding: 20px;
+    justify-items: center;
+    display: inline-flex;
+    border-bottom: 1px solid #dcdcdc;
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+
+    .tag {
+      margin-left: auto;
+    }
+  }
+}

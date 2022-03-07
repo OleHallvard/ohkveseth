@@ -46,12 +46,12 @@ if (imgonecollargeimgurl !== undefined) {
 
 
 // inserts project films
-const filmurl = projects[projectname].film.map((i) => i.url.toString());
-const filmtitle = projects[projectname].film.map((i) => i.title.toString());
+const filmurl = projects[projectname].film?.map((i) => i.url.toString());
+const filmtitle = projects[projectname].film?.map((i) => i.title.toString());
 
-if (filmurl[0] !== "") {
+if (filmurl !== undefined) {
 
-    const film = projects[projectname].film.map((film, index) => {
+    const film = projects[projectname].film?.map((film, index) => {
 
         return `<h3 class="title title--small center-text space-s">${film.title}</h3>
         <div class="video-wrapper space-xl">

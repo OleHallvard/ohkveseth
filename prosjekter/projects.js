@@ -166,7 +166,34 @@ let projects = {
         textcolor: textlight,
         aspect: "vertical",
         alignimg: "top",
-        tags: ["UI/UX"]
+        tags: ["UI/UX"],
+        lead:"Nordea er den største banken i norden. Med mer enn 10 millioner kunder og 30.000 medarbeidere. Nordea har et bredt spekteret av produkter, tjenester og løsninger innenfor bank, kapitalforvaltning og forsikring. Nordea “News” er en nyhetshub hvor egne journalister og gjestebloggere deler siste nytt innen diverse teamer innenfor økonomi. Siden har til hensikt å lære det norske folk om økonomi, og være en trafikkøkende aktivitet til egne nettsider, nordea.no. Få noen smarte økonomitips på: nordeanews.no",
+        imgonecolmedium: [
+            {
+                title: "Bilder fra nettsiden", 
+                url: "Nordea_Mockup1.jpg",
+                alt: "Bilde fra nettsiden",
+                text: "Bilde av forsiden."
+            },
+            {
+                title: "", 
+                url: "Nordea_Mockup2.jpg",
+                alt: "Bilde fra nettsiden",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "Nordea_Mockup4.jpg",
+                alt: "Bilde fra nettsiden på mobil.",
+                text: "Bilde fra nettsiden på mobil."
+            },
+            {
+                title: "", 
+                url: "Nordea_Mockup3.jpg",
+                alt: "Bilde fra nettsiden",
+                text: ""
+            }],
+        team: ["Zulfeekar 'Zulu' Cheriyampurath // Tech lead", "Vilje M. Mohn // Prosjektledelse", "Ole Hallvard Kveseth // UX/UI"]
     },
     Bouvetgrandprix: {
         name: "Bouvet Grand Prix",

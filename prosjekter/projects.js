@@ -13,7 +13,85 @@ let projects = {
         textcolor: textlight,
         aspect: "vertical",
         alignimg: "top",
-        tags: ["UI/UX", "Animasjonsfilm"]
+        tags: ["UI/UX", "Animasjonsfilm"],
+        lead: "Smart Planlegger er en del av TINE sitt sponsorat konsept “Smart Idrettsmat”. Konseptet retter seg mot klubber og organsisasjoner som skal arrangere små og mellomstore arrangementer rundt om i Norge, som feks fotballcuper, skistevner, korps og speiderleier, etc. ",
+        film: [{
+            title: "Konseptfilm", 
+            url: "https://player.vimeo.com/video/292788111"
+        },
+        {
+            title: "Promoteringsfilm", 
+            url: "https://player.vimeo.com/video/294946611"
+        }],
+        bodytextone: "Oppgaven gikk ut på å se på interaksjonsdesignet, og designe det grafiske brukergrensesnittet og innholdselementer til smartplanlegger.no. Arbeidet innebar også å lage illustrasjoner og animasjonsfilm til bruk på siden og i sosiale medier.",
+
+        imgtwocolumn: {
+            imgone: {
+                imgurl: "Tine_SI_Bilde2_M.jpg",
+                alt: "Bilde fra filmen."
+            },
+            imgtwo: {
+                imgurl: "Tine_SI_Bilde1_M.jpg",
+                alt: "Bilde fra filmen."
+            }
+        },
+     
+        imgonecolmedium: [
+        {
+            title: "Forsiden av smartplanlegger.no", 
+            url: "Smartplanlegger-mockups-v2.png",
+            alt: "Forsiden av smartplanlegger.no",
+            text: "Desktopversjonen av nettsiden."
+        },
+        {
+            title: "", 
+            url: "Smartplanlegger-mockups2.png",
+            alt: "Bilde fra nettsiden på mobil ",
+            text: ""
+        },
+        {
+            title: "", 
+            url: "Smartplanlegger-mockups.png",
+            alt: "Bilde fra nettsiden på mobil og tablet.",
+            text: ""
+        },
+        {
+            title: "", 
+            url: "Smartplanlegger-mockups-v2-2.png",
+            alt: "Bilde av nettsiden",
+            text: "Bilder av nettsiden."
+        },
+        {
+            title: "", 
+            url: "bilde1.jpg",
+            alt: "Bilde fra filmen.",
+            text: "Bilder hentet fra filmen."
+        },
+        {
+            title: "", 
+            url: "bilde2.jpg",
+            alt: "Bilde fra filmen.",
+            text: "Bilder hentet fra filmen."
+        },
+        {
+            title: "", 
+            url: "bilde3.jpg",
+            alt: "Bilde fra filmen.",
+            text: "Bilder hentet fra filmen."
+        },
+        {
+            title: "", 
+            url: "bilde4.jpg",
+            alt: "Bilde fra filmen.",
+            text: "Bilder hentet fra filmen."
+        },
+        {
+            title: "", 
+            url: "bilde5.jpg",
+            alt: "Bilde fra filmen.",
+            text: "Bilder hentet fra filmen."
+        }],
+        team: ["Ole-Henrik Larssen // Tekstforfatter", "Ole Hallvard // Illustrasjoner og animasjon", "Linda Sunde // Animasjon", "Astrid Storkås // Illustrasjoner"]
     },
     Imdi: {
         name: "IMDi",

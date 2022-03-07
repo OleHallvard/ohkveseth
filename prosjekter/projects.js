@@ -307,7 +307,45 @@ let projects = {
         textcolor: textlight,
         aspect: "horizontal",
         alignimg: "top",
-        tags: ["UI/UX", "Animasjon"]
+        tags: ["UI/UX", "Animasjonsfilm"],
+        lead:"Forkjøpsrett er OBOS sin beste medlemsfordel. Ja, kanskje rett og slett verdens beste OBOS fordel. OBOS ønsket en egen side på obos.no som gikk i dybden på deres viktigste medlemsfordel Forkjøpsrett. Siden forteller om medlemsfordelen med illustrasjoner, film, søkeordsoptimalisert tekst, og bruk av OBOS sitt designsystem. Filmen har vi også produsert, og jeg har også laget animasjonene.",
+        imgonecollarge: {
+            imgurl: "Obos-mockup.png",
+            text: "Nettside om OBOS fordelen Forkjøprsrett.",
+            alt: "Nettside om OBOS fordelen Forkjøprsrett."
+        },
+        imgonecolmedium: [
+            {
+                title: "Bilder fra nettsiden", 
+                url: "obos-s-1.png",
+                alt: "Bilde fra nettsiden",
+                text: "Bilde av nettsiden."
+            },
+            {
+                title: "", 
+                url: "obos-s-2.png",
+                alt: "Bilde fra nettsiden",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "obos-s-3.png",
+                alt: "Bilde fra nettsiden.",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "obos-forkjøp-forsbilde.jpg",
+                alt: "Bilde fra filmen",
+                text: ""
+            }],
+            film: [{
+                title: "Film om forkjøpsrett", 
+                url: "https://player.vimeo.com/video/294938753"
+            }
+            ],
+        team: ["Ole-Henrik Larssen // Tekstforfatter", "Ole Hallvard Kveseth // UX/UI & animasjon"]
+    
     },
     Fjordland: {
         name: "Fjordland",

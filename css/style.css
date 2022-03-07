@@ -90,6 +90,46 @@
   padding: 0;
   font-family: "Inter", sans-serif; }
 
+.colorrama {
+  position: fixed;
+  z-index: -1;
+  height: 100vh;
+  overflow: hidden;
+  -moz-filter: blur(100px);
+  -o-filter: blur(100px);
+  -webkit-filter: blur(100px);
+  filter: blur(100px);
+  width: 100%; }
+  .colorrama .circle {
+    border-radius: 100%;
+    position: absolute;
+    -webkit-backdrop-filter: blur(500px);
+    backdrop-filter: blur(500px); }
+  .colorrama .green {
+    background: #36ceb3;
+    top: -10vh;
+    left: -40vh;
+    height: 120vh;
+    width: 120vh; }
+  .colorrama .red {
+    background: red;
+    top: -80vh;
+    left: 20vh;
+    height: 150vh;
+    width: 150vh; }
+  .colorrama .pink {
+    background: #ce36b6;
+    top: 10vh;
+    right: -40vh;
+    height: 150vh;
+    width: 150vh; }
+  .colorrama .blue {
+    background: #3685ce;
+    bottom: -70vh;
+    right: 40vh;
+    height: 130vh;
+    width: 130vh; }
+
 .hero {
   padding: calc(20px + 3vw) calc(24px + 1vw);
   line-height: 1.1;
@@ -98,7 +138,7 @@
   .hero .name {
     white-space: nowrap; }
   .hero .about {
-    margin-bottom: calc(12px + 2vw); }
+    margin-bottom: calc(12px + 1.2vw); }
   .hero .about-more-button {
     display: block;
     font-size: calc(14px + 1.8vw);

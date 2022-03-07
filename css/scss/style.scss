@@ -11,6 +11,53 @@
 
 $project-color: #2b2e35;
 
+.colorrama {
+  position: fixed;
+  z-index: -1;
+  height: 100vh;
+  overflow: hidden;
+  -moz-filter: blur(100px);
+  -o-filter: blur(100px);
+  -webkit-filter: blur(100px);
+  filter: blur(100px);
+  width: 100%;
+
+  .circle {
+    border-radius: 100%;
+    position: absolute;
+    -webkit-backdrop-filter: blur(500px);
+    backdrop-filter: blur(500px);
+  }
+  .green {
+    background: #36ceb3;
+    top: -10vh;
+    left: -40vh;
+    height: 120vh;
+    width: 120vh;
+  }
+  .red {
+    background: red;
+    top: -80vh;
+    left: 20vh;
+    height: 150vh;
+    width: 150vh;
+  }
+  .pink {
+    background: #ce36b6;
+    top: 10vh;
+    right: -40vh;
+    height: 150vh;
+    width: 150vh;
+  }
+  .blue {
+    background: #3685ce;
+    bottom: -70vh;
+    right: 40vh;
+    height: 130vh;
+    width: 130vh;
+  }
+}
+
 .hero {
   padding: calc(20px + 3vw) calc(#{$space-m} + 1vw);
   line-height: 1.1;
@@ -21,7 +68,7 @@ $project-color: #2b2e35;
     white-space: nowrap;
   }
   .about {
-    margin-bottom: calc(12px + 2vw);
+    margin-bottom: calc(12px + 1.2vw);
   }
 
   .about-more-button {

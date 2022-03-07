@@ -36,8 +36,14 @@
 </head>
 
 <body>
-
-
+    <!--
+    <div class="colorrama">
+        <div class="circle green"></div>
+        <div class="circle red"></div>
+        <div class="circle pink"></div>
+        <div class="circle blue"></div>
+    </div>
+-->
     <div class="hero">
         <div class="gradient">
             <div class="name gradient"><b>Ole Hallvard Kveseth</b></div>
@@ -120,12 +126,13 @@
 
 
         <!--<div class="toggle-title">Visning</div>-->
+        <!--
         <div class="toggle-buttons">
             <button onclick="toggleit()" class="toggle toggle-one active" role="button">Kortversjonen</button>
             <button onclick="toggleit()" class="toggle toggle-two" role="button">Mellom</button>
             <button onclick="toggleit()" class="toggle toggle-two" role="button">Lang</button>
         </div>
-
+        -->
 
     </div>
     </div>

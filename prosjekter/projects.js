@@ -429,7 +429,75 @@ let projects = {
         textcolor: textlight,
         aspect: "horizontal",
         alignimg: "center",
-        tags: ["Animasjonsfilm"]
+        tags: ["Animasjonsfilm"],
+        lead:"Vi forandrer, fornyer og forbedrer, digitaliserer og bygger samfunnet igjennom utallige prosjekter. Vi er masse folk, med stort mangfold, med åpne sinn og åpne armer, vi er Bouvet. En film om Bouvet.",
+        imgonecollarge: {
+            imgurl: "bouvetfilmen-colosseum-forside-l.jpg",
+            text: "Filmen ble blant annet fremvist på kundearrangement i storsalen på Colosseum kino.",
+            alt: "Filmen ble blant annet fremvist på kundearrangement i storsalen på Colosseum kino."
+        },
+        imgonecolmedium: [
+  
+            {
+                title: "", 
+                url: "bilde1.jpg",
+                alt: "Bilde fra filmen",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde2.jpg",
+                alt: "Bilde fra filmen",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde3.jpg",
+                alt: "Bilde fra filmen",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde4.jpg",
+                alt: "Bilde fra filmen",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde5.jpg",
+                alt: "Bilde fra filmen",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde6.jpg",
+                alt: "Bilde fra filmen",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde7.jpg",
+                alt: "Bilde fra filmen",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bilde8.jpg",
+                alt: "Bilde fra filmen",
+                text: ""
+            },
+            {
+                title: "", 
+                url: "bouvetfilmen-colosseum2.jpg",
+                alt: "Bilde fra kundearrangement i Colosseum kino.",
+                text: ""
+            }],
+            film: [{
+                title: "Bouvet profilfilm", 
+                url: "https://player.vimeo.com/video/292803574"
+            }
+            ],
+            team: ["Ole-Henrik Larssen // Tekstforfatter", "Ole Hallvard Kveseth // Animasjon"]
     },
     Norwegian: {
         name: "Norwegian",

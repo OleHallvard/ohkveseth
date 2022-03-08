@@ -217,19 +217,22 @@ for(var i = 0; i < numberoflinks; i++){
     <a href="/prosjekter/${project_url_other}.php" class="other-link">
         <div class="other-items">
             <div class="other-name">${project_name_other}</div>
+            <div class="tags-wrapper">
             ${project_tags_other}
+            </div>
         </div>
     </a>`;
  
 
     otherHTML.push(otherProjectLinks);
-   
     }
 
+    let htmloutput = otherHTML.join(""); // for å fjerne komma
+   
     const otherProjectsToWatch = `
     <div class="other-projects space-site">
         <h4 class="title title--x-small center-text space-l">Se også</h4>
-        ${otherHTML}
+        ${htmloutput}
     </div>
 
     `;

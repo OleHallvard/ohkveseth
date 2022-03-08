@@ -225,3 +225,6 @@ body {
     transition: 0.4s; }
     .other-projects .other-items .tag {
       margin-left: auto; }
+
+.tags-wrapper {
+  margin-left: auto; }

@@ -29,14 +29,14 @@
 
 
 
+    <!--
 
-
-    <div class="other-projects">
+    <div class="other-projects space-site">
         <h4 class="title title--x-small center-text space-l">Se også</h4>
 
         <a href="/prosjekter/tine.php" class="other-link">
             <div class="other-items">
-                <div class="other-name">Statnett</div>
+                <div id="link-name" class="other-name"></div>
                 <div class="tag tag--large tag--gradient-bg">${tags}</div>
             </div>
         </a>
@@ -59,6 +59,8 @@
             </div>
         </a>
     </div>
+
+-->
 
 
 

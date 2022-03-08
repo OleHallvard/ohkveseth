@@ -179,3 +179,60 @@ if (ismultipleteammember !== ["singel"]) {
 `;
     document.getElementById("project-items").innerHTML += teammembershtml;
 }
+
+
+
+
+
+
+
+
+
+// inserts other links
+const numberofprojects = (Object.keys(projects).length);
+
+var numberoflinks = 4;
+
+const otherHTML = [];
+
+let otherProjectLinks;
+
+for(var i = 0; i < numberoflinks; i++){
+    let randomtall = (Math.random() * (numberofprojects - 10 + 1) ) << 0;
+
+     let projectselected = Object.keys(projects)[randomtall];
+     console.log(projectselected);
+
+    let project_name_other = projects[projectselected].name.toString();
+    let project_url_other = projects[projectselected].url.toString();
+    const project_tags_other = projects[projectselected].tags.map((tags, index) => {
+
+        return `
+        <div class="tag tag--large tag--gradient-bg">${tags}</div>
+            `;
+    }).join('');
+
+    let otherProjectLinks = `
+
+    <a href="/prosjekter/${project_url_other}.php" class="other-link">
+        <div class="other-items">
+            <div class="other-name">${project_name_other}</div>
+            ${project_tags_other}
+        </div>
+    </a>`;
+ 
+
+    otherHTML.push(otherProjectLinks);
+   
+    }
+
+    const otherProjectsToWatch = `
+    <div class="other-projects space-site">
+        <h4 class="title title--x-small center-text space-l">Se også</h4>
+        ${otherHTML}
+    </div>
+
+    `;
+
+    document.getElementById("project-items").innerHTML += otherProjectsToWatch;
+

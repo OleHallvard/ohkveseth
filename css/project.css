@@ -88,7 +88,9 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif; }
+
+body {
   color: #39363f; }
 
 .project-hero {
@@ -191,22 +193,35 @@
     margin-bottom: 4px; }
 
 .other-projects {
-  padding: 80px 8px 80px 8px;
-  background: #f8f8f8; }
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-top: 1px solid #dcdcdc; }
   .other-projects .other-link {
     display: flex;
     text-decoration: none;
     width: 100%;
     max-width: 500px;
-    margin: auto; }
+    margin: auto;
+    transition: 0.3s;
+    border-radius: 8px; }
     .other-projects .other-link:hover {
-      background: #fff; }
+      background: linear-gradient(165deg, #0000ff, #e01a9e);
+      border-radius: 8px;
+      transition: 0.3s; }
+    .other-projects .other-link:active {
+      transform: scale(0.98);
+      transition: 0.3s; }
+  .other-projects .other-link:hover > .other-items {
+    color: white;
+    padding-left: 24px;
+    transition: 0.3s; }
   .other-projects .other-items {
     padding: 16px;
     display: flex;
     border-bottom: 1px solid #dcdcdc;
     width: 100%;
     max-width: 500px;
-    align-items: center; }
+    align-items: center;
+    transition: 0.4s; }
     .other-projects .other-items .tag {
       margin-left: auto; }

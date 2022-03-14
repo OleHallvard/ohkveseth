@@ -212,9 +212,10 @@ body {
       transform: scale(0.98);
       transition: 0.3s; }
   .other-projects .other-link:hover > .other-items {
-    color: white;
     padding-left: 24px;
     transition: 0.3s; }
+  .other-projects .other-items:hover > .other-name {
+    color: white !important; }
   .other-projects .other-items {
     padding: 16px;
     display: flex;
@@ -223,6 +224,8 @@ body {
     max-width: 500px;
     align-items: center;
     transition: 0.4s; }
+    .other-projects .other-items .other-name {
+      color: blue; }
     .other-projects .other-items .tag {
       margin-left: auto; }
 

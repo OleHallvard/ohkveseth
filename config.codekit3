@@ -41,9 +41,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/css\/ohk-ds\/colors.css",
-      "oF" : 2,
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -3397,7 +3397,7 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/statensvegvesen\/Fast&safe2.jpg" : {
+    "\/img\/Statensvegvesen\/Fast&safe2.jpg" : {
       "ft" : 16384,
       "iS" : 295011,
       "jF" : 0,

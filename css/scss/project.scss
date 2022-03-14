@@ -171,9 +171,12 @@ $space-bottom: calc(40px + 3vw);
   }
 
   .other-link:hover > .other-items {
-    color: white;
     padding-left: $space-m;
     transition: 0.3s;
+  }
+
+  .other-items:hover > .other-name {
+    color: white !important;
   }
 
   .other-items {
@@ -184,6 +187,10 @@ $space-bottom: calc(40px + 3vw);
     max-width: 500px;
     align-items: center;
     transition: 0.4s;
+
+    .other-name {
+      color: $ohk-blue;
+    }
 
     .tag {
       margin-left: auto;

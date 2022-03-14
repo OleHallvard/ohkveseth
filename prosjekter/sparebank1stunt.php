@@ -30,7 +30,7 @@
 </body>
 
 <script>
-const projectname = 'BlockWatne';
+const projectname = 'Sparebank1stunt';
 </script>
 <script src="/js/projectspinnup.js"></script>
 

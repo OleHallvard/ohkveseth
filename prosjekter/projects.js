@@ -684,6 +684,12 @@ let projects = {
         alt: "Kommentarer fra Facebook-posten",
       },
     ],
+    utmerkelser: [
+      "London International Awards - Bronze x2",
+      "Eurobest - Shortlist",
+      "GCristal Festival 2013 - Silver",
+      "Diplom (Stunt/Event) - Gullblyanten 2013",
+    ],
     team: [
       "Øystein Vik // Art Director",
       "Ole Hallvard Kveseth // Art Director",
@@ -701,6 +707,92 @@ let projects = {
     aspect: "horizontal",
     alignimg: "center",
     tags: ["Reklame"],
+    lead: "Ruter er et felles administrasjonsselskap for kollektivtrafikken i Oslo og Akershus. Ruter står i dag for over halvparten av landets kollektivtransport. Med buss, trikk og T-bane tar de deg både til jobb, og fritidsaktiviteter. Under ser du noen av løsningene jeg har vært innvolvert i.",
+    imgonecollarge: {
+      imgurl: "Ruter_forsidebilde.jpg",
+      text: "Sommerkampanjen: Uspesifisert.",
+      alt: "Bilde fra kampanjen.",
+    },
+    film: [
+      {
+        title: "Sommerkampanje",
+        url: "https://player.vimeo.com/video/141105276",
+      },
+      {
+        title: "Web-banner",
+        url: "https://player.vimeo.com/video/267122849",
+      },
+    ],
+    imgonecolmedium: [
+      {
+        title: "",
+        url: "Screenshot_banner.jpg",
+        alt: "Bilder fra kampanjen",
+        text: "",
+      },
+      {
+        title: "",
+        url: "Screenshotweb.jpg",
+        alt: "Banner i kampanje",
+        text: "Some-banner på Facebook.",
+      },
+    ],
+    imgportrait: [
+      {
+        imgurl: "IMG_3429.jpg",
+        text: "Vi fikk spesiallaget en kake til kampanjen.",
+        alt: "Vi fikk spesiallaget en kake til kampanjen.",
+      },
+      {
+        imgurl: "IMG_3430.jpg",
+        text: "Vi fikk spesiallaget en kake til kampanjen.",
+        alt: "Vi fikk spesiallaget en kake til kampanjen.",
+      },
+      {
+        imgurl: "IMG_3439.jpg",
+        text: "Vi fikk spesiallaget en kake til kampanjen.",
+        alt: "Vi fikk spesiallaget en kake til kampanjen.",
+      },
+      {
+        imgurl: "RUTE0035_Ukeplakat_325x480_NY.jpg",
+        text: "",
+        alt: "Annonse",
+      },
+      {
+        imgurl: "IMG_3444.jpg",
+        text: "",
+        alt: "Annonse",
+      },
+      {
+        imgurl: "RUTE0020_ukeplakater_325x480_6-2-1_web.jpg",
+        text: "Kampanje.",
+        alt: "Kampanje.",
+      },
+      {
+        imgurl: "RUTE0020_ukeplakater_325x480_6-2-2_web.jpg",
+        text: "",
+        alt: "Annonse",
+      },
+      {
+        imgurl: "IMG_3332.jpg",
+        text: "",
+        alt: "Annonse",
+      },
+    ],
+
+    utmerkelser: [
+      "Gull + bronse – Gullblyanten 2015",
+      "Gull – Gulltaggen 2015",
+      "Gull – Max Marketing Mix 2015",
+      "Gull + Bronse– Retailprisen 2015",
+    ],
+    team: [
+      "Øistein Markus Holm // Tekstforfatter",
+      "Ole Hallvard Kveseth // Art Director",
+      "Ingrid Lea // Art Director",
+      "Thale Høy-Pettersen // Art Director",
+      "Torny Hesle // Art Director",
+    ],
   },
   BlockWatne: {
     name: "Block Watne",

@@ -181,106 +181,79 @@ if (ismultipleteammember !== ["singel"]) {
 // inserts other links
 const numberofprojects = Object.keys(projects).length - 1; // minus for pga starter på 0.
 
-var numberoflinks = 4;
-
 const otherHTML = [];
-
 let otherProjectLinks;
-let checkifnumberexist = [];
 let defireutvalgte = [];
-
 let randomtall;
-let isitthere = [];
+let links = 0;
+let heading = true;
 
-/*
-const list = [1, 3, 9, 10, 39, 5];
+while (links < 5) {
+  // Finner et tall
+  randomtall = (Math.random() * (numberofprojects + 1)) << 0;
 
-function pickRandomItemsInList(list, numberOfElements) {
-   const unpickedElementsInList = [...list];
-   const randomOfList = [];
-   for (let i = 0; i < numberOfElements; i++) {
-     const index = Math.floor(Math.random() * unpickedElementsInList.length);
-     randomOfList.push(unpickedElementsInList[index]);
-     unpickedElementsInList.splice(index, 1);
-  }
-   return randomOfList;
-}
-document.onload = pickRandomItemsInList();
-console.log(pickRandomItemsInList);
-*/
+  let isitthere = defireutvalgte.includes(randomtall);
 
-/*
-let isitthereTest = [2, 3, 4, 4, 5];
-console.log(isitthereTest.includes(4)); // true
-*/
-for (var i = 0; i < numberoflinks; i++) {
-  function findUnicRandomNumbers() {
-    // Finner et tall
-    randomtall = (Math.random() * (numberofprojects + 1)) << 0;
-    console.log("Første runde " + randomtall);
-    // pusher random tallet til en liste
+  //console.log("defireutvalgte:" + defireutvalgte);
 
-    // sjekker om tallet finnes i lista fra før av gir en boleen verdi
-    console.log(
-      "1 Finnes dette tallet fra før? " +
-        checkifnumberexist.includes(randomtall)
-    );
+  if (isitthere === false) {
+    defireutvalgte.push(randomtall);
+    links++;
 
-    let isitthere = checkifnumberexist.includes(randomtall);
-    checkifnumberexist.push(randomtall);
-
-    if (isitthere === true) {
-      checkifnumberexist.slice(randomtall);
-      randomtall = (Math.random() * (numberofprojects + 1)) << 0;
-      defireutvalgte.push(randomtall);
-      console.log("Unikt tall lagt til etter at det var likt først");
-      console.log("Var likt");
-      console.log("Andre runde" + randomtall);
-    } else {
-      defireutvalgte.push(randomtall);
-      console.log("Unikt tall lagt til");
+    if (links === 4) {
+      generateLinks();
     }
-    console.log("De fire utvalgte " + defireutvalgte);
-    console.log("-----------------------");
   }
-
-  document.onload = findUnicRandomNumbers();
-
-  let projectselected = Object.keys(projects)[randomtall];
-  console.log(projectselected);
-
-  let project_name_other = projects[projectselected].name.toString();
-  let project_url_other = projects[projectselected].url.toString();
-  const project_tags_other = projects[projectselected].tags
-    .map((tags, index) => {
-      return `
-        <div class="tag tag--small tag--gradient-bg">${tags}</div>
-            `;
-    })
-    .join("");
-
-  let otherProjectLinks = `
-
-    <a href="/prosjekter/${project_url_other}.php" class="other-link">
-        <div class="other-items">
-            <div class="other-name">${project_name_other}</div>
-            <div class="tags-wrapper">
-            ${project_tags_other}
-            </div>
-        </div>
-    </a>`;
-
-  otherHTML.push(otherProjectLinks);
 }
 
-let htmloutput = otherHTML.join(""); // for å fjerne komma
+function generateLinks() {
+  defireutvalgte.forEach((element) => {
+    let projectselected = Object.keys(projects)[element];
 
-const otherProjectsToWatch = `
+    console.log(projectselected);
+
+    let project_name_other = projects[projectselected].name.toString();
+    let project_url_other = projects[projectselected].url.toString();
+    const project_tags_other = projects[projectselected].tags
+      .map((tags, index) => {
+        return `
+  <div class="tag tag--small tag--gradient-bg">${tags}</div>
+      `;
+      })
+      .join("");
+
+    let otherProjectLinks = `
+
+<a href="/prosjekter/${project_url_other}.php" class="other-link">
+  <div class="other-items">
+      <div class="other-name">${project_name_other}</div>
+      <div class="tags-wrapper">
+      ${project_tags_other}
+      </div>
+  </div>
+</a>`;
+
+    otherHTML.push(otherProjectLinks);
+
+    let htmloutput = otherHTML.join(""); // for å fjerne komma
+
+    const otherProjectsToWatch = `
     <div class="other-projects space-site">
-        <h4 class="title title--x-small center-text space-l">Se også</h4>
-        ${htmloutput}
-    </div>
+    <h4 class="title title--x-small center-text space-l">Se også</h4>
+    <div id="project-items-links"></div>
+  </div>
+  `;
 
-    `;
+    if (heading === true) {
+      heading = false;
+      document.getElementById("project-items").innerHTML +=
+        otherProjectsToWatch;
+    }
 
-document.getElementById("project-items").innerHTML += otherProjectsToWatch;
+    const projectsLinks = `${htmloutput}`;
+
+    document.getElementById("project-items-links").innerHTML = projectsLinks;
+  });
+
+  return;
+}

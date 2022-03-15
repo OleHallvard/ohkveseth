@@ -1257,5 +1257,72 @@ let projects = {
     alignimg: "center",
     tags: ["Bildebehandling"],
     team: "singel",
+    lead: "På denne siden har jeg samlet noen utvalgte bilder jeg har retusjert.",
+    imgonecollarge: {
+      imgurl: "Nike_halloween_forsidebilde.jpg",
+      text: "Retusjert bilde",
+      alt: "Retusjert bilde.",
+    },
+    imgportrait: [
+      {
+        imgurl: "Forbot_grå.jpg",
+        text: "Et bilde sammensatt med utgangspunkt av knvier og gafler.",
+        alt: "Et bilde sammensatt med utgangspunkt av knvier og gafler.",
+      },
+      {
+        imgurl: "Zuccs_Winter_Wonderland_.jpg",
+        text: "Bilde av Mats Zuccarello i vinterland.",
+        alt: "Bilde av Mats Zuccarello i vinterland.",
+      },
+      {
+        imgurl: "Rastløs_Ethusholdningsliv_Plakater_Fabian.jpg",
+        text: "Plakat til teaterstykke",
+        alt: "Plakat til teaterstykke",
+      },
+      {
+        imgurl: "Rastløs_Ethusholdningsliv_Plakater_Johan.jpg",
+        text: "Plakat til teaterstykke",
+        alt: "Plakat til teaterstykke",
+      },
+      {
+        imgurl: "Cevita_flaskeappelsin_behance.jpg",
+        text: "Appelsin i flaske.",
+        alt: "Appelsin i flaske.",
+      },
+    ],
+    imgonecolmedium: [
+      {
+        title: "Usain Bolt Edition str 43",
+        url: "Nike_halloween.jpg",
+        alt: "Retusjert bilde",
+        text: "",
+      },
+      {
+        title: "",
+        url: "Cloneshoes.jpg",
+        alt: "Cloneshoes",
+        text: "Cloneshoes v1.0",
+      },
+      {
+        title: "",
+        url: "Nike_halloween_forsidebilde.jpg",
+        alt: "Retusjertbilde",
+        text: "",
+      },
+      {
+        title: "",
+        url: "Tine_cow.jpg",
+        alt: "Retusjert bilde",
+        text: "Tine ku",
+      },
+      {
+        title: "",
+        url: "Tine_cow.jpg",
+        alt: "Retusjert bilde",
+        text: "Tine ku",
+      },
+    ],
+
+    team: ["Ole Hallvard Kveseth // Foto"],
   },
 };

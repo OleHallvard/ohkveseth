@@ -558,6 +558,92 @@ let projects = {
     aspect: "horizontal",
     alignimg: "center",
     tags: ["Reklame"],
+    lead: "Norwegian flyr til mange destinasjoner både innland og utland. Jeg var en del av teamet som utviklet reklamekonsepter for Norwegian. Under ser du noen av løsningene jeg har vært innvolvert i.",
+    imgonecollarge: {
+      imgurl: "Norwegian.jpg",
+      text: "",
+      alt: "Bilde fra kampanje.",
+    },
+    imgportrait: [
+      {
+        imgurl: "flystol.jpg",
+        text: "Businesskampanje",
+        alt: "Annonse for norwegian",
+      },
+      {
+        imgurl: "flystol_trykk.jpg",
+        text: "På trykk i avisa.",
+        alt: "Bilde av annonsen i avisa.",
+      },
+      {
+        imgurl: "NORW_sol&bad_SE&HOR_192x260mm_paraply.jpg",
+        text: "Høstkampanje",
+        alt: "Høstkampanje",
+      },
+      {
+        imgurl: "NORW_sol&bad_SE&HOR_192x260mm.jpg",
+        text: "",
+        alt: "Bilde av annonse.",
+      },
+      {
+        imgurl: "paraply_hovedkontor.jpg",
+        text: "Bilde av annonse hengende på hovedkontoret til Norwegian.",
+        alt: "Bilde av annonse hengende på hovedkontoret til Norwegian.",
+      },
+      {
+        imgurl: "paraply.jpg",
+        text: "",
+        alt: "Bilde av annonse.",
+      },
+      {
+        imgurl: "Bildeavnorwegian_boards.jpg",
+        text: "",
+        alt: "Bilde av annonse.",
+      },
+    ],
+    imgonecolmedium: [
+      {
+        title: "",
+        url: "Norwegian_webbanner.png",
+        alt: "Bilder fra kampanjen på nett",
+        text: "",
+      },
+      {
+        title: "Storby kampanje",
+        url: "steg1.jpg",
+        alt: "Banner i kampanje",
+        text: "Digital storby banner i tre steg..",
+      },
+      {
+        title: "Storby kampanje",
+        url: "steg2.jpg",
+        alt: "Banner i kampanje",
+        text: "Digital storby banner i tre steg..",
+      },
+      {
+        title: "Storby kampanje",
+        url: "steg3.jpg",
+        alt: "Banner i kampanje",
+        text: "Digital storby banner i tre steg..",
+      },
+      {
+        title: "Plakat til flyplasser.",
+        url: "Flyplassbanner_Rygge.jpg",
+        alt: "Plakat på flyplasser.",
+        text: "Digital storby banner i tre steg..",
+      },
+    ],
+    film: [
+      {
+        title: "Webbanner i aviser",
+        url: "https://player.vimeo.com/video/267281127",
+      },
+    ],
+    team: [
+      "Rikke Sofie Jacobsen // Tekstforfatter",
+      "Mads Hiorth Rønne // Tekstforfatter",
+      "Ole Hallvard Kveseth // Art Direction",
+    ],
   },
   Statensvegvesen: {
     name: "Statens Vegvesen",

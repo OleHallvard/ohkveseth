@@ -239,7 +239,7 @@ function generateLinks() {
 
     const otherProjectsToWatch = `
     <div class="other-projects space-site">
-    <h4 class="title title--x-small center-text space-l">Se også</h4>
+    <h4 class="title title--x-small center-text space-l">Andre prosjekter</h4>
     <div id="project-items-links"></div>
   </div>
   `;

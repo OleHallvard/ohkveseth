@@ -18,51 +18,8 @@
 </head>
 
 <body>
-    <div class="project-hero">
-        <h1 id="project-name" class="title title--hero"></h1>
-        <div id="project-tags" class="project-tags"></div>
-    </div>
 
-    <p id="project-lead" class="project-lead lead space-site"></p>
-
-    <div id="project-items"></div>
-
-
-
-    <!--
-
-    <div class="other-projects space-site">
-        <h4 class="title title--x-small center-text space-l">Se også</h4>
-
-        <a href="/prosjekter/tine.php" class="other-link">
-            <div class="other-items">
-                <div id="link-name" class="other-name"></div>
-                <div class="tag tag--large tag--gradient-bg">${tags}</div>
-            </div>
-        </a>
-        <a href="/prosjekter/tine.php" class="other-link">
-            <div class="other-items">
-                <div class="other-name">Statnett</div>
-                <div class="tag tag--large tag--gradient-bg">${tags}</div>
-            </div>
-        </a>
-        <a href="/prosjekter/tine.php" class="other-link">
-            <div class="other-items">
-                <div class="other-name">Statnett</div>
-                <div class="tag tag--large tag--gradient-bg">${tags}</div>
-            </div>
-        </a>
-        <a href="/prosjekter/tine.php" class="other-link">
-            <div class="other-items">
-                <div class="other-name">Statnett</div>
-                <div class="tag tag--large tag--gradient-bg">${tags}</div>
-            </div>
-        </a>
-    </div>
-
--->
-
-
+    <?php include("../prosjekter/projecttemplate.php"); ?>
 
 </body>
 

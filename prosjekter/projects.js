@@ -462,6 +462,75 @@ let projects = {
     aspect: "horizontal",
     alignimg: "top",
     tags: ["Reklame"],
+    lead: "Kort og greit tar Flytoget deg raskest til og fra Oslo Lufthavn. Dette forteller Flytoget med gjevne mellomrom gjennom hele året, gjerne opp i mot aktualiteter ifh til sesong eller hva som skjer i nyhetsbildet. Under ser du noen av løsningene jeg har vært innvolvert i.",
+    imgonecollarge: {
+      imgurl: "flytoget.jpg",
+      text: "Bilde til kampanje.",
+      alt: "Bilde til kampanje.",
+    },
+
+    imgportrait: [
+      {
+        imgurl: "FraRunes_Behance_Flytoget.jpg",
+        text: "Nyttårs-annonse",
+        alt: "Nyttårs-annonse.",
+      },
+      {
+        imgurl: "Flytoget_Behindthescenes.gif",
+        text: "Behind the scenes.",
+        alt: "Behind the scenes",
+      },
+      {
+        imgurl: "Gullsnitt.jpg",
+        text: "Bilde vant pris i fotokonkurransen Gullsnitt 2014.",
+        alt: "Bilde vant pris i fotokonkurransen Gullsnitt 2014.",
+      },
+      {
+        imgurl: "FLYT0056_230x297_Amagasinet_nettside.jpg",
+        text: "Påskekampanje",
+        alt: "Bilde av annonse.",
+      },
+      {
+        imgurl: "Flytoget_skisse_oh2.jpg",
+        text: "Skisse.",
+        alt: "Skisse.",
+      },
+      {
+        imgurl: "IMG_3368.JPG",
+        text: "",
+        alt: "Bilde av annonse.",
+      },
+      {
+        imgurl: "IMG_3360.JPG",
+        text: "",
+        alt: "Bilde av annonse.",
+      },
+      {
+        imgurl: "Flytoget_Maraton_.jpg",
+        text: "Kampanje ifb med Oslo Maraton.",
+        alt: "Bilde av annonse.",
+      },
+      {
+        imgurl: "IMG_3910.JPG",
+        text: "",
+        alt: "Annonse i avisa",
+      },
+      {
+        imgurl: "FLYT0074_16aar_m55.jpg",
+        text: "16 år kampanje",
+        alt: "16 år kampanje",
+      },
+      {
+        imgurl: "FLYT0074_16aar_m552.jpg",
+        text: "16 år kampanje",
+        alt: "16 år kampanje",
+      },
+    ],
+    team: [
+      "Fredrik Omre // Tekstforfatter",
+      "Karl Bryhn // Illustratør",
+      "Ole Hallvard Kveseth // Art Director",
+    ],
   },
   Bouvetfilmen: {
     name: "Bouvet",

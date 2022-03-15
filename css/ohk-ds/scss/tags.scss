@@ -2,10 +2,24 @@
   color: white;
   font-weight: 500;
   margin-top: 4px;
-  //background: darken($project-color, 9%);
   background: rgba(0, 0, 0, 0.15);
   padding: 6px 12px;
   border-radius: 30px;
   font-size: 10px;
   display: inline-block;
+
+  &--large {
+    padding: 7px 14px;
+    font-size: 12px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  &--gradient-bg {
+    background: linear-gradient(
+      165deg,
+      rgba(0, 0, 255, 0.829),
+      rgb(224, 26, 158)
+    );
+  }
 }

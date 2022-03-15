@@ -1,7 +1,7 @@
-@import "../css/scss/colors.scss";
-@import "../css/scss/variabler.scss";
-@import "../css/scss/typography.scss";
-@import "../css/ohk-ds/tags.scss";
+@import "../css/ohk-ds/scss/colors.scss";
+@import "../css/ohk-ds/scss/variabler.scss";
+@import "../css/ohk-ds/scss/typography.scss";
+@import "../css/ohk-ds/scss/tags.scss";
 
 * {
   margin: 0;
@@ -11,27 +11,64 @@
 
 $project-color: #2b2e35;
 
+.colorrama {
+  position: fixed;
+  z-index: -1;
+  height: 100vh;
+  overflow: hidden;
+  -moz-filter: blur(100px);
+  -o-filter: blur(100px);
+  -webkit-filter: blur(100px);
+  filter: blur(100px);
+  width: 100%;
+
+  .circle {
+    border-radius: 100%;
+    position: absolute;
+    -webkit-backdrop-filter: blur(500px);
+    backdrop-filter: blur(500px);
+  }
+  .green {
+    background: #36ceb3;
+    top: -10vh;
+    left: -40vh;
+    height: 120vh;
+    width: 120vh;
+  }
+  .red {
+    background: red;
+    top: -80vh;
+    left: 20vh;
+    height: 150vh;
+    width: 150vh;
+  }
+  .pink {
+    background: #ce36b6;
+    top: 10vh;
+    right: -40vh;
+    height: 150vh;
+    width: 150vh;
+  }
+  .blue {
+    background: #3685ce;
+    bottom: -70vh;
+    right: 40vh;
+    height: 130vh;
+    width: 130vh;
+  }
+}
+
 .hero {
   padding: calc(20px + 3vw) calc(#{$space-m} + 1vw);
   line-height: 1.1;
   font-size: 9vw;
   font-weight: 200;
 
-  .gradient {
-    background: linear-gradient(
-      165deg,
-      rgba(0, 0, 255, 0.829),
-      rgb(224, 26, 158)
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
   .name {
-    white-space: nowrap;
+    //white-space: nowrap;
   }
   .about {
-    margin-bottom: calc(10px + 1vw);
+    margin-bottom: calc(12px + 1.2vw);
   }
 
   .about-more-button {
@@ -39,18 +76,17 @@ $project-color: #2b2e35;
     font-size: calc(14px + 1.8vw);
     font-weight: 500;
     cursor: pointer;
-    background: linear-gradient(
-      165deg,
-      rgba(0, 0, 255, 0.829),
-      rgb(224, 26, 158)
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 
     &:hover {
       opacity: 0.8;
     }
   }
+}
+
+.gradient {
+  background: linear-gradient(165deg, #0000ff, #e01a9e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .collapsible {
@@ -72,7 +108,6 @@ $project-color: #2b2e35;
 
 .active,
 .collapsible:hover {
-  background: red;
 }
 
 .content {
@@ -144,12 +179,54 @@ button {
   all: unset;
 }
 
+.toggle-title {
+  font-size: 14px;
+  margin-bottom: 7px;
+  font-weight: 400;
+  color: grey;
+}
+
+.toggle-buttons {
+  border: 2px solid rgba(0, 0, 255, 0.829);
+  border-radius: 4px;
+  display: flex;
+  width: fit-content;
+
+  .toggle {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 18px;
+    cursor: pointer;
+    color: grey;
+    min-width: 60px;
+    text-align: center;
+
+    &:nth-child(2) {
+      border-right: 2px solid rgba(0, 0, 255, 0.829);
+    }
+
+    .toggle-one {
+    }
+
+    .toggle-two {
+    }
+  }
+}
+.toggle.active {
+  color: white !important;
+  background: linear-gradient(
+    165deg,
+    rgba(0, 0, 255, 0.829),
+    rgb(224, 26, 158)
+  );
+}
+
 .project-container {
   display: grid;
-  padding: 0px calc(#{$space-m} + 1vw) calc(20px + 3vw) calc(#{$space-m} + 1vw);
+  //padding: 0px calc(#{$space-m} + 1vw) calc(20px + 3vw) calc(#{$space-m} + 1vw);
   grid-template-columns: 1fr;
   //row-gap: 10px;
-  grid-gap: 20px;
+  //grid-gap: 20px;
   //column-gap: 10px;
 
   @media (min-width: $screen-tablet) {
@@ -297,8 +374,8 @@ button {
         flex: 1;
         width: fit-content;
         min-width: 145px;
-        display: block;
         align-self: end;
+        margin-top: auto;
 
         .project-client {
           font-size: 14px;
@@ -317,6 +394,7 @@ button {
         align-self: flex-end;
         text-align: right;
         flex-basis: min-content;
+        max-width: 100px;
 
         @media (min-width: $screen-laptop) {
           flex-basis: auto;

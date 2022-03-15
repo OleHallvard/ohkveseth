@@ -14,5 +14,28 @@ $space-xl: 48px;
 $space-xxl: 64px;
 $space-xxxl: 80px;
 
-//color
-$text: #333333;
+.space-s {
+  margin-bottom: $space-s;
+}
+
+.space-l {
+  margin-bottom: $space-l;
+}
+
+.space-xl {
+  margin-bottom: $space-xl;
+}
+
+.space-xxl {
+  margin-bottom: $space-xxl;
+}
+
+.space-site {
+  padding-left: $space-m;
+  padding-right: $space-m;
+
+  @media (min-width: $screen-laptop) {
+    padding-left: $space-l;
+    padding-right: $space-l;
+  }
+}

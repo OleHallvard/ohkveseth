@@ -142,7 +142,7 @@ const imgonecolumnportraitalt = projects[projectname].imgportrait?.map((i) =>
 );
 
 if (imgonecolumnportraitimgurl !== undefined) {
-  const imgonecolportrait = projects[projectname].imgportrait
+  const imgonecolportrait = projects[projectname]?.imgportrait
     .map((imgportrait, index) => {
       return `
         <div class="one-col-portrait-wrapper space-xxl">
@@ -165,7 +165,7 @@ if (ismultipleteammember !== ["singel"]) {
   const project_team = projects[projectname].team
     .map((team, index) => {
       return `
-        <span class="member body body--x-small">${team}</span>
+        <span class="member body body--small">${team}</span>
             `;
     })
     .join("");
@@ -240,7 +240,7 @@ function generateLinks() {
 
     const otherProjectsToWatch = `
     <div class="other-projects space-site">
-    <h4 class="title title--x-small center-text space-l">Andre</h4>
+    <h4 class="title title--small center-text space-l">Andre prosjekter</h4>
     <div id="project-items-links"></div>
   </div>
   `;

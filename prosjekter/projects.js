@@ -282,20 +282,6 @@ let projects = {
       text: "Bilde av landingssiden",
       alt: "Bilde av landingssiden",
     },
-
-    imgportrait: [
-      {
-        imgurl: "",
-        text: "Bildetekst her1",
-        alt: "Alternativ tekst1",
-      },
-      {
-        imgurl: "",
-        text: "Bildetekst her2",
-        alt: "Alternativ tekst2",
-      },
-    ],
-
     team: [
       "Kristian Wille // Tech lead",
       "Zulu // Frontend utvikler",
@@ -328,6 +314,9 @@ let projects = {
       "Frode Kolstad // Grafisk designer",
       "Marc Garcia // UX Designer",
       "Ole Hallvard Kveseth // UX/UI",
+      "+ bidragsytere team Statnett",
+      "Kristian Wille // Front-end",
+      "Alex // Front-end",
     ],
   },
   OBOS: {

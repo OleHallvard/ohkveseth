@@ -3382,7 +3382,7 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/Statensvegvesen\/Fast&safe2.jpg" : {
+    "\/img\/statensvegvesen\/Fast&safe2.jpg" : {
       "ft" : 16384,
       "iS" : 295011,
       "jF" : 0,
@@ -3390,7 +3390,7 @@
       "oAP" : "\/img\/statensvegvesen\/Fast&safe2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4179,12 +4179,12 @@
       "oAP" : "\/prosjekter\/fjordland.php",
       "oF" : 0
     },
-    "\/prosjekter\/Flytoget.php" : {
+    "\/prosjekter\/flytoget.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/prosjekter\/Flytoget.php",
+      "oAP" : "\/prosjekter\/flytoget.php",
       "oF" : 0
     },
     "\/prosjekter\/grandprix.php" : {

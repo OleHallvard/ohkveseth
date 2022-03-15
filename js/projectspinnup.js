@@ -145,8 +145,9 @@ if (imgonecolumnportraitimgurl !== undefined) {
   const imgonecolportrait = projects[projectname].imgportrait
     .map((imgportrait, index) => {
       return `
+        <div class="one-col-portrait-wrapper space-xxl">
         <img class="img-fit-original space-xl" src="/img/${projecturl}/${imgportrait.imgurl}" alt="${imgportrait.alt}" /><div class="img-description body body--x-small">${imgportrait.text}</div>
-        
+        </div>
             `;
     })
     .join("");
@@ -239,7 +240,7 @@ function generateLinks() {
 
     const otherProjectsToWatch = `
     <div class="other-projects space-site">
-    <h4 class="title title--x-small center-text space-l">Andre prosjekter</h4>
+    <h4 class="title title--x-small center-text space-l">Andre</h4>
     <div id="project-items-links"></div>
   </div>
   `;

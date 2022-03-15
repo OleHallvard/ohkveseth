@@ -180,21 +180,6 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/css\/scss\/prosjekter.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/css\/prosjekter.css",
-      "oF" : 2,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
     "\/css\/scss\/style.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -3397,7 +3382,7 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/statensvegvesen\/Fast&safe2.jpg" : {
+    "\/img\/Statensvegvesen\/Fast&safe2.jpg" : {
       "ft" : 16384,
       "iS" : 295011,
       "jF" : 0,
@@ -4110,46 +4095,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/includes\/footer.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/includes\/footer.php",
-      "oF" : 0
-    },
-    "\/includes\/meny.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/includes\/meny.php",
-      "oF" : 0
-    },
-    "\/includes\/prosjektfooter.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/includes\/prosjektfooter.php",
-      "oF" : 0
-    },
-    "\/includes\/Toppmeny.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/includes\/Toppmeny.html",
-      "oF" : 0
-    },
-    "\/includes\/Toppmeny.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/includes\/Toppmeny.php",
-      "oF" : 0
-    },
     "\/index.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -4157,39 +4102,6 @@
       "oA" : 0,
       "oAP" : "\/index.php",
       "oF" : 0
-    },
-    "\/js\/canvas-video-player.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/canvas-video-player-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/js\/index.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/index-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/js\/lottie.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/lottie-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
     },
     "\/js\/projectspinnup-min.js" : {
       "bF" : 0,
@@ -4212,25 +4124,6 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/js\/smoothScroll.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/js\/smoothScroll-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/ommeg.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/ommeg.php",
-      "oF" : 0
     },
     "\/prosjekter\/blockwatne.php" : {
       "cB" : 0,

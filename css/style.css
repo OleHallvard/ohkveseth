@@ -135,8 +135,6 @@
   line-height: 1.1;
   font-size: 9vw;
   font-weight: 200; }
-  .hero .name {
-    white-space: nowrap; }
   .hero .about {
     margin-bottom: calc(12px + 1.2vw); }
   .hero .about-more-button {

@@ -1223,7 +1223,7 @@ let projects = {
   Kreftforeningen: {
     name: "Kreftforeningen",
     url: "kreftforeningen",
-    frontpage: false,
+    frontpage: true,
     shorttitle: "Julekampanje for Kreftforningen.",
     thumbimg: "Kreftforeningen.jpg",
     color: "#2B2E35",
@@ -1231,6 +1231,74 @@ let projects = {
     aspect: "horizontal",
     alignimg: "top",
     tags: ["Reklame"],
+    lead: "Julekampanje for Kreftforeningen julen 2016. Ideen bak Kreftforeningens juleaksjon er enkel; For hver gave Kreftforeningen får inn på kreftforeningen.no/jul, henges det opp en stjerne til en som tilbringe julen på sykehus. Forskning nytter. Oppmuntring også! Kampanjen Stjerner gir håp har nå blitt en juletradisjon og suksess de siste 4 årene.",
+    imgonecollarge: {
+      imgurl: "bha_V7A1685_OHjustert_forlenget.jpg",
+      text: "",
+      alt: "Bilde fra kampanjen.",
+    },
+    film: [
+      {
+        title: "Julekampanje for Kreftforeningen",
+        url: "https://player.vimeo.com/video/273208449",
+      },
+    ],
+    imgonecolmedium: [
+      {
+        title: "",
+        url: "Kreftforeningen_Jul2016_Presentationboard-1.jpg",
+        alt: "Bilde fra kampanjen.",
+        text: "",
+      },
+      {
+        title: "",
+        url: "Kreftforeningen_Jul2016_Presentationboard-2.jpg",
+        alt: "",
+        text: "",
+      },
+      {
+        title: "",
+        url: "Kreftforeningen_Jul2016_Presentationboard-3.jpg",
+        alt: "",
+        text: "",
+      },
+      {
+        title: "",
+        url: "Kreftforeningen_Jul2016_Presentationboard-4.jpg",
+        alt: "",
+        text: "",
+      },
+      {
+        title: "",
+        url: "Kreftforeningen_Jul2016_Presentationboard-5.jpg",
+        alt: "",
+        text: "",
+      },
+      {
+        title: "",
+        url: "Kreftforeningen_Jul2016_Presentationboard-6.jpg",
+        alt: "",
+        text: "",
+      },
+      {
+        title: "",
+        url: "Kreftforeningen_Jul2016_Presentationboard-7.jpg",
+        alt: "",
+        text: "",
+      },
+      {
+        title: "",
+        url: "Kreftforeningen_Jul2016_Presentationboard-8.jpg",
+        alt: "",
+        text: "",
+      },
+    ],
+    team: [
+      "Ole-Henrik Larssen // Tekstforfatter",
+      "Ingrid Leren Wathne // Tekstforfatter",
+      "Einar Nonstad // Art Direction",
+      "Ole Hallvard Kveseth // Art Direction",
+    ],
   },
   Student: {
     name: "Studentarbeider",
@@ -1263,6 +1331,16 @@ let projects = {
       text: "Retusjert bilde",
       alt: "Retusjert bilde.",
     },
+    film: [
+      {
+        title: "Behind the scenes Mercedes, hobbyprosjekt.",
+        url: "https://player.vimeo.com/video/173644166",
+      },
+      {
+        title: "Zuccs Winterwonderland behind the scenes",
+        url: "https://player.vimeo.com/video/141340765",
+      },
+    ],
     imgportrait: [
       {
         imgurl: "Forbot_grå.jpg",

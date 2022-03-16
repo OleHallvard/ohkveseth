@@ -195,9 +195,14 @@ while (links < 5) {
 
   let isitthere = defireutvalgte.includes(randomtall);
 
+  let selectedprojectname = Object.keys(projects)[randomtall];
+  let selected_project_name = projects[selectedprojectname].name.toString(); // convert key name to actually name to match names
+
+  let sameasselectedproject = project_name === selected_project_name; // checks if project and random project selected is simular
+
   //console.log("defireutvalgte:" + defireutvalgte);
 
-  if (isitthere === false) {
+  if (isitthere === false && sameasselectedproject === false) {
     defireutvalgte.push(randomtall);
     links++;
 
@@ -211,7 +216,7 @@ function generateLinks() {
   defireutvalgte.forEach((element) => {
     let projectselected = Object.keys(projects)[element];
 
-    console.log(projectselected);
+    //console.log(projectselected);
 
     let project_name_other = projects[projectselected].name.toString();
     let project_url_other = projects[projectselected].url.toString();

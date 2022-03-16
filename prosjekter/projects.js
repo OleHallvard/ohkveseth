@@ -673,13 +673,13 @@ let projects = {
         text: "Digital storby banner i tre steg..",
       },
       {
-        title: "Storby kampanje",
+        title: "",
         url: "steg2.jpg",
         alt: "Banner i kampanje",
         text: "Digital storby banner i tre steg..",
       },
       {
-        title: "Storby kampanje",
+        title: "",
         url: "steg3.jpg",
         alt: "Banner i kampanje",
         text: "Digital storby banner i tre steg..",

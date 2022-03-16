@@ -117,7 +117,7 @@ $project-color: #2b2e35;
   padding-left: 2.4vw;
 
   @media (min-width: $screen-laptop) {
-    max-width: 60vw;
+    max-width: 52vw;
   }
 
   img.profil-picture {
@@ -129,8 +129,8 @@ $project-color: #2b2e35;
     margin-top: calc(10px + 1vw);
     margin-bottom: 2vw;
     font-weight: 300;
-    font-size: calc(14px + 1.52vw);
-    line-height: 135%;
+    font-size: calc(16px + 0.5vw);
+    line-height: 150%;
     background: linear-gradient(
       165deg,
       rgba(0, 0, 255, 0.829),

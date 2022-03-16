@@ -7,6 +7,9 @@
 .space-xl {
   margin-bottom: 48px; }
 
+.space-xxl {
+  margin-bottom: 64px; }
+
 .space-site {
   padding-left: 24px;
   padding-right: 24px; }
@@ -22,6 +25,9 @@
 
 .space-xl {
   margin-bottom: 48px; }
+
+.space-xxl {
+  margin-bottom: 64px; }
 
 .space-site {
   padding-left: 24px;
@@ -40,11 +46,11 @@
     width: fit-content; }
   .title--small {
     font-weight: 600;
-    font-size: calc(10px + 1.52vw);
+    font-size: calc(12px + 1.3vw);
     width: fit-content; }
   .title--medium {
     font-weight: 600;
-    font-size: calc(14px + 1.52vw);
+    font-size: calc(14px + 1.5vw);
     width: fit-content; }
   .title--hero {
     line-height: 1.1;
@@ -54,18 +60,18 @@
 
 .body {
   font-weight: 300;
-  font-size: calc(12px + 0.7vw);
-  line-height: 150%; }
+  font-size: calc(14px + 0.4vw);
+  line-height: 160%; }
   .body--small {
-    font-size: calc(12px + 0.5vw); }
+    font-size: calc(12px + 0.4vw); }
   .body--x-small {
-    font-size: calc(10px + 0.5vw); }
+    font-size: calc(10px + 0.4vw); }
 
 .lead {
   font-weight: 400;
   margin-top: 80px;
-  line-height: 150%;
-  font-size: calc(14px + 0.5vw);
+  line-height: 155%;
+  font-size: calc(15px + 0.4vw);
   width: fit-content; }
 
 .tag {
@@ -168,7 +174,7 @@
   padding-left: 2.4vw; }
   @media (min-width: 1000px) {
     .content {
-      max-width: 60vw; } }
+      max-width: 52vw; } }
   .content img.profil-picture {
     margin-top: calc(16px + 1vw);
     width: 25vw; }
@@ -176,8 +182,8 @@
     margin-top: calc(10px + 1vw);
     margin-bottom: 2vw;
     font-weight: 300;
-    font-size: calc(14px + 1.52vw);
-    line-height: 135%;
+    font-size: calc(16px + 0.5vw);
+    line-height: 150%;
     background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }

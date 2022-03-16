@@ -5,6 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <title>OH I Studentarbeider</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/main/oh-favi-32px.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/main/oh-favi-16px.png">
     <link rel="stylesheet" href="/css/deltstyle.css">
     <link rel="stylesheet" href="/css/prosjekter.css">
 

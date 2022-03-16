@@ -4,6 +4,8 @@
 
 <head>
     <title>Ole Hallvard</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/main/oh-favi-32px.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/main/oh-favi-16px.png">
 
     <meta charset="UTF-8">
 

@@ -3,6 +3,8 @@
 <html>
 
 <head>
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/main/oh-favi-32px.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/main/oh-favi-16px.png">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134318014-1"></script>
@@ -28,7 +30,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
-    <script src="js/smoothScroll.js"></script>
     <script src="/prosjekter/projects.js"></script>
     <meta name="viewport" content="width=device-width">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>

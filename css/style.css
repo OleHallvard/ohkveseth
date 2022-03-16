@@ -191,7 +191,7 @@
     display: block; }
   .content .classic-link {
     font-weight: 300;
-    font-size: calc(14px + 1.52vw);
+    font-size: calc(16px + 0.5vw);
     position: relative;
     background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e);
     -webkit-background-clip: text;

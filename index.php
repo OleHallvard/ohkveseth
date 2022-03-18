@@ -105,7 +105,7 @@
                 Diplom – Gullblyanten 2013
 
 
-            <div class="title title--small">Student</div>
+            <div class="title title--small margin-top-m">Student</div>
             <p class="about-text">
                 Gull - Max Marketing Mix 2012,
                 Gullblyanten – Diplom 2012,
@@ -192,7 +192,7 @@
 
             let projects_html = `
 
-            <a href="/prosjekter/${projects[project].url}" class="project" style="background: ${projects[project].color};">
+            <a href="/prosjekter/${projects[project].url}" class="project hidden" style="background: ${projects[project].color};">
                 
             <div class="project-screen project-screen--${projects[project].aspect}" style="background: style="background: ${projects[project].color};">
                 <div class="project-screen-content project-screen-content--${projects[project].aspect}">
@@ -224,5 +224,35 @@
     </div>
 
 </body>
+
+<script>
+(function() {
+    var elements;
+    var windowHeight;
+
+    function init() {
+        elements = document.querySelectorAll('.hidden');
+        windowHeight = window.innerHeight;
+    }
+
+    function checkPosition() {
+        for (var i = 0; i < elements.length; i++) {
+            var element = elements[i];
+            var positionFromTop = elements[i].getBoundingClientRect().top;
+
+            if (positionFromTop - windowHeight <= 0) {
+                element.classList.add('fade-in-element');
+                element.classList.remove('hidden');
+            }
+        }
+    }
+
+    window.addEventListener('scroll', checkPosition);
+    window.addEventListener('resize', init);
+
+    init();
+    checkPosition();
+})();
+</script>
 
 </html>

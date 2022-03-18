@@ -136,16 +136,13 @@ body {
     height: 60vh; }
 
 .one-col {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: block;
   margin: auto;
   margin-bottom: 48px; }
   .one-col--medium {
     max-width: 1000px; }
   .one-col--large {
     max-width: 1600px; }
-  .one-col--portrait {
-    max-width: 800px; }
 
 .film-container {
   max-width: 1000px;
@@ -179,9 +176,20 @@ body {
 
 .img-fit-original {
   display: block;
-  height: 90vh;
-  margin: auto; }
-
+  width: 100%;
+  max-width: 650px;
+  margin: auto;
+  /*
+  @media (min-width: $screen-laptop) {
+    width: inherit;
+    height: 90vh;
+  }
+  */ }
+  @media (min-width: 1000px) {
+    .img-fit-original {
+      height: 90vh;
+      width: auto;
+      max-width: inherit; } }
 .center-text {
   text-align: center;
   width: 100%; }
@@ -238,3 +246,6 @@ body {
 
 .tags-wrapper {
   margin-left: auto; }
+
+img {
+  border: 1px solid #f1f1f1; }

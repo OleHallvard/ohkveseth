@@ -2,104 +2,111 @@ const textdark = "#000";
 const textlight = "#fff";
 
 let projects = {
-  Tine: {
-    name: "Tine",
-    url: "tine",
+  Suss: {
+    name: "Suss",
+    url: "suss",
     frontpage: true,
-    shorttitle: "Digitalt planleggingsverktøy for idrettslag og foreninger.",
-    thumbimg: "smartplanlegger-mobil.png",
-    color: "#306AAD",
+    shorttitle: "Nettbutikken Suss sushi",
+    thumbimg: "suss-thumb.png",
+    color: "#5151ff",
     textcolor: textlight,
     aspect: "vertical",
-    alignimg: "top",
-    tags: ["UI/UX", "Animasjonsfilm"],
-    lead: "Smart Planlegger er en del av TINE sitt sponsorat konsept “Smart Idrettsmat”. Konseptet retter seg mot klubber og organsisasjoner som skal arrangere små og mellomstore arrangementer rundt om i Norge, som feks fotballcuper, skistevner, korps og speiderleier, etc. ",
+    alignimg: "center",
+    tags: ["UI/UX", "Front-end", "Animasjon"],
+    lead: "Suss er mitt lille hobbyprosjekt. Suss er en nettbutikk hvor konseptet er – 'Sett sammen din kombo', en enklere måte å handle sushi. Mitt mål med prosjektet var å lære meg mer om front-end utvikling, og designsystem, i tilegg har jeg laget alle animasjonene, og tatt alle bildene på siden. Du kan gå til <a href='https://www.susshi.no' target='_blank'>susshi.no</a> for å teste siden, og send gjerne inn en bestill for gøy. Bestillingen havner i min mailboks, men sushi får du nok ikke ;)",
     film: [
       {
         title: "Konseptfilm",
-        url: "https://player.vimeo.com/video/292788111",
-      },
-      {
-        title: "Promoteringsfilm",
-        url: "https://player.vimeo.com/video/294946611",
+        url: "https://player.vimeo.com/video/516911009",
       },
     ],
     bodytextone:
-      "Oppgaven gikk ut på å se på interaksjonsdesignet, og designe det grafiske brukergrensesnittet og innholdselementer til smartplanlegger.no. Arbeidet innebar også å lage illustrasjoner og animasjonsfilm til bruk på siden og i sosiale medier.",
+      "Konseptet 'sett sammen din kombo' er tenkt som en enklere måte å handle sushi når man er flere som handler sammen feks. du og kjæresten, eller med venner. Suss lar deg legge til antall personer som skal handle, deretter kan du legge til sushibiter til hver enkelt person, slik at man til slutt får hver sin personlige eske. På denne måten slipper man surr rundt matbordet, og man kan enkelt følge med på sin bestilling: antall og hvilke biter og drikke.",
+    bodytexttwo: "",
 
     imgtwocolumn: {
       imgone: {
-        imgurl: "Tine_SI_Bilde2_M.jpg",
-        alt: "Bilde fra filmen.",
+        imgurl: "suss-lansering.png",
+        alt: "Lanseringsbilde",
       },
       imgtwo: {
-        imgurl: "Tine_SI_Bilde1_M.jpg",
-        alt: "Bilde fra filmen.",
+        imgurl: "suss-lansering-to.png",
+        alt: "Lanseringsbilde to",
       },
     },
 
     imgonecolmedium: [
       {
-        title: "Forsiden av smartplanlegger.no",
-        url: "Smartplanlegger-mockups-v2.png",
-        alt: "Forsiden av smartplanlegger.no",
-        text: "Desktopversjonen av nettsiden.",
-      },
-      {
         title: "",
-        url: "Smartplanlegger-mockups2.png",
-        alt: "Bilde fra nettsiden på mobil ",
+        url: "suss-headerimage.png",
+        alt: "Bilde av sushiesker",
         text: "",
       },
+    ],
+
+    imgonecollarge: {
+      imgurl: "suss-hero.png",
+      text: "Logo-konsept for Suss.",
+      alt: "Bilde av Suss-logo.",
+    },
+    imgportrait: [
       {
-        title: "",
-        url: "Smartplanlegger-mockups.png",
-        alt: "Bilde fra nettsiden på mobil og tablet.",
+        imgurl: "suss-thumb.png",
+        text: "Forsiden av sushi.no.",
+        alt: "Forsiden av sushi.no.",
+      },
+      {
+        imgurl: "statistikk.png",
+        text: "Sjekk når det er kortest leveringstid.",
+        alt: "Side med statistikk",
+      },
+      {
+        imgurl: "kart.png",
+        text: "Finn din nærmeste pickup point.",
+        alt: "Finn din nærmeste pickup point.",
+      },
+      {
+        imgurl: "rate.png",
+        text: "Fornøyd med opplevelsen?",
+        alt: "Fornøyd med opplevelsen?",
+      },
+      {
+        imgurl: "oppsummert.png",
+        text: "Enkel oppsummering per person.",
+        alt: "Enkel oppsummering per person.",
+      },
+      {
+        imgurl: "suss-some-concept-settsammen.jpg",
+        text: "Promoteringsbilde.",
+        alt: "Promoteringsbilde.",
+      },
+      {
+        imgurl: "suss-some-concept-dineskerosa.jpg",
         text: "",
+        alt: "",
       },
       {
-        title: "",
-        url: "Smartplanlegger-mockups-v2-2.png",
-        alt: "Bilde av nettsiden",
-        text: "Bilder av nettsiden.",
+        imgurl: "suss-some-concept-dineskegul.jpg",
+        text: "",
+        alt: "",
       },
       {
-        title: "",
-        url: "bilde1.jpg",
-        alt: "Bilde fra filmen.",
-        text: "Bilder hentet fra filmen.",
+        imgurl: "suss-some-concept--eskeopen-settsammen-mprodukter.jpg",
+        text: "",
+        alt: "",
       },
       {
-        title: "",
-        url: "bilde2.jpg",
-        alt: "Bilde fra filmen.",
-        text: "Bilder hentet fra filmen.",
+        imgurl: "suss-some-product-lakssashimi.jpg",
+        text: "",
+        alt: "",
       },
       {
-        title: "",
-        url: "bilde3.jpg",
-        alt: "Bilde fra filmen.",
-        text: "Bilder hentet fra filmen.",
-      },
-      {
-        title: "",
-        url: "bilde4.jpg",
-        alt: "Bilde fra filmen.",
-        text: "Bilder hentet fra filmen.",
-      },
-      {
-        title: "",
-        url: "bilde5.jpg",
-        alt: "Bilde fra filmen.",
-        text: "Bilder hentet fra filmen.",
+        imgurl: "suss-some-product-tigerollmaki.jpg",
+        text: "",
+        alt: "",
       },
     ],
-    team: [
-      "Ole-Henrik Larssen // Tekstforfatter",
-      "Ole Hallvard // Illustrasjoner og animasjon",
-      "Linda Sunde // Animasjon",
-      "Astrid Storkås // Illustrasjoner",
-    ],
+    team: ["Ole Hallvard // UI/UX, Animasjon, front-end"],
   },
   Imdi: {
     name: "IMDi",
@@ -286,6 +293,105 @@ let projects = {
       "Kristian Wille // Tech lead",
       "Zulu // Frontend utvikler",
       "Ole Hallvard Kveseth // UX/UI",
+    ],
+  },
+  Tine: {
+    name: "Tine",
+    url: "tine",
+    frontpage: true,
+    shorttitle: "Digitalt planleggingsverktøy for idrettslag og foreninger.",
+    thumbimg: "smartplanlegger-mobil.png",
+    color: "#306AAD",
+    textcolor: textlight,
+    aspect: "vertical",
+    alignimg: "top",
+    tags: ["UI/UX", "Animasjonsfilm"],
+    lead: "Smart Planlegger er en del av TINE sitt sponsorat konsept “Smart Idrettsmat”. Konseptet retter seg mot klubber og organsisasjoner som skal arrangere små og mellomstore arrangementer rundt om i Norge, som feks fotballcuper, skistevner, korps og speiderleier, etc. ",
+    film: [
+      {
+        title: "Konseptfilm",
+        url: "https://player.vimeo.com/video/292788111",
+      },
+      {
+        title: "Promoteringsfilm",
+        url: "https://player.vimeo.com/video/294946611",
+      },
+    ],
+    bodytextone:
+      "Oppgaven gikk ut på å se på interaksjonsdesignet, og designe det grafiske brukergrensesnittet og innholdselementer til smartplanlegger.no. Arbeidet innebar også å lage illustrasjoner og animasjonsfilm til bruk på siden og i sosiale medier.",
+
+    imgtwocolumn: {
+      imgone: {
+        imgurl: "Tine_SI_Bilde2_M.jpg",
+        alt: "Bilde fra filmen.",
+      },
+      imgtwo: {
+        imgurl: "Tine_SI_Bilde1_M.jpg",
+        alt: "Bilde fra filmen.",
+      },
+    },
+
+    imgonecolmedium: [
+      {
+        title: "Forsiden av smartplanlegger.no",
+        url: "Smartplanlegger-mockups-v2.png",
+        alt: "Forsiden av smartplanlegger.no",
+        text: "Desktopversjonen av nettsiden.",
+      },
+      {
+        title: "",
+        url: "Smartplanlegger-mockups2.png",
+        alt: "Bilde fra nettsiden på mobil ",
+        text: "",
+      },
+      {
+        title: "",
+        url: "Smartplanlegger-mockups.png",
+        alt: "Bilde fra nettsiden på mobil og tablet.",
+        text: "",
+      },
+      {
+        title: "",
+        url: "Smartplanlegger-mockups-v2-2.png",
+        alt: "Bilde av nettsiden",
+        text: "Bilder av nettsiden.",
+      },
+      {
+        title: "",
+        url: "bilde1.jpg",
+        alt: "Bilde fra filmen.",
+        text: "Bilder hentet fra filmen.",
+      },
+      {
+        title: "",
+        url: "bilde2.jpg",
+        alt: "Bilde fra filmen.",
+        text: "Bilder hentet fra filmen.",
+      },
+      {
+        title: "",
+        url: "bilde3.jpg",
+        alt: "Bilde fra filmen.",
+        text: "Bilder hentet fra filmen.",
+      },
+      {
+        title: "",
+        url: "bilde4.jpg",
+        alt: "Bilde fra filmen.",
+        text: "Bilder hentet fra filmen.",
+      },
+      {
+        title: "",
+        url: "bilde5.jpg",
+        alt: "Bilde fra filmen.",
+        text: "Bilder hentet fra filmen.",
+      },
+    ],
+    team: [
+      "Ole-Henrik Larssen // Tekstforfatter",
+      "Ole Hallvard // Illustrasjoner og animasjon",
+      "Linda Sunde // Animasjon",
+      "Astrid Storkås // Illustrasjoner",
     ],
   },
   Statnett: {
@@ -1212,7 +1318,7 @@ let projects = {
   Kreftforeningen: {
     name: "Kreftforeningen",
     url: "kreftforeningen",
-    frontpage: true,
+    frontpage: false,
     shorttitle: "Julekampanje for Kreftforningen.",
     thumbimg: "Kreftforeningen.jpg",
     color: "#2B2E35",

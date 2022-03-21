@@ -419,8 +419,35 @@ button {
     opacity: 1;
   }
 }
+
 .fade-in-element {
   animation: fade-in 1.4s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+  @media (min-width: $screen-mobil) {
+    &:nth-child(2n + 1) {
+      animation-delay: 0s;
+    }
+
+    &:nth-child(2n + 2) {
+      animation-delay: 0.15s;
+    }
+  }
+
+  @media (min-width: $screen-laptop) {
+    &:nth-child(3n + 1) {
+      animation-delay: 0s;
+    }
+
+    &:nth-child(3n + 2) {
+      animation-delay: 0.2s;
+    }
+
+    &:nth-child(3n + 3) {
+      animation-delay: 0.4s;
+    }
+  }
 }
 
 .hidden {

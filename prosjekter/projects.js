@@ -6,7 +6,7 @@ let projects = {
     name: "Suss",
     url: "suss",
     frontpage: true,
-    shorttitle: "Nettbutikken Suss sushi",
+    shorttitle: "Nettbutikken Suss sushi.",
     thumbimg: "suss-thumb.png",
     color: "#5151ff",
     textcolor: textlight,

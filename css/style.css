@@ -373,8 +373,21 @@ button {
     opacity: 1; } }
 
 .fade-in-element {
-  animation: fade-in 1.4s; }
-
+  animation: fade-in 1.4s;
+  opacity: 0;
+  animation-fill-mode: forwards; }
+  @media (min-width: 600px) {
+    .fade-in-element:nth-child(2n + 1) {
+      animation-delay: 0s; }
+    .fade-in-element:nth-child(2n + 2) {
+      animation-delay: 0.15s; } }
+  @media (min-width: 1000px) {
+    .fade-in-element:nth-child(3n + 1) {
+      animation-delay: 0s; }
+    .fade-in-element:nth-child(3n + 2) {
+      animation-delay: 0.2s; }
+    .fade-in-element:nth-child(3n + 3) {
+      animation-delay: 0.4s; } }
 .hidden {
   opacity: 0; }
 

@@ -13,7 +13,7 @@ let projects = {
     aspect: "vertical",
     alignimg: "center",
     tags: ["UI/UX", "Front-end", "Animasjon"],
-    lead: "Suss er mitt lille hobbyprosjekt. Suss er en nettbutikk hvor konseptet er – 'Sett sammen din kombo', en enklere måte å handle sushi. Mitt mål med prosjektet var å lære meg mer om front-end utvikling, og designsystem, i tilegg har jeg laget alle animasjonene, og tatt alle bildene på siden. Du kan gå til <a href='https://www.susshi.no' target='_blank'>susshi.no</a> for å teste siden, og send gjerne inn en bestill for gøy. Bestillingen havner i min mailboks, men sushi får du nok ikke ;)",
+    lead: "Suss er mitt lille hobbyprosjekt. Suss er en nettbutikk hvor konseptet er – 'Sett sammen din kombo', en enklere måte å handle sushi. Mitt mål med prosjektet var å lære meg mer om front-end utvikling, og designsystem, i tilegg har jeg laget alle animasjonene, og tatt alle bildene på siden. Du kan gå til <a href='https://www.susshi.no' target='_blank'>susshi.no</a> for å teste siden, og send gjerne inn en bestilling for gøy. Bestillingen havner i min mailboks, men sushi får du nok ikke ;)",
     film: [
       {
         title: "Konseptfilm",
@@ -312,15 +312,15 @@ let projects = {
         title: "Konseptfilm",
         url: "https://player.vimeo.com/video/292788111",
       },
-      {
+      /*{
         title: "Promoteringsfilm",
         url: "https://player.vimeo.com/video/294946611",
-      },
+      },*/
     ],
     bodytextone:
       "Oppgaven gikk ut på å se på interaksjonsdesignet, og designe det grafiske brukergrensesnittet og innholdselementer til smartplanlegger.no. Arbeidet innebar også å lage illustrasjoner og animasjonsfilm til bruk på siden og i sosiale medier.",
 
-    imgtwocolumn: {
+    /*imgtwocolumn: {
       imgone: {
         imgurl: "Tine_SI_Bilde2_M.jpg",
         alt: "Bilde fra filmen.",
@@ -330,14 +330,15 @@ let projects = {
         alt: "Bilde fra filmen.",
       },
     },
+    */
 
     imgonecolmedium: [
-      {
+      /*{
         title: "Forsiden av smartplanlegger.no",
         url: "Smartplanlegger-mockups-v2.png",
         alt: "Forsiden av smartplanlegger.no",
         text: "Desktopversjonen av nettsiden.",
-      },
+      },*/
       {
         title: "",
         url: "Smartplanlegger-mockups2.png",
@@ -1475,18 +1476,6 @@ let projects = {
         url: "Cloneshoes.jpg",
         alt: "Cloneshoes",
         text: "Cloneshoes v1.0",
-      },
-      {
-        title: "",
-        url: "Nike_halloween_forsidebilde.jpg",
-        alt: "Retusjertbilde",
-        text: "",
-      },
-      {
-        title: "",
-        url: "Tine_cow.jpg",
-        alt: "Retusjert bilde",
-        text: "Tine ku",
       },
       {
         title: "",

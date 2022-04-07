@@ -31,8 +31,8 @@ $space-xxxl: 80px;
 }
 
 .space-site {
-  padding-left: $space-m;
-  padding-right: $space-m;
+  padding-left: $space-s;
+  padding-right: $space-s;
 
   @media (min-width: $screen-laptop) {
     padding-left: $space-l;

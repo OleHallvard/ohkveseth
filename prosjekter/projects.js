@@ -1439,6 +1439,16 @@ let projects = {
     ],
     imgportrait: [
       {
+        imgurl: "mcflyin.jpg",
+        text: "Fast food, just for birds",
+        alt: "Fast food, just for birds",
+      },
+      {
+        imgurl: "rubeekscube.jpg",
+        text: "",
+        alt: "",
+      },
+      {
         imgurl: "Forbot_grå.jpg",
         text: "Et bilde sammensatt med utgangspunkt av knvier og gafler.",
         alt: "Et bilde sammensatt med utgangspunkt av knvier og gafler.",
@@ -1464,27 +1474,6 @@ let projects = {
         alt: "Appelsin i flaske.",
       },
     ],
-    imgonecolmedium: [
-      {
-        title: "Usain Bolt Edition str 43",
-        url: "Nike_halloween.jpg",
-        alt: "Retusjert bilde",
-        text: "",
-      },
-      {
-        title: "",
-        url: "Cloneshoes.jpg",
-        alt: "Cloneshoes",
-        text: "Cloneshoes v1.0",
-      },
-      {
-        title: "",
-        url: "Tine_cow.jpg",
-        alt: "Retusjert bilde",
-        text: "Tine ku",
-      },
-    ],
-
     team: ["Ole Hallvard Kveseth // Foto"],
   },
 };

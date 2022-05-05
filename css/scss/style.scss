@@ -60,15 +60,20 @@ $project-color: #2b2e35;
 }
 
 .intro-name {
-  font-size: 11vh;
+  font-size: 18vw;
   line-height: 1;
   text-align: center;
+
+  @media (min-width: $screen-tablet) {
+    font-size: 11vh;
+  }
 }
 
 @keyframes hintanimation {
   0% {
     opacity: 0;
-    height: 30px;
+    height: 20px;
+    bottom: 12vh;
   }
 
   25% {
@@ -77,7 +82,8 @@ $project-color: #2b2e35;
 
   50% {
     opacity: 0;
-    height: 0px;
+    height: 16px;
+    bottom: 10vh;
   }
 
   75% {
@@ -124,7 +130,7 @@ $project-color: #2b2e35;
   width: 4px;
   position: absolute;
   bottom: 10vh;
-  background: rgb(231, 231, 231);
+  //background: rgb(231, 231, 231);
   animation: hintbghide 7s;
   animation-fill-mode: forwards;
 }
@@ -136,12 +142,21 @@ $project-color: #2b2e35;
   background: white;
   display: block;
   position: fixed;
-  right: 16px;
-  top: 50%;
-  transform: translate(-0%, -50%);
+  bottom: -20px;
+  margin: auto;
+  transform: rotate(-90deg);
+  left: 50%;
+
+  @media (min-width: $screen-tablet) {
+    right: 16px;
+    top: 50%;
+    left: unset;
+    bottom: unset;
+    transform: translate(-0%, -50%);
+  }
 
   .progress-step {
-    height: 20px;
+    height: 16px;
     width: 2px;
     background: rgb(204, 201, 201);
     margin-bottom: 8px;
@@ -150,6 +165,25 @@ $project-color: #2b2e35;
       margin-bottom: 0;
     }
   }
+
+  .color {
+    background: #0000ff;
+  }
+}
+
+@keyframes remove {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.progressbar.remove {
+  animation: remove 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
 }
 
 .textspan {

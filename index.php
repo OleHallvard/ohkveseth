@@ -50,12 +50,12 @@
     </div>
 
     <div class="progressbar">
-        <div class="progress-step one"></div>
-        <div class="progress-step two"></div>
-        <div class="progress-step three"></div>
-        <div class="progress-step four"></div>
-        <div class="progress-step five"></div>
-        <div class="progress-step six"></div>
+        <div class="progress-step"></div>
+        <div class="progress-step"></div>
+        <div class="progress-step"></div>
+        <div class="progress-step"></div>
+        <div class="progress-step"></div>
+        <div class="progress-step"></div>
     </div>
 
     <div class="intro-lines-wrapper space-site">
@@ -80,11 +80,13 @@
         <div class="intro-section section-width title title--xl intro-animate-in"><span class="gradient">Jeg synes det
                 er spennende å lage
                 designsystemer.</span></div>
-        <div class="intro-section intro-section--last section-width title title--xl intro-animate-in"><span
-                class="gradient">Jeg kan bidra med
+        <div
+            class="intro-section intro-section--last section-width title title--xl intro-animate-in remove-progressbar">
+            <span class="gradient">Jeg kan bidra med
                 front-end kode for å
                 fintune designet til
-                å skinne det lille ekstra.</span></div>
+                å skinne det lille ekstra.</span>
+        </div>
     </div>
     </div>
 

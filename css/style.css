@@ -137,19 +137,23 @@
   font-weight: 400; }
 
 .intro-name {
-  font-size: 11vh;
+  font-size: 18vw;
   line-height: 1;
   text-align: center; }
-
+  @media (min-width: 700px) {
+    .intro-name {
+      font-size: 11vh; } }
 @keyframes hintanimation {
   0% {
     opacity: 0;
-    height: 30px; }
+    height: 20px;
+    bottom: 12vh; }
   25% {
     opacity: 1; }
   50% {
     opacity: 0;
-    height: 0px; }
+    height: 16px;
+    bottom: 10vh; }
   75% {
     opacity: 0; }
   100% {
@@ -183,7 +187,6 @@
   width: 4px;
   position: absolute;
   bottom: 10vh;
-  background: #e7e7e7;
   animation: hintbghide 7s;
   animation-fill-mode: forwards; }
 
@@ -194,16 +197,37 @@
   background: white;
   display: block;
   position: fixed;
-  right: 16px;
-  top: 50%;
-  transform: translate(0%, -50%); }
+  bottom: -20px;
+  margin: auto;
+  transform: rotate(-90deg);
+  left: 50%; }
+  @media (min-width: 700px) {
+    .progressbar {
+      right: 16px;
+      top: 50%;
+      left: unset;
+      bottom: unset;
+      transform: translate(0%, -50%); } }
   .progressbar .progress-step {
-    height: 20px;
+    height: 16px;
     width: 2px;
     background: #ccc9c9;
     margin-bottom: 8px; }
     .progressbar .progress-step:last-child {
       margin-bottom: 0; }
+  .progressbar .color {
+    background: #0000ff; }
+
+@keyframes remove {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+.progressbar.remove {
+  animation: remove 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s; }
 
 .textspan {
   display: inline-flex; }

@@ -37,14 +37,61 @@
 </head>
 
 <body>
-    <!--
-    <div class="colorrama">
-        <div class="circle green"></div>
-        <div class="circle red"></div>
-        <div class="circle pink"></div>
-        <div class="circle blue"></div>
+
+    <div class="intro container">
+        <div class="intro-section intro-section--hero space-site">
+            <div class="section-wrapper">
+                <h1 class="body intro-text gradient">Hei, mitt navn er
+                    <h2 class="intro-name gradient">Ole Hallvard<br>Kveseth</h2>
+            </div>
+            <div class="hint"></div>
+            <div class="hint-bg"></div>
+        </div>
     </div>
--->
+
+    <div class="progressbar">
+        <div class="progress-step"></div>
+        <div class="progress-step"></div>
+        <div class="progress-step"></div>
+        <div class="progress-step"></div>
+        <div class="progress-step"></div>
+        <div class="progress-step"></div>
+    </div>
+
+    <div class="intro-lines-wrapper space-site">
+        <div class="intro-section intro-section--first section-width title title--xl intro-animate-in"><span
+                class="gradient">Jeg designer
+                digitale
+                brukeropplevelser.</span></div>
+        <div class="intro-section section-width title title--xl intro-animate-in"><span class="gradient">Jeg har
+                designet alt fra mindre
+                kommersielle nettsteder til
+                komplekse fagsystemer.</span></div>
+        <div class="intro-section section-width title title--xl intro-animate-in"><span class="gradient">Jeg er opptatt
+                av å lage digitale
+                tjenester som gir
+                brukerne verdi, og som fremstår estetisk tiltalende. Brain + heart.</span></div>
+        <div class="intro-section section-width title title--xl intro-animate-in"><span class="gradient">Jeg kan få ting
+                til å bevege seg i
+                form av
+                animasjon, både
+                som korte filmer eller mindre dekor elementer.</span>
+        </div>
+        <div class="intro-section section-width title title--xl intro-animate-in"><span class="gradient">Jeg synes det
+                er spennende å lage
+                designsystemer.</span></div>
+        <div
+            class="intro-section intro-section--last section-width title title--xl intro-animate-in remove-progressbar">
+            <span class="gradient">Jeg kan bidra med
+                front-end kode for å
+                fintune designet til
+                å skinne det lille ekstra.</span>
+        </div>
+    </div>
+    </div>
+
+
+    <!--
     <div class="hero">
         <div class="gradient">
             <div class="name gradient"><b>Ole Hallvard Kveseth</b></div>
@@ -127,7 +174,7 @@
 
 
         <!--<div class="toggle-title">Visning</div>-->
-        <!--
+    <!--
         <div class="toggle-buttons">
             <button onclick="toggleit()" class="toggle toggle-one active" role="button">Kortversjonen</button>
             <button onclick="toggleit()" class="toggle toggle-two" role="button">Mellom</button>
@@ -223,36 +270,54 @@
     </script>
     </div>
 
+    <div class="content space-site">
+
+        <!-- <img src="/img/main/olehallvard-profilbilde.jpeg" alt="profilbilde" class="profil-picture" /> -->
+
+
+        <div class="title title--medium">Kontakt</div>
+        <p class="about-text">olehallvard@gmail.com</p>
+        <a href="https://www.linkedin.com/in/ole-hallvard-kveseth-97706744/" target=”_blank”
+            class="classic-link">Linkedin</a>
+
+        <div class="divider-line"></div>
+
+        <div class="title title--medium">Utmerkelser</div>
+        <p class="about-text">
+            Sølv – Max Marketing Mix 2018,
+            Gull + bronse – Gullblyanten 2015,
+            Gull – Gulltaggen 2015,
+            Gull – Max Marketing Mix 2015,
+            Gull + Bronse– Retailprisen 2015,
+            Bronse – Eurobest 2015,
+            Diplom – Gullsnitt 2014,
+            2 x Bronse – London International Awards 2014,
+            Sølv – Cristal Awards 2014,
+            Diplom – Gullblyanten 2013
+
+
+        <div class="title title--small margin-top-m">Student</div>
+        <p class="about-text">
+            Gull - Max Marketing Mix 2012,
+            Gullblyanten – Diplom 2012,
+            Best YET Norge 2012 – Bronse,
+            Gull - Max Marketing Mix 2011,
+            Finalist – New York Festivals,
+            Bronse, diplom x 2 – Gullkalven</p>
+
+        <div class="divider-line"></div>
+
+
+        <div class="title title--medium">Arbeidserfaring</div>
+        <p class="about-text">
+            Bouvet,
+            McCann,
+            Kitchen,
+            Try (praksis).
+    </div>
+
 </body>
 
-<script>
-(function() {
-    var elements;
-    var windowHeight;
-
-    function init() {
-        elements = document.querySelectorAll('.hidden');
-        windowHeight = window.innerHeight;
-    }
-
-    function checkPosition() {
-        for (var i = 0; i < elements.length; i++) {
-            var element = elements[i];
-            var positionFromTop = elements[i].getBoundingClientRect().top;
-
-            if (positionFromTop - windowHeight <= 0) {
-                element.classList.add('fade-in-element');
-                element.classList.remove('hidden');
-            }
-        }
-    }
-
-    window.addEventListener('scroll', checkPosition);
-    window.addEventListener('resize', init);
-
-    init();
-    checkPosition();
-})();
-</script>
+<script src="/js/animatein.js"></script>
 
 </html>

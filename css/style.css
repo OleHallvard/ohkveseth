@@ -11,8 +11,8 @@
   margin-bottom: 64px; }
 
 .space-site {
-  padding-left: 24px;
-  padding-right: 24px; }
+  padding-left: 16px;
+  padding-right: 16px; }
   @media (min-width: 1000px) {
     .space-site {
       padding-left: 32px;
@@ -30,14 +30,14 @@
   margin-bottom: 64px; }
 
 .space-site {
-  padding-left: 24px;
-  padding-right: 24px; }
+  padding-left: 16px;
+  padding-right: 16px; }
   @media (min-width: 1000px) {
     .space-site {
       padding-left: 32px;
       padding-right: 32px; } }
 .title {
-  background: linear-gradient(165deg, #0000ff, #e01a9e);
+  background: linear-gradient(90deg, #0000ff, #e01a9e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
   .title--x-small {
@@ -52,6 +52,11 @@
     font-weight: 600;
     font-size: calc(14px + 1.5vw);
     width: fit-content; }
+  .title--xl {
+    font-weight: 400;
+    font-size: calc(22px + 1.5vw);
+    width: fit-content;
+    line-height: 130%; }
   .title--hero {
     line-height: 1.1;
     font-size: 10vw;
@@ -62,10 +67,14 @@
   font-weight: 300;
   font-size: calc(14px + 0.4vw);
   line-height: 160%; }
-  .body--small {
-    font-size: calc(12px + 0.4vw); }
   .body--x-small {
     font-size: calc(10px + 0.4vw); }
+  .body--small {
+    font-size: calc(12px + 0.4vw); }
+  .body--small {
+    font-size: calc(14px + 0.4vw); }
+  .body--large {
+    font-size: calc(16px + 0.4vw); }
 
 .lead {
   font-weight: 400;
@@ -89,52 +98,139 @@
     margin-left: 2px;
     margin-right: 2px; }
   .tag--gradient-bg {
-    background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e); }
+    background: linear-gradient(89deg, rgba(0, 0, 255, 0.829), #e01a9e); }
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif; }
 
-.colorrama {
-  position: fixed;
-  z-index: -1;
-  height: 100vh;
-  overflow: hidden;
-  -moz-filter: blur(100px);
-  -o-filter: blur(100px);
-  -webkit-filter: blur(100px);
-  filter: blur(100px);
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  height: 75vh; }
+  .intro-section--hero {
+    height: 90vh; }
+  .intro-section--first {
+    margin-top: -16vh; }
+  .intro-section--last {
+    margin-bottom: 16vh; }
+  .intro-section--bg-even {
+    background: red; }
+  .intro-section--bg-odd {
+    background: yellow; }
+  .intro-section .section-wrapper {
+    display: flex;
+    flex-direction: column; }
+
+.section-width {
   width: 100%; }
-  .colorrama .circle {
-    border-radius: 100%;
-    position: absolute;
-    -webkit-backdrop-filter: blur(500px);
-    backdrop-filter: blur(500px); }
-  .colorrama .green {
-    background: #36ceb3;
-    top: -10vh;
-    left: -40vh;
-    height: 120vh;
-    width: 120vh; }
-  .colorrama .red {
-    background: red;
-    top: -80vh;
-    left: 20vh;
-    height: 150vh;
-    width: 150vh; }
-  .colorrama .pink {
-    background: #ce36b6;
-    top: 10vh;
-    right: -40vh;
-    height: 150vh;
-    width: 150vh; }
-  .colorrama .blue {
-    background: #3685ce;
-    bottom: -70vh;
-    right: 40vh;
-    height: 130vh;
-    width: 130vh; }
+  @media (min-width: 1000px) {
+    .section-width {
+      max-width: 50vw; } }
+.intro-text {
+  text-align: center;
+  margin-bottom: 4vh;
+  font-weight: 400; }
+
+.intro-name {
+  font-size: 18vw;
+  line-height: 1;
+  text-align: center; }
+  @media (min-width: 700px) {
+    .intro-name {
+      font-size: 11vh; } }
+@keyframes hintanimation {
+  0% {
+    opacity: 0;
+    height: 20px;
+    bottom: 12vh; }
+  25% {
+    opacity: 1; }
+  50% {
+    opacity: 0;
+    height: 16px;
+    bottom: 10vh; }
+  75% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+
+.hint {
+  height: 0px;
+  border-radius: 20px;
+  width: 4px;
+  position: absolute;
+  bottom: 10vh;
+  animation-fill-mode: forwards;
+  animation: hintanimation 2s;
+  animation-iteration-count: 5;
+  animation-delay: 1s;
+  background: linear-gradient(90deg, #0000ff, #e01a9e);
+  animation-timing-function: ease;
+  z-index: 2; }
+
+@keyframes hintbghide {
+  0% {
+    opacity: 1; }
+  75% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+.hint-bg {
+  height: 30px;
+  border-radius: 20px;
+  width: 4px;
+  position: absolute;
+  bottom: 10vh;
+  animation: hintbghide 7s;
+  animation-fill-mode: forwards; }
+
+.progressbar {
+  border: 0px solid grey;
+  padding: 4px;
+  border-radius: 4px;
+  background: white;
+  display: block;
+  position: fixed;
+  bottom: -20px;
+  margin: auto;
+  transform: rotate(-90deg);
+  left: 50%; }
+  @media (min-width: 700px) {
+    .progressbar {
+      right: 16px;
+      top: 50%;
+      left: unset;
+      bottom: unset;
+      transform: translate(0%, -50%); } }
+  .progressbar .progress-step {
+    height: 16px;
+    width: 2px;
+    background: #ccc9c9;
+    margin-bottom: 8px; }
+    .progressbar .progress-step:last-child {
+      margin-bottom: 0; }
+  .progressbar .color {
+    background: #0000ff; }
+
+@keyframes remove {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+.progressbar.remove {
+  animation: remove 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s; }
+
+.textspan {
+  display: inline-flex; }
 
 .hero {
   padding: calc(20px + 3vw) calc(24px + 1vw);
@@ -152,7 +248,7 @@
       opacity: 0.8; }
 
 .gradient {
-  background: linear-gradient(165deg, #0000ff, #e01a9e);
+  background: linear-gradient(90deg, #0000ff, #e01a9e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -168,13 +264,14 @@
   background: linear-gradient(165deg, rgba(0, 0, 255, 0.829), #e01a9e); }
 
 .content {
-  max-height: 0;
   overflow: hidden;
-  max-width: 90vw;
-  padding-left: 2.4vw; }
+  padding-top: 14vh;
+  padding-bottom: 14vh;
+  margin: auto; }
   @media (min-width: 1000px) {
     .content {
-      max-width: 52vw; } }
+      max-width: 52vw;
+      padding: 14vh; } }
   .content img.profil-picture {
     margin-top: calc(16px + 1vw);
     width: 25vw; }
@@ -364,6 +461,21 @@ button {
     top: 44%;
     transition: 0.3s;
     filter: drop-shadow(38px 32px 0px rgba(0, 0, 0, 0.1)); }
+
+@keyframes introanimation {
+  from {
+    opacity: 0;
+    transform: scale(0.9); }
+  to {
+    opacity: 1;
+    transform: scale(1); } }
+
+.intro-animate-in {
+  opacity: 0;
+  animation-fill-mode: forwards; }
+
+.intro-animation {
+  animation: introanimation 1s; }
 
 @keyframes fade-in {
   from {

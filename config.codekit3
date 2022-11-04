@@ -71,9 +71,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/css\/ohk-ds\/typography.css",
-      "oF" : 2,
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -4375,6 +4375,17 @@
       "oA" : 0,
       "oAP" : "\/index.php",
       "oF" : 0
+    },
+    "\/js\/animatein.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/animatein-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/js\/projectspinnup-min.js" : {
       "bF" : 0,

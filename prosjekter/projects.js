@@ -426,6 +426,26 @@ let projects = {
       "Alex // Front-end",
     ],
   },
+  Pqportal: {
+    name: "PQ Portal",
+    url: "pqportal",
+    frontpage: false,
+    shorttitle: "PQ Portal",
+    thumbimg: "autodig-oppsummering-to.png",
+    color: "#647382",
+    textcolor: textlight,
+    aspect: "horizontal",
+    alignimg: "top",
+    tags: ["Film", "Statnett"],
+    lead: "PQ Portal, kraftbransjens løsning for leveringskvalitet i kraftsystemet. Se statistikk om hendelser, feil, rapportering, i tillegg til statistikk og målinger innenfor spenningskvalitet.",
+    film: [
+      {
+        title: "Film om PQ Portal",
+        url: "https://player.vimeo.com/video/767249676",
+      },
+    ],
+    team: ["Volt"],
+  },
   OBOS: {
     name: "OBOS",
     url: "obos",
